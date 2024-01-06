@@ -1,0 +1,5 @@
+site_name: "Architect's Insight Hub: Elevate Your Learning Experience"
+nav:
+  - Home: index.md
+theme:
+  name: 'material'
