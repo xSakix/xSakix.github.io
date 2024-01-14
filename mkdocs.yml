@@ -1,5 +1,13 @@
 site_name: "Architect's Insight Hub: Elevate Your Learning Experience"
 nav:
   - Home: index.md
+  - Tags: tags.md
 theme:
   name: 'material'
+plugins:
+  - search:
+      pipeline:
+        - stemmer
+        - stopWordFilter
+        - trimmer
+  - tags

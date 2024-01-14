@@ -10,13 +10,13 @@ This isn't just a website – it's a commitment to maintaining a high overview o
 
 * [GOTO Conferences - Software architecture playlist](goto_sw_arch_list.md)
 * [GOTO Conferences - Design thinking and UI/UX playlist](goto_dt_ui_ux.md)
-* [GOTO Conferences - Programming languages playlist](goto_programming_lang.md)
+<!-- * [GOTO Conferences - Programming languages playlist](goto_programming_lang.md) -->
 
 ## Blogs
 
 ### Architecture
 
-
+* [Building Distributed Applications with Event-Driven Architecture - Eric Johnson's presentation at GOTO 2023](blog/architecture/eda.md)
 
 ### Design:
 
