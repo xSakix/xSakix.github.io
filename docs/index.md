@@ -1,16 +1,14 @@
 # Architect's Insight Hub: Elevate Your Learning Experience
 
-Welcome to Architect's Insight Hub, your exclusive portal to curated knowledge in the world of technology. As an architect, I understand the challenge of keeping up with the latest trends while juggling a busy schedule. That's why this personal website is dedicated to providing you with succinct summaries of YouTube technical videos and books – a valuable resource designed for the discerning learner who values their time.
-
-In a landscape where not every video is worth the watch and not every book is worth the read, Architect's Insight Hub emerges as your ally. Powered by state-of-the-art AI models, each summary is meticulously generated to capture the essence of the content, saving you time without compromising on the insights.
-
-This isn't just a website – it's a commitment to maintaining a high overview of trends while acknowledging the limitations of time. As the architect behind this initiative, I invite you to join me in this personalized learning journey. Elevate your learning experience with Architect's Insight Hub, where knowledge is condensed, time is respected, and trends are at your fingertips.
+This website is my personal endeavor, focusing on software architecture resources that help you keep up with the latest trends. I selectively gather content that I find useful, presenting summaries and insights to give you a snapshot of current trends and innovations. It's an experimental project, leveraging open-source models and GPT-4 capabilities. Please note, while I aim for accuracy, the nature of summarization means that details may not be exhaustive, and there could be minor inaccuracies. If a topic catches your interest, I encourage you to delve into the original articles or videos linked as sources, ensuring you get the full scope of the information. 
 
 ## Summaries
 
 * [GOTO Conferences - Software architecture playlist](goto_sw_arch_list.md)
 * [GOTO Conferences - Design thinking and UI/UX playlist](goto_dt_ui_ux.md)
-<!-- * [GOTO Conferences - Programming languages playlist](goto_programming_lang.md) -->
+* [GOTO Conferences - Programming languages playlist](goto_programming_lang.md)
+* [GOTO Conferences - Frontend playlist](goto_FE.md)
+* [Davos 2024](davos_2024.md)
 
 ## Blogs
 
