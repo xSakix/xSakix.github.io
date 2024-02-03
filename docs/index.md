@@ -7,8 +7,12 @@ This website is my personal endeavor, focusing on software architecture resource
 * [GOTO Conferences - Software architecture playlist](goto_sw_arch_list.md)
 * [GOTO Conferences - Design thinking and UI/UX playlist](goto_dt_ui_ux.md)
 * [GOTO Conferences - Programming languages playlist](goto_programming_lang.md)
-* [GOTO Conferences - Frontend playlist](goto_FE.md)
+<!-- * [GOTO Conferences - Frontend playlist](goto_FE.md)
+* [GOTO Conferences - Frontend playlist-v2](goto_FE_v2.md)
+* [GOTO Conferences - Frontend playlist-v3](goto_FE_v3.md) -->
+* [GOTO Conferences - Frontend playlist](goto_FE_v4.md)
 * [Davos 2024](davos_2024.md)
+* [Usenix ATC 2023](usenix_atc_2023.md)
 
 ## Blogs
 
