@@ -12,7 +12,8 @@ This website is my personal endeavor, focusing on software architecture resource
 * [GOTO Conferences - Frontend playlist-v3](goto_FE_v3.md) -->
 * [GOTO Conferences - Frontend playlist](goto_FE_v4.md)
 * [Davos 2024](davos_2024.md)
-* [Usenix ATC 2023](usenix_atc_2023.md)
+* [Usenix ATC 2023](usenix_atc_2023_v2.md)
+<!-- * [Usenix ATC 2023-v2](usenix_atc_2023_v2.md) -->
 
 ## Blogs
 
