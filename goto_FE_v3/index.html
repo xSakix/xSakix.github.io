@@ -1,0 +1,1873 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.1">
+    
+    
+      
+        <title>goto FE v3 - Architect's Insight Hub: Elevate Your Learning Experience</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.45e1311d.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#state-of-storybook-7-gert-hengeveld-goto-2023" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Architect&#39;s Insight Hub: Elevate Your Learning Experience" class="md-header__button md-logo" aria-label="Architect's Insight Hub: Elevate Your Learning Experience" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Architect's Insight Hub: Elevate Your Learning Experience
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              goto FE v3
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Architect&#39;s Insight Hub: Elevate Your Learning Experience" class="md-nav__button md-logo" aria-label="Architect's Insight Hub: Elevate Your Learning Experience" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Architect's Insight Hub: Elevate Your Learning Experience
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tags
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#state-of-storybook-7-gert-hengeveld-goto-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      State of Storybook 7 • Gert Hengeveld • GOTO 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#programming-the-web-with-hyperlang-hypercli-mike-amundsen-goto-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      Programming the Web with HyperLANG &amp; HyperCLI • Mike Amundsen • GOTO 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#design-for-developers-stephanie-stimac-sophie-freiermuth-goto-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design for Developers • Stephanie Stimac &amp; Sophie Freiermuth • GOTO 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#simplifying-dev-environments-with-the-right-tools-christian-heilmann-julian-wood-goto-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      Simplifying Dev Environments with the Right Tools • Christian Heilmann &amp; Julian Wood • GOTO 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#developer-tools-that-shouldnt-be-secrets-christian-heilmann-goto-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      Developer Tools That Shouldn't Be Secrets • Christian Heilmann • GOTO 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deno-the-javascript-runtime-for-the-serverless-era-ryan-dahl-goto-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deno: The JavaScript Runtime for the Serverless Era • Ryan Dahl • GOTO 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-psychology-of-ux-fabio-pereira-goto-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Psychology of UX • Fabio Pereira • GOTO 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#design-for-the-utopia-you-want-not-the-dystopia-youre-in-chris-atherton-goto-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design for the Utopia You Want, Not the Dystopia You're In • Chris Atherton • GOTO 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#white-hat-attention-jacking-for-accessibility-fun-profit-chris-atherton-goto-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      White-Hat Attention Jacking for Accessibility, Fun &amp; Profit • Chris Atherton • GOTO 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-the-sjgar-stack-accelerated-our-digital-transformation-erik-ammerlaan-goto-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      How the SJGAR Stack Accelerated Our Digital Transformation • Erik Ammerlaan • GOTO 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#did-web-development-lose-the-right-direction-stefan-judis-goto-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      Did We(b Development) Lose the Right Direction? • Stefan Judis • GOTO 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-micro-frontends-how-to-use-them-luca-mezzalira-lucas-dohmen-goto-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Are Micro-Frontends &amp; How to Use Them • Luca Mezzalira &amp; Lucas Dohmen • GOTO 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#building-micro-frontends-luca-mezzalira-lucas-dohmen-goto-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      Building Micro-Frontends • Luca Mezzalira &amp; Lucas Dohmen • GOTO 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#expert-talk-web-development-its-failures-kevlin-henney-stefan-judis-goto-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      Expert Talk: Web Development &amp; Its Failures • Kevlin Henney &amp; Stefan Judis • GOTO 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-ideal-programming-language-richard-feldman-erik-doernenburg-goto-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Ideal Programming Language • Richard Feldman &amp; Erik Doernenburg • GOTO 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#functional-programming-for-pragmatists-richard-feldman-goto-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      Functional Programming for Pragmatists • Richard Feldman • GOTO 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accessiblejs-jemima-abu-goto-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      AccessibleJS • Jemima Abu • GOTO 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#explosive-velocity-with-a-modern-stack-tejas-kumar-goto-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      Explosive Velocity with a Modern Stack • Tejas Kumar • GOTO 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-power-performance-of-phoenix-liveview-geoffrey-lessel-goto-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Power &amp; Performance of Phoenix LiveView • Geoffrey Lessel • GOTO 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#svelte-web-app-development-reimagined-mark-volkmann-goto-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      Svelte - Web App Development Reimagined • Mark Volkmann • GOTO 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-jamstack-book-brian-rinaldi-raymond-camden-goto-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Jamstack Book • Brian Rinaldi &amp; Raymond Camden • GOTO 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#did-web-development-lose-the-right-direction-stefan-judis-goto-2020" class="md-nav__link">
+    <span class="md-ellipsis">
+      Did We(b Development) Lose the Right Direction? • Stefan Judis • GOTO 2020
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#http3-is-next-generation-http-is-it-quic-enough-daniel-stenberg-goto-2020" class="md-nav__link">
+    <span class="md-ellipsis">
+      HTTP/3 Is Next Generation HTTP. Is It QUIC Enough? • Daniel Stenberg • GOTO 2020
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#going-static-in-a-dynamic-world-with-hasura-and-nuxtjs-debbie-obrien-goto-2020" class="md-nav__link">
+    <span class="md-ellipsis">
+      Going Static in a Dynamic World with Hasura and Nuxt.js • Debbie O'Brien • GOTO 2020
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#html-how-to-make-loveliness-bruce-lawson-goto-2020" class="md-nav__link">
+    <span class="md-ellipsis">
+      HTML: How to Make Loveliness • Bruce Lawson • GOTO 2020
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adopt-graphql-without-writing-any-backend-code-uri-goldshtein-goto-2020" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adopt GraphQL without Writing any Backend Code • Uri Goldshtein • GOTO 2020
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#advanced-feature-flagging-its-all-about-the-data-dave-karow-goto-2020" class="md-nav__link">
+    <span class="md-ellipsis">
+      Advanced Feature Flagging: It's All About The Data • Dave Karow • GOTO 2020
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clean-architecture-with-aspnet-core-30-jason-taylor-goto-2019" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clean Architecture with ASP.NET Core 3.0 • Jason Taylor • GOTO 2019
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#http3-is-next-generation-http-is-it-quic-enough-daniel-stenberg-goto-2019" class="md-nav__link">
+    <span class="md-ellipsis">
+      HTTP/3 is next Generation HTTP. Is it QUIC enough? • Daniel Stenberg • GOTO 2019
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#you-really-dont-need-all-that-javascript-i-promise-stuart-langridge-goto-2019" class="md-nav__link">
+    <span class="md-ellipsis">
+      You Really Don't Need All that JavaScript, I Promise • Stuart Langridge • GOTO 2019
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ux-tips-to-avoid-losing-users-attention-chris-atherton-goto-2019" class="md-nav__link">
+    <span class="md-ellipsis">
+      UX Tips to Avoid Losing Users' Attention • Chris Atherton • GOTO 2019
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#designing-apis-for-150-million-orders-michele-angioni-matt-fewer-goto-2019" class="md-nav__link">
+    <span class="md-ellipsis">
+      Designing APIs for 150 Million Orders • Michele Angioni &amp; Matt Fewer • GOTO 2019
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#devux-improving-developer-designer-collaboration-yu-ling-cheng-france-wang-goto-2019" class="md-nav__link">
+    <span class="md-ellipsis">
+      DevUX: Improving Developer-Designer Collaboration • Yu Ling Cheng &amp; France Wang • GOTO 2019
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-future-of-machine-learning-javascript-asim-hussain-goto-2019" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Future of Machine Learning &amp; JavaScript • Asim Hussain • GOTO 2019
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fast-by-default-near-instant-load-times-at-scale-with-gatsbyjs-nicolas-goutay-goto-2019" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fast by Default: Near Instant Load Times at Scale with GatsbyJS • Nicolas Goutay • GOTO 2019
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#webassembly-beyond-the-browser-dan-callahan-goto-2019" class="md-nav__link">
+    <span class="md-ellipsis">
+      WebAssembly Beyond the Browser • Dan Callahan • GOTO 2019
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#internationalization-is-a-piece-of-cake-eli-schutze-ramirez-goto-2019" class="md-nav__link">
+    <span class="md-ellipsis">
+      Internationalization is a Piece of Cake • Eli Schutze Ramirez • GOTO 2019
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#building-resilient-frontend-architecture-monica-lent-goto-2019" class="md-nav__link">
+    <span class="md-ellipsis">
+      Building Resilient Frontend Architecture • Monica Lent • GOTO 2019
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#http-headers-for-the-responsible-developer-stefan-judis-goto-2019" class="md-nav__link">
+    <span class="md-ellipsis">
+      HTTP Headers for the Responsible Developer • Stefan Judis • GOTO 2019
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vue-and-you-matt-danforth-goto-2019" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vue and You • Matt Danforth • GOTO 2019
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reasonml-react-as-a-language-and-what-the-future-looks-like-peter-piekarczyk-goto-2019" class="md-nav__link">
+    <span class="md-ellipsis">
+      ReasonML: React as a Language and what the Future looks like • Peter Piekarczyk • GOTO 2019
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#going-serverless-with-vuejs-divya-sasidharan-goto-2019" class="md-nav__link">
+    <span class="md-ellipsis">
+      Going Serverless with VueJS • Divya Sasidharan • GOTO 2019
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reaching-beyond-traditional-boundaries-with-clojure-phil-hofmann-goto-2018" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reaching Beyond Traditional Boundaries with Clojure • Phil Hofmann • GOTO 2018
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#persuasive-design-anders-toxboe-goto-2018" class="md-nav__link">
+    <span class="md-ellipsis">
+      Persuasive Design • Anders Toxboe • GOTO 2018
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-i-was-wrong-about-typescript-tj-vantoll-goto-2018" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why I Was Wrong About TypeScript • TJ VanToll • GOTO 2018
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-cartoon-quest-new-adventures-for-webassembly-lin-clark-goto-2018" class="md-nav__link">
+    <span class="md-ellipsis">
+      A Cartoon Quest: New Adventures for WebAssembly • Lin Clark • GOTO 2018
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zen-and-the-art-of-convincing-your-company-to-use-rust-ashley-williams-goto-2018" class="md-nav__link">
+    <span class="md-ellipsis">
+      Zen and the Art of Convincing Your Company to Use Rust • Ashley Williams • GOTO 2018
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#make-web-apps-fun-to-build-and-easy-to-refactor-with-elm-daniel-bachler-goto-2017" class="md-nav__link">
+    <span class="md-ellipsis">
+      Make Web Apps Fun to Build and Easy to Refactor with Elm • Daniel Bachler • GOTO 2017
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#augmented-reality-challenges-writing-ar-experiences-in-javascript-philipp-nagele-goto-2017" class="md-nav__link">
+    <span class="md-ellipsis">
+      Augmented Reality - Challenges &amp; Writing AR Experiences in JavaScript • Philipp Nagele • GOTO 2017
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-backend-for-frontend-is-key-for-microservices-brian-grant-krishnan-ramanathan-goto-2017" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Backend for Frontend Is Key for Microservices • Brian Grant &amp; Krishnan Ramanathan • GOTO 2017
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javascript-at-uber-dustin-whittle-goto-2017" class="md-nav__link">
+    <span class="md-ellipsis">
+      JavaScript at Uber • Dustin Whittle • GOTO 2017
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#css-vs-javascript-trust-vs-control-christian-heilmann-goto-2017" class="md-nav__link">
+    <span class="md-ellipsis">
+      CSS vs. JavaScript, Trust vs. Control • Christian Heilmann • GOTO 2017
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introducing-elm-to-a-javascript-app-richard-feldman-goto-2017" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introducing Elm to a JavaScript App • Richard Feldman • GOTO 2017
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#avoiding-the-nightmare-on-elm-street-thomas-anagrius-goto-2017" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avoiding the Nightmare on Elm Street • Thomas Anagrius • GOTO 2017
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#we-want-webassembly-ben-smith-goto-2017" class="md-nav__link">
+    <span class="md-ellipsis">
+      We Want WebAssembly • Ben Smith • GOTO 2017
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resilience-jeremy-keith-goto-2016" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resilience • Jeremy Keith • GOTO 2016
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-frontend-taboo-a-story-of-full-stack-microservices-luis-mineiro-moritz-grauel-goto-2016" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Frontend Taboo: a Story of Full Stack Microservices • Luis Mineiro &amp; Moritz Grauel • GOTO 2016
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#you-can-use-css-for-that-rachel-andrew-goto-2016" class="md-nav__link">
+    <span class="md-ellipsis">
+      You Can Use CSS For That! • Rachel Andrew • GOTO 2016
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javascript-the-cloud-the-rise-of-the-new-virtual-machine-scott-hanselman-goto-2016" class="md-nav__link">
+    <span class="md-ellipsis">
+      JavaScript, the Cloud &amp; the Rise of the New Virtual Machine • Scott Hanselman • GOTO 2016
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#building-an-app-using-jstypescript-node-electron-100-oss-components-erich-gamma-goto-2016" class="md-nav__link">
+    <span class="md-ellipsis">
+      Building an App Using JS/TypeScript, Node, Electron &amp; 100 OSS Components • Erich Gamma • GOTO 2016
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visual-studio-code-shipping-one-of-the-largest-microsoft-javascript-apps-alex-dima-goto-2016" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visual Studio Code: Shipping One of the Largest Microsoft JavaScript Apps • Alex Dima • GOTO 2016
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#beyond-flux-scalable-frontend-architectures-built-upon-publishsubscribe-m-kurze-goto-2016" class="md-nav__link">
+    <span class="md-ellipsis">
+      Beyond Flux - Scalable Frontend Architectures built upon Publish/Subscribe • M. Kurze • GOTO 2016
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#busy-developers-guide-to-meteorjs-ted-neward-goto-2016" class="md-nav__link">
+    <span class="md-ellipsis">
+      Busy Developer's Guide to MeteorJS • Ted Neward • GOTO 2016
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-return-of-stream-io-andre-staltz-medeiros-goto-2016" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Return of Stream I/O • Andre 'Staltz' Medeiros • GOTO 2016
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#elm-friendly-functional-programming-for-the-web-luke-westby-goto-2016" class="md-nav__link">
+    <span class="md-ellipsis">
+      Elm-Friendly Functional Programming For The Web • Luke Westby • GOTO 2016
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ionic-mobile-app-development-with-a-superpowered-platform-matt-kremer-goto-2016" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ionic: Mobile App Development with a Superpowered Platform • Matt Kremer • GOTO 2016
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-post-mvc-age-maarten-hus-goto-2016" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Post-MVC Age • Maarten Hus • GOTO 2016
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adventures-in-elm-jessica-kerr-goto-2016" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adventures in Elm • Jessica Kerr • GOTO 2016
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javascript-performance-through-the-spyglass-vyacheslav-egorov-goto-2016" class="md-nav__link">
+    <span class="md-ellipsis">
+      JavaScript Performance Through the Spyglass • Vyacheslav Egorov • GOTO 2016
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#emulating-a-6502-system-in-javascript-matt-godbolt-goto-2016" class="md-nav__link">
+    <span class="md-ellipsis">
+      Emulating a 6502 system in JavaScript • Matt Godbolt • GOTO 2016
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enhanced-front-end-applications-in-angularjs-13-matias-niemela-goto-2014" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enhanced Front-end Applications in AngularJS 1.3 • Matias Niemela • GOTO 2014
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#web-assembly-nick-bray-goto-2015" class="md-nav__link">
+    <span class="md-ellipsis">
+      Web Assembly • Nick Bray • GOTO 2015
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#benchmarking-javascript-vyacheslav-egorov-goto-2015" class="md-nav__link">
+    <span class="md-ellipsis">
+      Benchmarking JavaScript • Vyacheslav Egorov • GOTO 2015
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-front-end-architecture-revolution-david-nolen-goto-2015" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Front End Architecture Revolution • David Nolen • GOTO 2015
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conquering-time-with-functional-reactive-programming-sergi-mansilla-goto-2014" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conquering Time with Functional Reactive Programming • Sergi Mansilla • GOTO 2014
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lessons-learned-from-building-a-css-minifier-stoyan-stefanov-goto-2014" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lessons Learned from Building a CSS Minifier • Stoyan Stefanov • GOTO 2014
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#turbopack-dx-matters-tobias-koppers-goto-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      Turbopack: DX Matters • Tobias Koppers • GOTO 2023
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>goto FE v3</h1>
+
+<h2 id="state-of-storybook-7-gert-hengeveld-goto-2023">State of Storybook 7 • Gert Hengeveld • GOTO 2023</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=j6i0_CjhXxs">https://www.youtube.com/watch?v=j6i0_CjhXxs</a></p>
+<ul>
+<li>K Held discusses Storybook, a popular frontend development tool.</li>
+<li>It helps in building UI components and testing them efficiently.</li>
+<li>CSF3 is a new component story format for Storybook.</li>
+<li>Interaction testing allows simulating user behavior and debugging.</li>
+<li>Chromatic offers visual regression testing and documentation features.</li>
+<li>Figma integration shows live design alongside the code.</li>
+<li>Storybook has an extensive ecosystem with various integrations.</li>
+<li>It brings improvements to existing projects and supports multiple frameworks.</li>
+</ul>
+<h2 id="programming-the-web-with-hyperlang-hypercli-mike-amundsen-goto-2023">Programming the Web with HyperLANG &amp; HyperCLI • Mike Amundsen • GOTO 2023</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=vcjOzcxIBdY">https://www.youtube.com/watch?v=vcjOzcxIBdY</a></p>
+<ol>
+<li>The speaker discussed their programming web application, Hyper CLI, which uses HTTP to interact with various services and websites.</li>
+<li>They mentioned the importance of using configuration files for easy customization and automation.</li>
+<li>They highlighted the need for a better object model and modularized libraries for improved functionality.</li>
+<li>The speaker emphasized the significance of plugins and DSL programming platforms, especially in the context of specific domains like insurance or healthcare.</li>
+<li>They also talked about the potential benefits of using event-driven architectures and command line tools to simplify tasks.</li>
+<li>The speaker expressed interest in improving security features within their application.</li>
+<li>They acknowledged the importance of documentation and a strong community for successful software development.</li>
+</ol>
+<h2 id="design-for-developers-stephanie-stimac-sophie-freiermuth-goto-2023">Design for Developers • Stephanie Stimac &amp; Sophie Freiermuth • GOTO 2023</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=6bDqpshjSpI">https://www.youtube.com/watch?v=6bDqpshjSpI</a></p>
+<ol>
+<li>
+<p>Stephanie Stimac, a designer and developer, discusses her new book "Design Developers" which focuses on teaching developers about design fundamentals, user experience basics, and other essential skills for building polished websites.</p>
+</li>
+<li>
+<p>The importance of communication between designers and developers is emphasized, as it helps in identifying issues early and improves the overall product quality.</p>
+</li>
+<li>
+<p>Designers can learn from developers' technical knowledge to better understand constraints and feasibility while developers can benefit from understanding design principles for creating visually appealing products.</p>
+</li>
+<li>
+<p>The book aims to bridge the gap between designers and developers, providing a foundation in design fundamentals, user experience basics, and other essential skills for building polished websites.</p>
+</li>
+<li>
+<p>The author highlights the need for continuous learning and adaptation in both design and development fields as technology evolves rapidly.</p>
+</li>
+<li>
+<p>The book is intended to be accessible to people with various backgrounds, including those who are self-taught or have a non-traditional education path.</p>
+</li>
+<li>
+<p>The importance of accessibility, color theory, typography, and other design principles is discussed in the context of creating inclusive and visually appealing products.</p>
+</li>
+<li>
+<p>The author encourages readers to explore different roles within the tech industry, such as fullstack developers or unicorns, and emphasizes the value of learning new skills throughout their careers.</p>
+</li>
+</ol>
+<h2 id="simplifying-dev-environments-with-the-right-tools-christian-heilmann-julian-wood-goto-2022">Simplifying Dev Environments with the Right Tools • Christian Heilmann &amp; Julian Wood • GOTO 2022</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=o0bYu0HVjNU">https://www.youtube.com/watch?v=o0bYu0HVjNU</a></p>
+<ul>
+<li>Welcoming to GOTO Unscripted, discussing the Danish experience and its advantages.</li>
+<li>Discussing the future of developer tools, focusing on browser-based development environments like Visual Studio Code.</li>
+<li>Highlighting the importance of accessibility in software development and how it can benefit everyone.</li>
+<li>Emphasizing the need for simpler interfaces and better integration between different tools to make developers more efficient.</li>
+<li>Mentioning the role of machine learning in code generation, autocompletion, and improving developer efficiency.</li>
+<li>Discussing the importance of teaching and sharing knowledge within the community to learn and grow together.</li>
+</ul>
+<h2 id="developer-tools-that-shouldnt-be-secrets-christian-heilmann-goto-2022">Developer Tools That Shouldn't Be Secrets • Christian Heilmann • GOTO 2022</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=lz-nUdotdx4">https://www.youtube.com/watch?v=lz-nUdotdx4</a></p>
+<ul>
+<li>Developer tools are essential for web development.</li>
+<li>Console is a powerful tool for debugging and logging information.</li>
+<li>Device mode allows simulating different devices, resolutions, and network speeds.</li>
+<li>Inspector helps with element identification and accessibility testing.</li>
+<li>Snippets allow saving and sharing code snippets.</li>
+<li>Color picker simplifies changing colors on websites.</li>
+<li>Visual Studio Code integrates developer tools into the editor.</li>
+<li>DevTools can be used to create custom extensions for specific tasks.</li>
+<li>Developer tools help in accessing and modifying source code, making development easier.</li>
+</ul>
+<h2 id="deno-the-javascript-runtime-for-the-serverless-era-ryan-dahl-goto-2022">Deno: The JavaScript Runtime for the Serverless Era • Ryan Dahl • GOTO 2022</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=VDKJ1rSj-NI">https://www.youtube.com/watch?v=VDKJ1rSj-NI</a></p>
+<ul>
+<li>Transcript is a video conference about JavaScript and web development.</li>
+<li>The speaker discusses the evolution of the web, its future, and the importance of JavaScript.</li>
+<li>They introduce Dino, a serverless edge runtime that runs JavaScript code globally with low latency.</li>
+<li>Dino Deploy is a product built on top of Dino, providing GitHub integration for easy deployment.</li>
+<li>The speaker showcases Fresh, a web framework built on Dino, which renders everything on the server side and uses Tailwind CSS.</li>
+<li>A comparison between Fresh and Create React App is made in terms of installation time and size.</li>
+</ul>
+<h2 id="the-psychology-of-ux-fabio-pereira-goto-2022">The Psychology of UX • Fabio Pereira • GOTO 2022</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=rf9Gh-VMvIk">https://www.youtube.com/watch?v=rf9Gh-VMvIk</a></p>
+<ol>
+<li>Understanding human behavior is crucial in the digital world, where decisions are made based on biases and nudges.</li>
+<li>Digital Decision Architects design environments to influence people's choices through behavioral economics principles.</li>
+<li>Ethical considerations should be taken into account when using technology to make decisions for others.</li>
+<li>Dataism is a concept that uses data to improve human lives, with examples like continuous glucose monitors and stress-tracking wearables.</li>
+<li>Humane Tech organizations aim to create better digital experiences by focusing on user wellbeing and reducing attention hijacking.</li>
+</ol>
+<h2 id="design-for-the-utopia-you-want-not-the-dystopia-youre-in-chris-atherton-goto-2022">Design for the Utopia You Want, Not the Dystopia You're In • Chris Atherton • GOTO 2022</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=Q77GT8srcsQ">https://www.youtube.com/watch?v=Q77GT8srcsQ</a></p>
+<ol>
+<li>Dystopian themes in technology: The speaker discusses the dystopian nature of modern technology and how it affects attention, agency, and control over personal data.</li>
+<li>Attention as a weapon: The speaker believes that attention has become a weapon used by companies to manipulate users for profit.</li>
+<li>Psychology and technology: The speaker highlights the importance of understanding psychology in designing technology and ensuring user empowerment.</li>
+<li>Designing for privacy and security: They emphasize the need for better privacy and security measures in technology, such as ad blockers and clothing that can confuse facial recognition systems.</li>
+<li>Government regulation and digital services: The speaker advocates for more government involvement in regulating tech companies to protect user data and promote transparency.</li>
+<li>Diversity in AI development: They argue for a diverse team working on AI projects, as it helps prevent biased outcomes.</li>
+<li>Greta Thunberg's activism: The speaker admires Greta Thunberg's direct action approach to climate change advocacy and believes that inaction is also a powerful form of protest.</li>
+</ol>
+<h2 id="white-hat-attention-jacking-for-accessibility-fun-profit-chris-atherton-goto-2022">White-Hat Attention Jacking for Accessibility, Fun &amp; Profit • Chris Atherton • GOTO 2022</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=VwocXCyOieM">https://www.youtube.com/watch?v=VwocXCyOieM</a></p>
+<ul>
+<li>Attention is a limited resource and needs to be managed effectively.</li>
+<li>Design can influence attention by using visual cues, prioritizing content, and avoiding distractions.</li>
+<li>Screen readers require careful design as they may skip over non-essential content.</li>
+<li>Working memory capacity affects attention span and retaining information.</li>
+<li>Animation can help with accessibility but should be used responsibly to avoid overwhelming users.</li>
+<li>Design systems can aid in managing attention by providing consistent patterns and guidelines.</li>
+</ul>
+<h2 id="how-the-sjgar-stack-accelerated-our-digital-transformation-erik-ammerlaan-goto-2022">How the SJGAR Stack Accelerated Our Digital Transformation • Erik Ammerlaan • GOTO 2022</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=V5zW3ig2lG8">https://www.youtube.com/watch?v=V5zW3ig2lG8</a></p>
+<ol>
+<li>A large financial institution with 11 countries and a $30 billion worth uses a simple technology stack to deliver customer value faster.</li>
+<li>The company's innovation team has transformed its business by adopting the Sugar Stack, which includes technologies like JavaScript, serverless, React, and more.</li>
+<li>This stack helps them build products quickly with low cost failures, allowing for rapid experimentation.</li>
+<li>The platform team focuses on providing libraries and frameworks to help other teams build customer-focused solutions.</li>
+<li>By embracing the Sugar Stack, companies can foster an engineering culture that promotes innovation and collaboration across departments.</li>
+</ol>
+<h2 id="did-web-development-lose-the-right-direction-stefan-judis-goto-2021">Did We(b Development) Lose the Right Direction? • Stefan Judis • GOTO 2021</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=3PmPkZJ22Cc">https://www.youtube.com/watch?v=3PmPkZJ22Cc</a></p>
+<ul>
+<li>Transcript is a talk by Stefan about the evolution of web development and frontend technologies.</li>
+<li>He discusses the importance of performance, accessibility, and user experience.</li>
+<li>He mentions various frameworks like React, Vue, Svelte, and Astro, as well as serverless functions.</li>
+<li>Stefan emphasizes the need for simplicity in building websites and using the right tools.</li>
+<li>He talks about the value of developer experience and user experience.</li>
+<li>The speaker shares his journey from a javascript-driven approach to a pure approach with reduced page weight and build time.</li>
+<li>He highlights the importance of considering tradeoffs when choosing technology for a project.</li>
+</ul>
+<h2 id="what-are-micro-frontends-how-to-use-them-luca-mezzalira-lucas-dohmen-goto-2022">What Are Micro-Frontends &amp; How to Use Them • Luca Mezzalira &amp; Lucas Dohmen • GOTO 2022</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=-thWgobMW_I">https://www.youtube.com/watch?v=-thWgobMW_I</a></p>
+<ul>
+<li>Building MicroFrontends is a topic explored by Luca Mezzalira and Lucas Dohmen.</li>
+<li>The motivation behind exploring microfrontends comes from the need to address challenges in large web applications with distributed teams.</li>
+<li>There are two main approaches for splitting an application: horizontal split (multiple teams working together) and vertical split (teams responsible for specific views).</li>
+<li>MicroFrontends can be seen as a way to decouple different parts of an application, allowing for independent deployment and better organization.</li>
+<li>The concept of microfrontends is closely related to single-page applications, which load packages from the server using APIs.</li>
+<li>Edge servers can provide a nice decoupling container for microfrontends, while client-side routing can be challenging due to increased complexity.</li>
+<li>MicroFrontends can help in migrating existing monolithic codebases towards a more modular architecture.</li>
+</ul>
+<h2 id="building-micro-frontends-luca-mezzalira-lucas-dohmen-goto-2022">Building Micro-Frontends • Luca Mezzalira &amp; Lucas Dohmen • GOTO 2022</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=DG9puFuUb7E">https://www.youtube.com/watch?v=DG9puFuUb7E</a></p>
+<ol>
+<li>Luca discussed the concept of microfrontends and its implementation techniques.</li>
+<li>He highlighted the importance of an application shell, which acts as a container for business logic and handles routing.</li>
+<li>Microfrontends can be implemented using various technologies like Module Federation, iframes, web components, and serverside includes (SSI/ESI).</li>
+<li>Luca emphasized the need to maintain a clear separation between frontend and backend systems using API gateways, BFFs, or service dictionaries.</li>
+<li>The role of feature teams was discussed in relation to microfrontends development.</li>
+<li>The importance of flexibility and adaptability in architecture design was stressed, as companies evolve over time.</li>
+</ol>
+<h2 id="expert-talk-web-development-its-failures-kevlin-henney-stefan-judis-goto-2021">Expert Talk: Web Development &amp; Its Failures • Kevlin Henney &amp; Stefan Judis • GOTO 2021</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=jQ0_bIVhkLk">https://www.youtube.com/watch?v=jQ0_bIVhkLk</a></p>
+<ol>
+<li>Kevlin Henney's talk focused on the complexity of modern web development, highlighting issues like bloated code and inefficient JavaScript.</li>
+<li>The importance of collective intelligence was emphasized, with a call for better tooling to help developers make informed decisions.</li>
+<li>Dependency management was discussed as an area needing improvement, with suggestions for more deliberate approaches to avoid duplication and abstraction.</li>
+<li>The need for better communication within teams and the software development community was stressed, encouraging sharing of experiences and learning from each other's mistakes.</li>
+<li>Awareness of tradeoffs in decision-making was emphasized, suggesting that developers should be mindful of the long-term consequences of their choices.</li>
+</ol>
+<h2 id="the-ideal-programming-language-richard-feldman-erik-doernenburg-goto-2021">The Ideal Programming Language • Richard Feldman &amp; Erik Doernenburg • GOTO 2021</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=MPyUvtPFDSg">https://www.youtube.com/watch?v=MPyUvtPFDSg</a></p>
+<ul>
+<li>Ideal programming language should be domain specific.</li>
+<li>Memory management can be automatic or manual, with different tradeoffs.</li>
+<li>Concurrency models vary; Erlang's is great for distributed systems while Rust has channels.</li>
+<li>WebAssembly may become a popular way to run web applications without compromising performance.</li>
+<li>JavaScript remains dominant due to its cultural momentum and ecosystem.</li>
+<li>In-house applications in large organizations can benefit from custom languages or frameworks.</li>
+<li>Language design should consider portability, memory management, concurrency, and performance.</li>
+<li>New programming languages may emerge for specific use cases like game development or web browsers.</li>
+</ul>
+<h2 id="functional-programming-for-pragmatists-richard-feldman-goto-2021">Functional Programming for Pragmatists • Richard Feldman • GOTO 2021</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=3n17wHe5wEw">https://www.youtube.com/watch?v=3n17wHe5wEw</a></p>
+<pre><code>- Functional programming focuses on pure functions, avoiding mutation and side effects.
+- Pure functions are thread-safe, making testing easier with no flaky tests.
+- Caching and precomputing can improve performance in functional programs.
+- Parallelization is easier in functional languages due to their innate parallelizability.
+- Functional programming languages have better ecosystems, like Elm's 100% pure function guarantee.
+- Testing is simplified with fewer flaky tests and no need for mocks or mocking frameworks.
+- Debugging is easier due to smaller search spaces and explicit dependencies.
+- Functional programming languages have better performance, especially in parallel computing.
+- Pure functional programming can lead to more efficient code through caching and precomputation.
+- Parallelization is inherent in functional programs, making it easier to achieve high performance.
+- Functional programming languages have better ecosystems with fewer dependencies and flaky tests.
+- Debugging is simplified due to smaller search spaces and explicit dependencies.
+- Pure functional programming can lead to more efficient code through caching and precomputation.
+- Parallelization is inherent in functional programs, making it easier to achieve high performance.
+</code></pre>
+<h2 id="accessiblejs-jemima-abu-goto-2021">AccessibleJS • Jemima Abu • GOTO 2021</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=9SFSJDIg4KE">https://www.youtube.com/watch?v=9SFSJDIg4KE</a></p>
+<ol>
+<li>Accessibility talk: Discussing writing accessible JavaScript, navigation, and testing methods.</li>
+<li>Importance of accessibility: Legal requirements, human aspect, and user experience.</li>
+<li>Handling displaying content: Useful techniques like setting area hidden property, live property, and tab index for better screen reader support.</li>
+<li>Navigation: Skip main content link, focus management, keyboard navigation, and dynamic content handling.</li>
+<li>Testing accessibility: Tools like Lighthouse, Chrome DevTools, AccessibleJS, Wave Web Accessibility Evaluation Tool, Chromevox, and A1yjs.</li>
+<li>Checklist for accessible JavaScript development: Follow semantic elements, use proper HTML tags, consider keyboard navigation, and ensure focus management.</li>
+</ol>
+<h2 id="explosive-velocity-with-a-modern-stack-tejas-kumar-goto-2021">Explosive Velocity with a Modern Stack • Tejas Kumar • GOTO 2021</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=KTkyQ3z7M8w">https://www.youtube.com/watch?v=KTkyQ3z7M8w</a></p>
+<ol>
+<li>Transcript overview: A well-known conference speaker discussed building web applications quickly using modern technologies like NextJS, Typescript, Tailwind CSS, and GraphQL.</li>
+<li>Key points: Predictability, auto completion, and a strong editor experience were emphasized to help developers move fast. The use of tools such as Hasura and Heroku was also mentioned for scaling purposes.</li>
+<li>Incremental static regeneration (ISR) was highlighted as a way to improve performance by serving pre-rendered pages while updating the database in the background.</li>
+<li>Tailwind CSS was used to make web apps look good quickly, with auto completion and live preview features helping developers iterate rapidly.</li>
+<li>The speaker mentioned the importance of planning ahead and outsourcing concerns like hosting and scaling to cloud providers such as AWS or GCP.</li>
+</ol>
+<h2 id="the-power-performance-of-phoenix-liveview-geoffrey-lessel-goto-2021">The Power &amp; Performance of Phoenix LiveView • Geoffrey Lessel • GOTO 2021</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=-Rl-26JJ6js">https://www.youtube.com/watch?v=-Rl-26JJ6js</a></p>
+<ol>
+<li>Phoenix is an Elixir-based web framework with live view, a real-time HTML communication feature.</li>
+<li>Live View provides instant feedback to users and can handle form validation in real time.</li>
+<li>It supports reusable HTML components and server-side state management.</li>
+<li>Live Navigation allows updating page content without refreshing the entire page, saving bandwidth and user processing time.</li>
+<li>Elixir's distributed nature enables efficient handling of requests and state information across multiple processes.</li>
+<li>Phoenix provides a generator for creating live view applications.</li>
+<li>The framework can handle real-time chat functionality using pub/sub mechanisms.</li>
+<li>Live View can be used to create self-healing web applications that recover from errors or server restarts.</li>
+<li>It supports efficient handling of large amounts of data and can scale well with distributed systems.</li>
+<li>Phoenix is a powerful tool for building real-time, scalable web applications using Elixir.</li>
+</ol>
+<h2 id="svelte-web-app-development-reimagined-mark-volkmann-goto-2021">Svelte - Web App Development Reimagined • Mark Volkmann • GOTO 2021</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=4CGzFwHoD0A">https://www.youtube.com/watch?v=4CGzFwHoD0A</a></p>
+<ol>
+<li>Svelte is a web framework that focuses on simplicity, performance, and developer experience.</li>
+<li>It uses compiler-based runtime library to compile components into JavaScript, resulting in smaller bundles.</li>
+<li>Svelte encourages component-based development with state management using stores for data sharing between components.</li>
+<li>The framework has a growing community and offers tools like VS Code extensions, Storybook, and SvelteKit for building mobile apps.</li>
+<li>Svelte's emphasis on developer experience makes it an attractive alternative to other popular frameworks like Angular and React.</li>
+</ol>
+<h2 id="the-jamstack-book-brian-rinaldi-raymond-camden-goto-2021">The Jamstack Book • Brian Rinaldi &amp; Raymond Camden • GOTO 2021</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=x0RoXonhldk">https://www.youtube.com/watch?v=x0RoXonhldk</a></p>
+<ol>
+<li>Brian and Ray are developers who work on The Jamstack Book.</li>
+<li>Jamstack is an important concept that has been around since 2015-2016, with a focus on JavaScript, APIs, and markup.</li>
+<li>The definition of Jamstack has evolved over time, but it's now focused on static site generators, CICD processes, and edge servers/CDNs.</li>
+<li>Static site generators like Eleventy, Hugo, and Nextjs are popular tools for building websites.</li>
+<li>Netlify and Vercel are leading platforms in the Jamstack space, with different strengths depending on the project.</li>
+<li>The debate around broadening the definition of Jamstack continues as it gains more mainstream adoption.</li>
+<li>The book "The Jamstack Book" covers various solutions for building websites using different tools and techniques.</li>
+</ol>
+<h2 id="did-web-development-lose-the-right-direction-stefan-judis-goto-2020">Did We(b Development) Lose the Right Direction? • Stefan Judis • GOTO 2020</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=0Vtoblyq8fE">https://www.youtube.com/watch?v=0Vtoblyq8fE</a></p>
+<ul>
+<li>Web development journey: from HTML, CSS, and JavaScript to modern frameworks</li>
+<li>Importance of accessibility, performance, and security in web development</li>
+<li>Serverless functions and Jamstack for easier website building</li>
+<li>Focus on fundamental technologies like HTML, CSS, and JavaScript</li>
+<li>Consider the impact of technology choices on company bottom line</li>
+<li>Strive for simplicity and maintainability in web projects</li>
+<li>Embrace universal JavaScript apps and custom elements</li>
+<li>Prioritize user experience over complex implementations</li>
+</ul>
+<h2 id="http3-is-next-generation-http-is-it-quic-enough-daniel-stenberg-goto-2020">HTTP/3 Is Next Generation HTTP. Is It QUIC Enough? • Daniel Stenberg • GOTO 2020</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=pUxyukqoXR4">https://www.youtube.com/watch?v=pUxyukqoXR4</a></p>
+<ul>
+<li>HP3 is an improved version of HTTP, with focus on performance and security.</li>
+<li>It uses UDP as the underlying transport protocol instead of TCP.</li>
+<li>Key features include faster handshakes, early data transfer, and better loss recovery mechanisms.</li>
+<li>Google Quick (now called QUIC) is a similar protocol that has been in use for several years.</li>
+<li>The future of HTTP will likely involve more encrypted connections and improved transport protocols.</li>
+<li>UDP is gaining popularity due to its performance advantages over TCP.</li>
+<li>Browsers are gradually adopting new protocols, with Chrome, Edge, Firefox, Safari, Facebook, Instagram, YouTube, and Cloudflare already supporting HTTP3.</li>
+<li>The transition to a new transport protocol will take time, but the benefits of improved performance and security make it worthwhile.</li>
+</ul>
+<h2 id="going-static-in-a-dynamic-world-with-hasura-and-nuxtjs-debbie-obrien-goto-2020">Going Static in a Dynamic World with Hasura and Nuxt.js • Debbie O'Brien • GOTO 2020</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=1j9DIX32GpY">https://www.youtube.com/watch?v=1j9DIX32GpY</a></p>
+<p>Error</p>
+<h2 id="html-how-to-make-loveliness-bruce-lawson-goto-2020">HTML: How to Make Loveliness • Bruce Lawson • GOTO 2020</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=L83LVfhTbzg">https://www.youtube.com/watch?v=L83LVfhTbzg</a></p>
+<ul>
+<li>Make Loveliness: HTML is essential for web accessibility, performance, and usability.</li>
+<li>Use semantic HTML elements to improve readability and maintainability.</li>
+<li>Accessibility benefits everyone, not just people with disabilities.</li>
+<li>Ensure proper color contrast, alternate text, and form labels.</li>
+<li>Avoid empty links and buttons without clear purpose.</li>
+<li>Choose the right JavaScript library carefully for better performance.</li>
+<li>Prioritize web accessibility as a global priority to improve lives.</li>
+<li>Increase internet maturity leads to higher GDP per capita.</li>
+<li>Pay forward by making the web accessible for everyone.</li>
+</ul>
+<h2 id="adopt-graphql-without-writing-any-backend-code-uri-goldshtein-goto-2020">Adopt GraphQL without Writing any Backend Code • Uri Goldshtein • GOTO 2020</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=1bJ_M_v-tso">https://www.youtube.com/watch?v=1bJ_M_v-tso</a></p>
+<ul>
+<li>Adopt GraphQL gradually without writing backend code</li>
+<li>Benefits include performance, data management, and developer productivity</li>
+<li>Use tools like Serf, Guild, OpenGraphQL ecosystem</li>
+<li>Introduce graphical server with GraphQL Server (GS)</li>
+<li>Automate frontend development using Apollo Client or Polar Link Rest</li>
+<li>Third technique: Convert existing APIs to GraphQL without changing backend using GraphQL Mesh</li>
+<li>Benefits include faster development and easier integration of new services</li>
+</ul>
+<h2 id="advanced-feature-flagging-its-all-about-the-data-dave-karow-goto-2020">Advanced Feature Flagging: It's All About The Data • Dave Karow • GOTO 2020</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=f8XDvtfKWQE">https://www.youtube.com/watch?v=f8XDvtfKWQE</a></p>
+<ul>
+<li>Feature flagging is a powerful tool for separating code, deploying features, and controlling releases.</li>
+<li>It can be used to gradually roll out new features, monitor their impact, and mitigate errors.</li>
+<li>A smarter way of measuring data is through randomized controlled trials, which help in attribution and analysis.</li>
+<li>An experimentation platform should include a targeting system, a flagging system, and a data management console.</li>
+<li>Telemetry plays an important role in collecting user data and providing insights into their experience.</li>
+<li>A wizard can simplify the process of managing rollups, review metrics, and access control.</li>
+<li>An alert system can detect issues quickly and help resolve them efficiently.</li>
+<li>The experimentation guide is a valuable resource for learning about different approaches to testing and improving software releases.</li>
+</ul>
+<h2 id="clean-architecture-with-aspnet-core-30-jason-taylor-goto-2019">Clean Architecture with ASP.NET Core 3.0 • Jason Taylor • GOTO 2019</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=dK4Yb6-LxAk">https://www.youtube.com/watch?v=dK4Yb6-LxAk</a></p>
+<p>Summary:
+- Clean Architecture is a software design approach that separates concerns and simplifies development.
+- Domain layer contains enterprise logic, Application layer handles business logic, Infrastructure layer manages external dependencies, and Presentation layer renders UI.
+- Use CQRS (Command Query Responsibility Segregation) to separate read and write operations for better performance and scalability.
+- Leverage Mediator pattern to handle commands and queries in the Application layer.
+- Fluent Validation is useful for complex validation scenarios, while Data Annotation is suitable for simple cases.
+- Use AutoMapper for mapping between DTOs and entities.
+- Dependency Injection helps with testability and maintainability.
+- AspNet Core Identity provides authentication and authorization features.
+- Unit Testing ensures code quality and simplifies development.
+- Open API allows integration of frontend and backend systems.
+- Use a well-defined view model for the client to consume, and generate an Angular client using Swagger UI.
+- Exception handling is crucial for a smooth user experience.
+- Infrastructure layer should be independent from presentation layer.
+- CQRS and Mediator patterns help simplify complex systems.</p>
+<h2 id="http3-is-next-generation-http-is-it-quic-enough-daniel-stenberg-goto-2019">HTTP/3 is next Generation HTTP. Is it QUIC enough? • Daniel Stenberg • GOTO 2019</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=rlN4F1oyaRM">https://www.youtube.com/watch?v=rlN4F1oyaRM</a></p>
+<ul>
+<li>Transcript overview: Discussion on the evolution of internet protocols, focusing on TCP, HTTP, and new developments like QUIC.</li>
+<li>Key points:</li>
+<li>TCP has been the backbone of the Internet since 1981 but faces challenges with modern web traffic.</li>
+<li>HTTP 1.0 and 2.0 have improved performance by reducing latency and optimizing data transfer, but still face issues like prioritization and connection management.</li>
+<li>QUIC (Quick UDP Internet Connections) is a new protocol that aims to address these challenges by using UDP as its base and adding encryption and multiplexing features.</li>
+<li>QUIC has been adopted by major companies, including Google, Facebook, Cloudflare, and others. It's expected to become the standard for web traffic in the future.</li>
+<li>The evolution of protocols is driven by technological advancements and user expectations, leading to a more efficient and secure internet experience.</li>
+</ul>
+<h2 id="you-really-dont-need-all-that-javascript-i-promise-stuart-langridge-goto-2019">You Really Don't Need All that JavaScript, I Promise • Stuart Langridge • GOTO 2019</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=rxlJRydqmk8">https://www.youtube.com/watch?v=rxlJRydqmk8</a></p>
+<ol>
+<li>The speaker discussed the importance of web performance and user experience, highlighting the need for efficient loading times and smooth transitions between pages.</li>
+<li>He introduced a concept called "portal", which aims to provide control over page navigation without relying on complex frameworks or single-page applications.</li>
+<li>The portal uses standard CSS techniques like transforms and animations to achieve its effects, making it accessible across different browsers.</li>
+<li>The speaker emphasized the need for progressive enhancement and accessibility in web development, while also acknowledging the importance of performance optimization.</li>
+<li>He encouraged developers to stay up-to-date with industry trends and standards, but not to chase every new technology or framework.</li>
+</ol>
+<h2 id="ux-tips-to-avoid-losing-users-attention-chris-atherton-goto-2019">UX Tips to Avoid Losing Users' Attention • Chris Atherton • GOTO 2019</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=-pixBU3EJfU">https://www.youtube.com/watch?v=-pixBU3EJfU</a></p>
+<ol>
+<li>The speaker discussed the importance of attention in user experience design and how it affects various aspects like accessibility, reading difficulties, and sleep deprivation.</li>
+<li>They highlighted the need for good web design that is easy to navigate, has clear visual hierarchy, and provides a smooth user experience.</li>
+<li>Animation can be used effectively to guide users' attention and improve usability by providing feedback and easing transitions.</li>
+<li>Disney's animation principles can also be applied to web design to create engaging experiences for users.</li>
+<li>The speaker emphasized the need for designers to consider different user groups, such as those with low vision or sleep deprivation issues, when designing websites.</li>
+</ol>
+<h2 id="designing-apis-for-150-million-orders-michele-angioni-matt-fewer-goto-2019">Designing APIs for 150 Million Orders • Michele Angioni &amp; Matt Fewer • GOTO 2019</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=OB0Pb-nd0g8">https://www.youtube.com/watch?v=OB0Pb-nd0g8</a></p>
+<ol>
+<li>The speaker discusses the evolution of a 15-year-old application, from monolith to modern stack using JavaScript and React.</li>
+<li>They mention the importance of clear separation between business domains and stacks, with each team focusing on specific contexts.</li>
+<li>A backend frontend (BFF) pattern is introduced for better scalability and easier development.</li>
+<li>The speaker highlights the need for a design system to manage branding across different platforms like iOS, Android, and web applications.</li>
+<li>They emphasize the importance of careful infrastructure planning and designing for future changes.</li>
+<li>A conclusion is drawn about the excitement for the project's potential impact on user experience and developer performance.</li>
+</ol>
+<h2 id="devux-improving-developer-designer-collaboration-yu-ling-cheng-france-wang-goto-2019">DevUX: Improving Developer-Designer Collaboration • Yu Ling Cheng &amp; France Wang • GOTO 2019</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=uWIfnPc1wC0">https://www.youtube.com/watch?v=uWIfnPc1wC0</a></p>
+<ol>
+<li>Collaboration between designers and developers is crucial for building better products.</li>
+<li>Use a common language, such as style guides, to improve communication.</li>
+<li>Involve everyone in the decision-making process during design and development.</li>
+<li>Encourage trust within teams by sharing vulnerabilities and understanding each other's aspirations.</li>
+<li>Organize events like DevUX Drinks to build empathy and foster a collaborative environment.</li>
+<li>Share tools, such as Zeppelin, to streamline the process and improve communication between designers and developers.</li>
+<li>Learn from each other's experiences and struggles to continuously improve team dynamics.</li>
+</ol>
+<h2 id="the-future-of-machine-learning-javascript-asim-hussain-goto-2019">The Future of Machine Learning &amp; JavaScript • Asim Hussain • GOTO 2019</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=vfmGII9mGmY">https://www.youtube.com/watch?v=vfmGII9mGmY</a></p>
+<ul>
+<li>Introduction to Machine Learning and JavaScript</li>
+<li>AI JavaScript Meetup: London's fastest growing meetup group focused on AI and JavaScript</li>
+<li>Demo of Emoji Fire, a real-time emotion detection app using TensorFlow.js</li>
+<li>Mobile Net: A lightweight model for image recognition in browsers</li>
+<li>Computer Vision API by Microsoft: An alternative to building your own image analysis system</li>
+<li>Generative Adversarial Networks (GANs): A deep learning algorithm that generates images from input data</li>
+<li>Demo of a GAN-based cat generator using TensorFlow.js</li>
+<li>Future of Machine Learning and JavaScript: Incorporating AI into websites, e-commerce platforms, and creative applications</li>
+</ul>
+<h2 id="fast-by-default-near-instant-load-times-at-scale-with-gatsbyjs-nicolas-goutay-goto-2019">Fast by Default: Near Instant Load Times at Scale with GatsbyJS • Nicolas Goutay • GOTO 2019</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=p14g-Sep7HY">https://www.youtube.com/watch?v=p14g-Sep7HY</a></p>
+<ul>
+<li>Web performance is crucial for user experience and business metrics.</li>
+<li>Optimizing web performance can lead to increased revenue, reduced latency, and better SEO rankings.</li>
+<li>Tools like Google PageSpeed Insight, Lighthouse, and WebPageTest help monitor and improve website performance.</li>
+<li>GatsbyJS is a framework that focuses on performance optimization by default, making it easier for developers to build fast websites without backend support.</li>
+<li>Falco is an open source tool that helps track website performance over time and compare different scenarios, helping teams identify and fix issues.</li>
+</ul>
+<h2 id="webassembly-beyond-the-browser-dan-callahan-goto-2019">WebAssembly Beyond the Browser • Dan Callahan • GOTO 2019</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=TGo3vJVTlyQ">https://www.youtube.com/watch?v=TGo3vJVTlyQ</a></p>
+<ol>
+<li>WebAssembly is a new platform for running code on the web, allowing developers to use any programming language and compile it into a common binary format.</li>
+<li>It provides a safe sandboxed environment for untrusted code execution, making it ideal for edge computing and IoT devices.</li>
+<li>The Bytecode Alliance aims to standardize WebAssembly executable runtimes outside the browser, creating a universal library format for software distribution.</li>
+<li>WebAssembly can improve performance by up to 10x compared to JavaScript, while reducing memory usage and overhead.</li>
+<li>It enables developers to use their preferred programming language without worrying about compatibility issues across different browsers.</li>
+<li>The future of web development lies in a combination of languages, with WebAssembly providing a unified platform for all.</li>
+</ol>
+<h2 id="internationalization-is-a-piece-of-cake-eli-schutze-ramirez-goto-2019">Internationalization is a Piece of Cake • Eli Schutze Ramirez • GOTO 2019</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=nsGmQ0v36bo">https://www.youtube.com/watch?v=nsGmQ0v36bo</a></p>
+<ol>
+<li>Internationalization is about adapting websites and apps to different languages, cultures, and regions.</li>
+<li>It involves separating content from presentation, using flexible layouts, and providing localized versions for various markets.</li>
+<li>Key standards include Unicode, ICU, CLD, BCP 47, and message formats like I18n.js.</li>
+<li>Use libraries to simplify internationalization, such as format-js, react-intl, and i18next.</li>
+<li>Continuous localization is essential for maintaining a global presence.</li>
+<li>Start early in the design process and consider accessibility.</li>
+<li>Test your website with different languages and cultures.</li>
+<li>Be aware of cultural differences, such as date formats and number systems.</li>
+<li>Use translation memory tools to reduce costs and improve efficiency.</li>
+<li>Always let users choose their preferred language or region settings.</li>
+</ol>
+<h2 id="building-resilient-frontend-architecture-monica-lent-goto-2019">Building Resilient Frontend Architecture • Monica Lent • GOTO 2019</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=TqfbAXCCVwE">https://www.youtube.com/watch?v=TqfbAXCCVwE</a></p>
+<ul>
+<li>Software rewriting is common due to inexperience, fun, technical debt, and changing requirements.</li>
+<li>Enabling constraints through architecture can help make systems resilient to change.</li>
+<li>Source code dependency management: use layered or modular approaches for better isolation and easier testing.</li>
+<li>Conservative code reuse: avoid coupling unrelated code together by copying and pasting when needed.</li>
+<li>Enforce boundaries with automated tools like dependency cruisers to maintain clear directory structures and prevent circular dependencies.</li>
+<li>Encourage open-mindedness in the frontend community, learning from different programming paradigms and languages for building large apps.</li>
+</ul>
+<h2 id="http-headers-for-the-responsible-developer-stefan-judis-goto-2019">HTTP Headers for the Responsible Developer • Stefan Judis • GOTO 2019</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=JfjiFsJsO4E">https://www.youtube.com/watch?v=JfjiFsJsO4E</a></p>
+<ul>
+<li>34-year-old tech-savvy web developer with experience in the early internet days</li>
+<li>Importance of Internet user growth, especially in China, India, and the US</li>
+<li>Blogging about internet statistics and analytics</li>
+<li>Focus on building a better web for everyone</li>
+<li>Understanding HTTP, browsers, and web performance</li>
+<li>Enhancing website security through HTTPS, Content Security Policy (CSP), and Set-Cookie headers</li>
+<li>Compression techniques like gzip and portly</li>
+<li>Responsive image optimization with client hints and WebP support</li>
+<li>Safe data mode in browsers and Google's approach to it</li>
+<li>Feature policy header for controlling browser access to device features</li>
+<li>Privacy concerns and tracking prevention efforts by browsers</li>
+<li>Importance of performance, accessibility, frameworks, and network considerations</li>
+<li>Useful tools like Lighthouse for auditing web pages</li>
+<li>Web safety, affordability, respectfulness, and the need for responsible development</li>
+</ul>
+<h2 id="vue-and-you-matt-danforth-goto-2019">Vue and You • Matt Danforth • GOTO 2019</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=n8ERFbkt_h8">https://www.youtube.com/watch?v=n8ERFbkt_h8</a></p>
+<ol>
+<li>History of frontend development: From vanilla JavaScript to modern frameworks like React, Angular, and Inferno.</li>
+<li>Live coding demonstration using a Star Wars API to showcase data manipulation, pagination, sorting, and component creation.</li>
+<li>Importance of accessibility, performance, and progressive enhancement in web development.</li>
+<li>Use of tools such as beautify, Axios, and Gatsby for efficient frontend development.</li>
+<li>The need for continuous learning and improvement to stay ahead in the fast-paced world of technology.</li>
+</ol>
+<h2 id="reasonml-react-as-a-language-and-what-the-future-looks-like-peter-piekarczyk-goto-2019">ReasonML: React as a Language and what the Future looks like • Peter Piekarczyk • GOTO 2019</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=xGN4BMPbk7Q">https://www.youtube.com/watch?v=xGN4BMPbk7Q</a></p>
+<ol>
+<li>Transcript: A detailed discussion about the JavaScript ecosystem, React, and its related technologies.</li>
+<li>Key points: ReasonML, Expo, Draftbit, BuckleScript, Jest, GraphQL, Apollo, Redux, Y Combinator, Co-founder of Draftbit, Draftbit's history, Draftbit's stack, Draftbit's development process, Draftbit's clients, ReasonML's advantages over JavaScript, ReasonML's ecosystem, and the importance of community.</li>
+<li>Summary: The speaker discussed various technologies in the JavaScript ecosystem, focusing on React and its related tools like ReasonML, Expo, Draftbit, BuckleScript, Jest, GraphQL, Apollo, Redux, Y Combinator, and the importance of a strong community.</li>
+</ol>
+<h2 id="going-serverless-with-vuejs-divya-sasidharan-goto-2019">Going Serverless with VueJS • Divya Sasidharan • GOTO 2019</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=Mu9zKpGhX1Y">https://www.youtube.com/watch?v=Mu9zKpGhX1Y</a></p>
+<ol>
+<li>Chicago-based conference with a local focus on serverless architecture and application development.</li>
+<li>The speaker, Divya Stasi Darrin, uses the narrative device of a hero's journey to explain her story.</li>
+<li>The main character, Sammy Cerberus, is a server worker who faces challenges in scaling their company's pizza rating app.</li>
+<li>To solve this problem, Sammy learns about serverless architecture and cloud computing using AWS Lambda and Firebase.</li>
+<li>The speaker shares her experience building the application with various technologies like React, Redux, and Auth0 for authentication.</li>
+<li>The final result is a working application that scales automatically and provides different access levels based on user roles.</li>
+</ol>
+<h2 id="reaching-beyond-traditional-boundaries-with-clojure-phil-hofmann-goto-2018">Reaching Beyond Traditional Boundaries with Clojure • Phil Hofmann • GOTO 2018</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=2aIWMYcC4Qc">https://www.youtube.com/watch?v=2aIWMYcC4Qc</a></p>
+<pre><code>1. Speaker's love for programming since childhood
+2. Boundary exploration in programming languages and software development
+3. Closure as a creative discipline with unique selling proposition
+4. Practical application of closure in lecture capture tool development
+5. Closure's immutable data structure, atomic reference, and state management
+6. React framework integration for frontend and backend functionality
+7. Hot reloading and keeping state in mobile app development
+8. Fundraising game website using jump run game to save orangutans
+9. Ripple technology for network applications
+</code></pre>
+<p>No context provided: Summary of the speaker's technical presentation.</p>
+<h2 id="persuasive-design-anders-toxboe-goto-2018">Persuasive Design • Anders Toxboe • GOTO 2018</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=1OA--3GoWso">https://www.youtube.com/watch?v=1OA--3GoWso</a></p>
+<ul>
+<li>Persuasive design reduces friction using psychology.</li>
+<li>Intrinsic and extrinsic motivations play a key role in user engagement.</li>
+<li>Tailor experiences to users' goals, providing appropriate challenges.</li>
+<li>Use gamification elements like scoreboards, badges, and achievements.</li>
+<li>Facilitate intrinsic motivation through mastery, feedback, and progression.</li>
+<li>Avoid coercive techniques and focus on persuasion.</li>
+<li>Balance between manipulation and facilitation to create a positive experience.</li>
+</ul>
+<h2 id="why-i-was-wrong-about-typescript-tj-vantoll-goto-2018">Why I Was Wrong About TypeScript • TJ VanToll • GOTO 2018</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=AQOEZVG2WY0">https://www.youtube.com/watch?v=AQOEZVG2WY0</a></p>
+<pre><code>- Typescript is a successful tool due to its commitment to JavaScript standard, typing system, and powerful tooling.
+- It provides an easy learning curve for experienced JavaScript developers while offering advanced features like union types and generics.
+- Typescript's configuration can be challenging in larger projects or teams, but it scales well with the app size.
+- For non-JavaScript developers, Typescript offers a comfortable frontend workflow by bringing them into the JavaScript world.
+- Native Script is another tool that uses Typescript for building iOS and Android apps using JavaScript code.
+- The main challenge in adopting Typescript is its configuration, but it provides significant benefits for larger projects or teams.
+</code></pre>
+<h2 id="a-cartoon-quest-new-adventures-for-webassembly-lin-clark-goto-2018">A Cartoon Quest: New Adventures for WebAssembly • Lin Clark • GOTO 2018</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=rZB9Er8aq4s">https://www.youtube.com/watch?v=rZB9Er8aq4s</a></p>
+<ol>
+<li>WebAssembly (Wasm) is a new assembly language for the web, designed to run on modern browsers and enable faster execution of code.</li>
+<li>Wasm has been in development since 2015 and is now supported by major browsers like Firefox, Chrome, Safari, and Edge.</li>
+<li>It's designed to be portable across different platforms and devices, allowing developers to write code once and run it anywhere.</li>
+<li>WebAssembly can improve performance for heavyweight applications such as Photoshop and AutoCAD, which are now available in browsers.</li>
+<li>Wasm is also useful for serverless edge computing, blockchain applications, and Internet of Things devices due to its low memory requirements and efficient execution.</li>
+<li>The future of WebAssembly will focus on improving performance, portability, and security while expanding its capabilities to support more complex use cases.</li>
+</ol>
+<h2 id="zen-and-the-art-of-convincing-your-company-to-use-rust-ashley-williams-goto-2018">Zen and the Art of Convincing Your Company to Use Rust • Ashley Williams • GOTO 2018</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=Pn-1so-Ibsg">https://www.youtube.com/watch?v=Pn-1so-Ibsg</a></p>
+<ol>
+<li>Convince companies to use Rust</li>
+<li>Introduce new technology gradually with microservices</li>
+<li>Sell Rust, not just the language</li>
+<li>Documentation and tooling are crucial for adoption</li>
+<li>Rust community is welcoming and diverse</li>
+<li>Focus on selling technical merit, not just speed</li>
+<li>Prepare for change, even if it's boring</li>
+<li>Measure impact with data to show improvements</li>
+<li>Solve problems efficiently without losing sight of the problem</li>
+<li>Enjoy learning new technologies and embrace challenges</li>
+</ol>
+<h2 id="make-web-apps-fun-to-build-and-easy-to-refactor-with-elm-daniel-bachler-goto-2017">Make Web Apps Fun to Build and Easy to Refactor with Elm • Daniel Bachler • GOTO 2017</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=ehtn81p06Ow">https://www.youtube.com/watch?v=ehtn81p06Ow</a></p>
+<ol>
+<li>Elm is a functional programming language with static typing and immutability, focusing on web development.</li>
+<li>It has an easy-to-use syntax similar to JavaScript but with better error handling and type safety.</li>
+<li>The language's architecture follows the unidirectional data flow pattern, making it easier for testing and debugging.</li>
+<li>Elm's community is active in maintaining and improving the language, with a focus on real-world applications.</li>
+<li>It can be used for server-side rendering with Node.js, providing concurrency support and efficient handling of complex web apps.</li>
+<li>The language has a learning curve but offers a great experience for developers who prefer functional programming and type safety.</li>
+</ol>
+<h2 id="augmented-reality-challenges-writing-ar-experiences-in-javascript-philipp-nagele-goto-2017">Augmented Reality - Challenges &amp; Writing AR Experiences in JavaScript • Philipp Nagele • GOTO 2017</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=wVOESt-TpSA">https://www.youtube.com/watch?v=wVOESt-TpSA</a></p>
+<ol>
+<li>AR and VR are different concepts, with AR focusing on reality superimposition and VR on virtual content immersion.</li>
+<li>AR adoption is expected to reach mass market in 5-10 years.</li>
+<li>AR technology evolution includes sensing, computing, visualization, and projection components.</li>
+<li>AR experiences can be created using JavaScript APIs, with SDKs providing essential features like location tracking, image recognition, and object detection.</li>
+<li>Wikitude's AR experience is built on a JavaScript framework, allowing developers to create custom AR applications for various platforms.</li>
+</ol>
+<h2 id="why-backend-for-frontend-is-key-for-microservices-brian-grant-krishnan-ramanathan-goto-2017">Why Backend for Frontend Is Key for Microservices • Brian Grant &amp; Krishnan Ramanathan • GOTO 2017</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=PwgQZ8eCGxA">https://www.youtube.com/watch?v=PwgQZ8eCGxA</a></p>
+<ul>
+<li>Discussed the journey of building a Backend for Frontends (BFF) architecture.</li>
+<li>BFF is a pattern that helps in creating backend APIs tailored to specific user experiences, reducing chattiness and improving performance.</li>
+<li>Error handling was discussed using an anti-corruption layer, normalizing errors across different data providers.</li>
+<li>The speaker mentioned the importance of generalized APIs for multiple applications and BFF services as a pragmatic approach.</li>
+<li>A gateway API was introduced to handle mobile application calls to BFF services.</li>
+<li>Consistent error handling and response standardization were emphasized, along with the benefits for client application development.</li>
+</ul>
+<h2 id="javascript-at-uber-dustin-whittle-goto-2017">JavaScript at Uber • Dustin Whittle • GOTO 2017</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=IG9gwgUiqZM">https://www.youtube.com/watch?v=IG9gwgUiqZM</a></p>
+<ul>
+<li>Use JavaScript for web platform with React, Express, and Node.js</li>
+<li>Leverage isomorphic rendering for better performance and scalability</li>
+<li>Utilize React components for standardized UI without writing code</li>
+<li>Employ analytics instrumentation to track user interactions</li>
+<li>Visualize data using powerful libraries like D3.js, Luma GL, and WebGL</li>
+<li>Build an open platform with 3400 microservices for third-party developers</li>
+<li>Use Node SDK for custom experiences in Uber applications</li>
+<li>Contribute back to the community through open source tools and engineering blogs</li>
+<li>Focus on security, performance, and scalability while maintaining a consistent codebase</li>
+</ul>
+<h2 id="css-vs-javascript-trust-vs-control-christian-heilmann-goto-2017">CSS vs. JavaScript, Trust vs. Control • Christian Heilmann • GOTO 2017</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=_3VsoqpnTrs">https://www.youtube.com/watch?v=_3VsoqpnTrs</a></p>
+<ol>
+<li>CSS history: From basic HTML layout to modern features like flexbox, grid, and custom properties.</li>
+<li>Browser support: Importance of checking browser compatibility for new CSS features.</li>
+<li>Accessibility: Ensuring websites are usable by everyone, including those with disabilities.</li>
+<li>Performance: Optimizing CSS code for faster rendering and better user experience.</li>
+<li>Responsive design: Adapting to different screen sizes and devices using media queries.</li>
+<li>Animation: Using CSS animations and transitions for smooth interactions.</li>
+<li>Browser testing: Testing browsers' CSS engines for performance improvements.</li>
+<li>Community: Staying updated with the latest developments in the CSS world through blogs, talks, and conferences.</li>
+</ol>
+<h2 id="introducing-elm-to-a-javascript-app-richard-feldman-goto-2017">Introducing Elm to a JavaScript App • Richard Feldman • GOTO 2017</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=28aJOb1A34o">https://www.youtube.com/watch?v=28aJOb1A34o</a></p>
+<ol>
+<li>Incrementally integrate Elm into existing JavaScript applications by embedding Elm code within the DOM using LMap.</li>
+<li>Use Elm's virtual DOM and data-driven architecture to communicate between Elm and JavaScript apps, preserving guarantees.</li>
+<li>Utilize Elm's subscriptions for bi-directional communication between Elm and JavaScript apps.</li>
+<li>Leverage Elm's worker concept to run Elm business logic as a service without embedding elements on the page.</li>
+<li>Use React components with Elm integration libraries like ElmReact to embed Elm applications within React apps.</li>
+<li>Maintain consistency in communication between Elm and JavaScript apps using data representation for both page appearance and effects.</li>
+<li>Embrace Elm's functional programming approach, which simplifies maintenance and reduces the likelihood of runtime exceptions.</li>
+</ol>
+<h2 id="avoiding-the-nightmare-on-elm-street-thomas-anagrius-goto-2017">Avoiding the Nightmare on Elm Street • Thomas Anagrius • GOTO 2017</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=Qhx81eI5FPs">https://www.youtube.com/watch?v=Qhx81eI5FPs</a></p>
+<ul>
+<li>Thomas discusses his experience with Elm, a functional programming language.</li>
+<li>He highlights the benefits of using Elm for high volume data transformation and real-time applications.</li>
+<li>The timetraveling debugger feature is mentioned as an exciting aspect of Elm.</li>
+<li>The speaker acknowledges the steep learning curve associated with Elm but believes it's worth considering for specific use cases.</li>
+<li>He emphasizes the importance of choosing the right technology for a project and the need to balance performance, maintainability, and developer happiness.</li>
+</ul>
+<h2 id="we-want-webassembly-ben-smith-goto-2017">We Want WebAssembly • Ben Smith • GOTO 2017</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=P2C9bRtCWOA">https://www.youtube.com/watch?v=P2C9bRtCWOA</a></p>
+<pre><code>1. WebAssembly is a low-level assembly language that can be compiled to binary format for various platforms, providing performance boosts and better optimization.
+2. It supports multiple programming languages like C/C++, Rust, and Go, with new languages being added regularly.
+3. WebAssembly can integrate with existing JavaScript code through APIs like Emscripten, allowing developers to use it for web applications.
+4. The future of WebAssembly includes support for garbage collection, exception handling, and integration with other programming languages.
+5. It may enable faster execution of complex tasks such as facial recognition on the client-side without requiring a server.
+6. WebAssembly could potentially become a standard way to compile high-performance code for mobile devices and browsers.
+</code></pre>
+<h2 id="resilience-jeremy-keith-goto-2016">Resilience • Jeremy Keith • GOTO 2016</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=t0dUvs3jQnw">https://www.youtube.com/watch?v=t0dUvs3jQnw</a></p>
+<ol>
+<li>
+<p>Three-step process for building web applications:
+   a. Identify core functionality - Determine the essential features users need, regardless of device or browser.
+   b. Make core functionality available using simplest technology - Ensure it works on every device and browser.
+   c. Enhance - Improve user experience by adding new features for modern browsers and devices.</p>
+</li>
+<li>
+<p>Pushback against the three-step process:
+   a. Easy or naive approach - Critics argue that simple websites can't scale to complex applications.
+   b. Developer convenience vs. User needs - Some believe developers should prioritize their own comfort over user experience.
+   c. Accessibility and responsiveness - Ensuring accessibility and responsiveness can be challenging, especially for older browsers or devices.</p>
+</li>
+<li>
+<p>Tips for building web applications:
+   a. Focus on core functionality - Prioritize essential features that users need across all platforms.
+   b. Embrace progressive enhancement - Start with the simplest technology and enhance for modern browsers.
+   c. Consider accessibility and responsiveness - Ensure your application works well for everyone, regardless of device or browser.</p>
+</li>
+<li>
+<p>Key takeaways:
+   a. Building web applications should be accessible to all users.
+   b. Prioritize core functionality over fancy features.
+   c. Embrace progressive enhancement and accessibility to create a better user experience.</p>
+</li>
+</ol>
+<h2 id="the-frontend-taboo-a-story-of-full-stack-microservices-luis-mineiro-moritz-grauel-goto-2016">The Frontend Taboo: a Story of Full Stack Microservices • Luis Mineiro &amp; Moritz Grauel • GOTO 2016</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=vCzTK4XPfX8">https://www.youtube.com/watch?v=vCzTK4XPfX8</a></p>
+<p>Error</p>
+<h2 id="you-can-use-css-for-that-rachel-andrew-goto-2016">You Can Use CSS For That! • Rachel Andrew • GOTO 2016</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=TNhR6ol9mBc">https://www.youtube.com/watch?v=TNhR6ol9mBc</a></p>
+<ol>
+<li>New CSS features discussed: Flexbox, Grid Layout, Shape, Writing Mode, Custom Properties (CSS variables), Position Sticky, Scroll Snapping.</li>
+<li>Browser support for these features varies; some are still in development or experimental stages.</li>
+<li>Feature query allows checking browser support and enabling/disabling CSS features based on availability.</li>
+<li>Polyfills can be used to fill gaps in browser support, especially for older browsers.</li>
+<li>Grid Layout is a powerful tool for creating responsive layouts; it's worth learning and using now as it will likely become more widely supported in the future.</li>
+<li>Feature testing JavaScript libraries like Lazy Load Content can help optimize website performance by loading content only when needed.</li>
+<li>User Agent specification deals with browser identification, which could be used to provide customized experiences for different browsers.</li>
+</ol>
+<h2 id="javascript-the-cloud-the-rise-of-the-new-virtual-machine-scott-hanselman-goto-2016">JavaScript, the Cloud &amp; the Rise of the New Virtual Machine • Scott Hanselman • GOTO 2016</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=7LZ0Lznq4Aw">https://www.youtube.com/watch?v=7LZ0Lznq4Aw</a></p>
+<ol>
+<li>The speaker discussed various aspects of web development, cloud computing, and technology evolution.</li>
+<li>He emphasized the importance of learning JavaScript for modern web development.</li>
+<li>He highlighted the need to understand the underlying principles behind frameworks like jQuery.</li>
+<li>The speaker advocated for using vanilla JS libraries and frameworks for better performance and scalability.</li>
+<li>He praised cloud computing, particularly serverless architectures, as a powerful tool for developers.</li>
+<li>The speaker also mentioned the importance of learning about web assembly and its potential impact on future web development.</li>
+</ol>
+<h2 id="building-an-app-using-jstypescript-node-electron-100-oss-components-erich-gamma-goto-2016">Building an App Using JS/TypeScript, Node, Electron &amp; 100 OSS Components • Erich Gamma • GOTO 2016</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=uLrnQtAq5Ec">https://www.youtube.com/watch?v=uLrnQtAq5Ec</a></p>
+<ul>
+<li>Transition from traditional IDEs to modern editors like Visual Studio Code</li>
+<li>Focus on efficiency, lightweight, and keyboard-centric editing</li>
+<li>Embrace open source and cross-platform tools for better developer experience</li>
+<li>Use language servers for intelligent code completion, refactoring, and diagnostics</li>
+<li>Leverage extensions for customization and integration with other services</li>
+<li>Maintain a transparent development process with frequent updates and feedback loops</li>
+</ul>
+<h2 id="visual-studio-code-shipping-one-of-the-largest-microsoft-javascript-apps-alex-dima-goto-2016">Visual Studio Code: Shipping One of the Largest Microsoft JavaScript Apps • Alex Dima • GOTO 2016</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=mTKMefhTjh8">https://www.youtube.com/watch?v=mTKMefhTjh8</a></p>
+<ol>
+<li>TypeScript: A powerful tool for JavaScript development, providing type annotations and better code organization.</li>
+<li>Dependency Management: Use AMD (Asynchronous Module Definition) to load dependencies lazily.</li>
+<li>Bundling &amp; Minification: Improve performance by combining multiple files into one and reducing file size.</li>
+<li>Electron: A framework for building cross-platform desktop applications using web technologies.</li>
+<li>Visual Studio Code: An open-source code editor with powerful features, including debugging, syntax highlighting, and intelligent code completion.</li>
+<li>Virtual Scrolling in Editors: Optimize scrolling performance by creating a virtual DOM tree to render only visible elements.</li>
+<li>Performance Profiling: Use developer tools to identify bottlenecks and improve application speed.</li>
+<li>Code Refactoring: Rewrite complex code into simpler, more readable versions for better maintainability.</li>
+</ol>
+<h2 id="beyond-flux-scalable-frontend-architectures-built-upon-publishsubscribe-m-kurze-goto-2016">Beyond Flux - Scalable Frontend Architectures built upon Publish/Subscribe • M. Kurze • GOTO 2016</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=82rrMIf48Zk">https://www.youtube.com/watch?v=82rrMIf48Zk</a></p>
+<ol>
+<li>The speaker discussed the challenges of building large web applications, focusing on complexity and responsiveness.</li>
+<li>He introduced unidirectional data flow as a solution to these problems, mentioning frameworks like Flux (Facebook), Redux, and Event-based architecture (Luxar).</li>
+<li>Flux is a pattern that separates application state into stores, actions, and views. It uses a dispatcher to handle events and communicate between components.</li>
+<li>Redux simplifies the Flux implementation by combining the store and dispatcher into one single state tree. It also eliminates mutable state problems through functional programming techniques.</li>
+<li>Event-based architecture (Luxar) is a framework that uses publish/subscribe patterns to decouple components, making them easier to test and reuse across applications.</li>
+<li>The speaker emphasized the importance of choosing the right architecture for complex web applications based on factors like scalability, performance, and developer experience.</li>
+</ol>
+<h2 id="busy-developers-guide-to-meteorjs-ted-neward-goto-2016">Busy Developer's Guide to MeteorJS • Ted Neward • GOTO 2016</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=uMSY-vWB23w">https://www.youtube.com/watch?v=uMSY-vWB23w</a></p>
+<ol>
+<li>Meteor is a JavaScript framework that aims to simplify web development by combining client and server-side code into one application.</li>
+<li>It uses a reactive programming model, which automatically updates the UI when data changes.</li>
+<li>Meteor has its own package manager called Atmosphere for managing dependencies.</li>
+<li>The framework is built on top of Node.js, using NPM packages and MongoDB as its default database.</li>
+<li>It supports a single codebase for both client and server-side development, with separate environments for each side.</li>
+<li>Meteor has a strong focus on simplicity and ease of use, making it popular among beginners and experienced developers alike.</li>
+<li>The framework is constantly evolving, with new features being added regularly.</li>
+<li>While some may criticize its opinionated approach to database management, others appreciate the flexibility it offers in handling data.</li>
+</ol>
+<h2 id="the-return-of-stream-io-andre-staltz-medeiros-goto-2016">The Return of Stream I/O • Andre 'Staltz' Medeiros • GOTO 2016</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=Tkjg179M-Nc">https://www.youtube.com/watch?v=Tkjg179M-Nc</a></p>
+<ul>
+<li>Introduction to Stream IO and message passing in programming languages</li>
+<li>Comparison of different frameworks: Elm, Closure Script, Core Async, Angular 1/2, NgRx, Cycle.js, React, Flux, Redux, RxJS, Dart, Sunglass UJ, Object Oriented Programming</li>
+<li>Advantages and disadvantages of each framework</li>
+<li>Prediction for the future of programming languages: focus on functional, event-driven, message passing, and concurrency</li>
+<li>Recommendations for using specific languages based on requirements</li>
+</ul>
+<h2 id="elm-friendly-functional-programming-for-the-web-luke-westby-goto-2016">Elm-Friendly Functional Programming For The Web • Luke Westby • GOTO 2016</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=tN5UmM2yZPY">https://www.youtube.com/watch?v=tN5UmM2yZPY</a></p>
+<ul>
+<li>Introducing Elm: A functional programming language for web development.</li>
+<li>Benefits of using Elm: Type system, easy debugging, and a strong community.</li>
+<li>Data types in Elm: Primitive types (int, float, string), tuples, records, and custom types.</li>
+<li>Architecture: Model-View-Update pattern with data-driven UI updates.</li>
+<li>Building an interactive application using Elm: Showcasing a simple stage example.</li>
+<li>Community involvement: Meetups, Slack channels for help and feedback.</li>
+<li>Comparison to TypeScript: Functional programming paradigms offer better focus on problem solving.</li>
+</ul>
+<h2 id="ionic-mobile-app-development-with-a-superpowered-platform-matt-kremer-goto-2016">Ionic: Mobile App Development with a Superpowered Platform • Matt Kremer • GOTO 2016</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=P7NPfjqeXPY">https://www.youtube.com/watch?v=P7NPfjqeXPY</a></p>
+<ul>
+<li>Ionic is a mobile app development framework based on HTML, CSS, and JavaScript.</li>
+<li>It has evolved over the years, starting with nintendo 64 games in 1998 to modern web technologies like jQuery (2006), Angular (2011), and Ionic (2013).</li>
+<li>Ionic allows developers to create hybrid apps that run on iOS and Android using a single code base.</li>
+<li>It offers various features such as push notifications, authentication, and enterprise support.</li>
+<li>The community is strong with regular meetups and an active forum where developers can help each other.</li>
+<li>To learn more about Ionic, visit the official website (ionic.io) or check out their documentation.</li>
+</ul>
+<h2 id="the-post-mvc-age-maarten-hus-goto-2016">The Post-MVC Age • Maarten Hus • GOTO 2016</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=QQxNr6t1HEc">https://www.youtube.com/watch?v=QQxNr6t1HEc</a></p>
+<ol>
+<li>The speaker discussed the PostMVC Age, focusing on component architecture and reactive programming.</li>
+<li>He demonstrated a Google Maps example using Polymer Framework to showcase component isolation, clear input/output semantics, declarative nature, and composability.</li>
+<li>A Todo application was built in Angular 20 as an example of component-based architecture. The speaker highlighted the need for state management and event communication between components.</li>
+<li>Redux was introduced as a solution to these problems, providing a unidirectional data flow and centralized state storage.</li>
+<li>A counter application was used to demonstrate how Redux can handle complex scenarios with dynamically added/removed counters.</li>
+<li>The speaker discussed the benefits of reactive programming using RxJS, including decoupled producer-consumer relationships and powerful operators for manipulating asynchronous events.</li>
+<li>Recommendations were given on when to use Redux or RxJS based on application size and complexity.</li>
+<li>A brief history of component architecture was provided, highlighting the shift from ModelViewController to components in modern frameworks like Angular 2.</li>
+</ol>
+<h2 id="adventures-in-elm-jessica-kerr-goto-2016">Adventures in Elm • Jessica Kerr • GOTO 2016</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=cgXhMc8M4X4">https://www.youtube.com/watch?v=cgXhMc8M4X4</a></p>
+<ol>
+<li>The speaker discusses Elm programming language and its features, focusing on its simplicity, functional programming, and type inference.</li>
+<li>They explain how to create an HTML app using Elm by creating a module for the main view and handling mouse events.</li>
+<li>The speaker emphasizes the importance of encapsulation and immutability in Elm code.</li>
+<li>They mention the benefits of the Elm architecture, such as explicitness and easy refactoring.</li>
+<li>The speaker highlights the community around Elm and its positive aspects.</li>
+<li>They talk about the future of Elm and how it can be used to create live applications.</li>
+</ol>
+<h2 id="javascript-performance-through-the-spyglass-vyacheslav-egorov-goto-2016">JavaScript Performance Through the Spyglass • Vyacheslav Egorov • GOTO 2016</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=r76ZjdzFExg">https://www.youtube.com/watch?v=r76ZjdzFExg</a></p>
+<ol>
+<li>The speaker discussed various aspects of JavaScript performance and optimization.</li>
+<li>They highlighted the importance of understanding a program's high-level logic rather than micro-optimizations.</li>
+<li>A key point was that optimizing compilers like V8 can handle complex code efficiently, but sometimes they need help with specific cases.</li>
+<li>The speaker emphasized the importance of writing reasonable and fast code for performance.</li>
+<li>They mentioned the impact of prototype chains on performance and how to improve them.</li>
+<li>Optimization techniques such as loop unrolling and inlining were discussed.</li>
+<li>The speaker shared insights into V8's internal workings, including its optimization process and limitations.</li>
+<li>They also talked about the importance of understanding compiler behavior and working with it rather than against it.</li>
+<li>The speaker provided tips for writing efficient code, such as avoiding unnecessary operations and using optimized data structures.</li>
+<li>Finally, they stressed the need to understand the context in which a program runs and how it affects performance.</li>
+</ol>
+<h2 id="emulating-a-6502-system-in-javascript-matt-godbolt-goto-2016">Emulating a 6502 system in JavaScript • Matt Godbolt • GOTO 2016</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=7WuRq-Wmw5o">https://www.youtube.com/watch?v=7WuRq-Wmw5o</a></p>
+<ol>
+<li>Speaker discussed emulating 6502 systems, a popular computer chip from the 80s.</li>
+<li>The speaker created a JavaScript emulator for 6502 systems and shared insights into its development.</li>
+<li>They highlighted the importance of timing in these systems and how it affects performance.</li>
+<li>The speaker mentioned various optimization techniques used in their emulator, such as JIT compilation and WebGL rendering.</li>
+<li>They also talked about reverse engineering games to understand their inner workings and crack protection systems.</li>
+<li>The speaker emphasized the importance of community support and collaboration with other developers.</li>
+<li>Finally, they shared resources for learning more about 6502 systems and emulation techniques.</li>
+</ol>
+<h2 id="enhanced-front-end-applications-in-angularjs-13-matias-niemela-goto-2014">Enhanced Front-end Applications in AngularJS 1.3 • Matias Niemela • GOTO 2014</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=CTezvNSQPYw">https://www.youtube.com/watch?v=CTezvNSQPYw</a></p>
+<ul>
+<li>AngularJS 13 talk highlights:</li>
+<li>New features, improvements, and updates in the framework.</li>
+<li>Enhanced validation with form handling, animation support, and material design integration.</li>
+<li>Unit testing using Jasmine, Mocha, and Karma for better debugging.</li>
+<li>Improved performance, especially on mobile browsers.</li>
+<li>Better organization of JavaScript code across files.</li>
+<li>Continued development towards a more efficient framework.</li>
+</ul>
+<h2 id="web-assembly-nick-bray-goto-2015">Web Assembly • Nick Bray • GOTO 2015</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=NhAPPQqKCi8">https://www.youtube.com/watch?v=NhAPPQqKCi8</a></p>
+<ul>
+<li>Web Assembly is a new technology designed to run native code on the web.</li>
+<li>It simplifies browser life by making browsers more efficient and secure.</li>
+<li>The goal is to make running native code in the browser as fast as possible.</li>
+<li>Web Assembly has a binary format that can be compiled from various languages, including JavaScript.</li>
+<li>It supports shared memory and multi-threading for better performance.</li>
+<li>Dynamic linking allows apps to update parts of their code without reloading the entire app.</li>
+<li>The future of web development may involve more native code running in browsers through Web Assembly.</li>
+</ul>
+<h2 id="benchmarking-javascript-vyacheslav-egorov-goto-2015">Benchmarking JavaScript • Vyacheslav Egorov • GOTO 2015</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=g0ek4vV7nEA">https://www.youtube.com/watch?v=g0ek4vV7nEA</a></p>
+<ul>
+<li>Speaker worked on VMs, optimizing compilers, and performance optimization.</li>
+<li>Optimization techniques include loop unrolling, constant folding, and dead code elimination.</li>
+<li>Benchmarking is crucial for understanding performance issues in different VMs.</li>
+<li>Some benchmarks show that v8 has bugs or can be improved.</li>
+<li>Optimizations can sometimes make code slower due to side effects or complexity.</li>
+<li>The speaker shared various examples of optimized and non-optimized code, explaining the tradeoffs.</li>
+<li>Benchmarking is essential for understanding performance issues in different VMs.</li>
+</ul>
+<h2 id="the-front-end-architecture-revolution-david-nolen-goto-2015">The Front End Architecture Revolution • David Nolen • GOTO 2015</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=nDNU2pmuJA8">https://www.youtube.com/watch?v=nDNU2pmuJA8</a></p>
+<ul>
+<li>Simplicity is key in modern software development.</li>
+<li>Embrace immutability and reactive programming for better performance and reasoning power.</li>
+<li>Pick the right data structure, such as immutable data structures like transit or Falkor/Jason graph.</li>
+<li>Use frameworks that support immutability, like React, React Native, and Elm.</li>
+<li>Optimize data transfer with techniques like batching and caching.</li>
+<li>Consider atomic databases for efficient querying and editing capabilities.</li>
+<li>Adopt radical simplicity by representing queries directly in the UI components.</li>
+<li>Use well-tested engineering ideas such as Git and Lisp.</li>
+<li>Focus on removing complexity, even if it means adopting older technologies that have been proven effective.</li>
+</ul>
+<h2 id="conquering-time-with-functional-reactive-programming-sergi-mansilla-goto-2014">Conquering Time with Functional Reactive Programming • Sergi Mansilla • GOTO 2014</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=gT6il5fJyAs">https://www.youtube.com/watch?v=gT6il5fJyAs</a></p>
+<ol>
+<li>The speaker discussed FRP (Functional Reactive Programming) and its applications in JavaScript.</li>
+<li>They explained how RxJS is a reactive programming library that helps manage asynchronous tasks by treating events as first-class citizens.</li>
+<li>The speaker provided examples of using RxJS to handle mouse interactions, dragging, and other UI events efficiently.</li>
+<li>They mentioned some real-world applications of FRP, such as Facebook React, Netflix, SoundCloud, and Microsoft's Windows app.</li>
+<li>The speaker also discussed the potential application of MVC (Model View Controller) in a reactive programming context.</li>
+</ol>
+<h2 id="lessons-learned-from-building-a-css-minifier-stoyan-stefanov-goto-2014">Lessons Learned from Building a CSS Minifier • Stoyan Stefanov • GOTO 2014</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=SV2f3whvvm0">https://www.youtube.com/watch?v=SV2f3whvvm0</a></p>
+<ul>
+<li>Speaker discussed CSS minification and performance optimization.</li>
+<li>He mentioned the importance of understanding CSS syntax, parsing, and transformation tools.</li>
+<li>The speaker shared his experience with various projects related to CSS optimization.</li>
+<li>He emphasized the need for browser support and compatibility when using advanced techniques like shorthand properties, browser-specific CSS, and transforms.</li>
+<li>The speaker encouraged experimentation with different approaches and tools in the field of CSS optimization.</li>
+</ul>
+<h2 id="turbopack-dx-matters-tobias-koppers-goto-2023">Turbopack: DX Matters • Tobias Koppers • GOTO 2023</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=5wPCObSNY5Q">https://www.youtube.com/watch?v=5wPCObSNY5Q</a></p>
+<ol>
+<li>Challenges in web development: Performance, configuration complexity, and tooling improvements.</li>
+<li>NextJS: Improving performance with incremental builds, caching, and parallelization.</li>
+<li>Rust: Efficient language for high-performance applications but slow compilation time.</li>
+<li>Turbo Engine: Incremental computation engine for faster builds and better memory usage.</li>
+<li>Consistency issues in large applications: Handling file changes and propagating values.</li>
+<li>Linting and introspection: Better visualization of build information to improve developer experience.</li>
+<li>Optimization opportunities: Split modules, lazy evaluation, and special optimization for different environments like Edge workers.</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+    
+  </body>
+</html>

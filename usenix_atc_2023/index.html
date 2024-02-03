@@ -1,0 +1,2028 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.1">
+    
+    
+      
+        <title>Usenix atc 2023 - Architect's Insight Hub: Elevate Your Learning Experience</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.45e1311d.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#usenix-atc-23-and-osdi-23-joint-keynote-address-sky-computing" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Architect&#39;s Insight Hub: Elevate Your Learning Experience" class="md-header__button md-logo" aria-label="Architect's Insight Hub: Elevate Your Learning Experience" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Architect's Insight Hub: Elevate Your Learning Experience
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Usenix atc 2023
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Architect&#39;s Insight Hub: Elevate Your Learning Experience" class="md-nav__button md-logo" aria-label="Architect's Insight Hub: Elevate Your Learning Experience" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Architect's Insight Hub: Elevate Your Learning Experience
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tags
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-and-osdi-23-joint-keynote-address-sky-computing" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 and OSDI '23 Joint Keynote Address - Sky Computing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-bifrost-analysis-and-optimization-of-network-io-tax-in-confidential-virtual" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Bifrost: Analysis and Optimization of Network I/O Tax in Confidential Virtual...
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-secretflow-spu-a-performant-and-user-friendly-framework-for-privacy-preserving" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - SecretFlow-SPU: A Performant and User-Friendly Framework for Privacy-Preserving...
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-portunus-re-imagining-access-control-in-distributed-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Portunus: Re-imagining Access Control in Distributed Systems
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-glogs-interactive-graph-pattern-matching-query-at-large-scale" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - GLogS: Interactive Graph Pattern Matching Query At Large Scale
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-cyclosa-redundancy-free-graph-pattern-mining-via-set-dataflowi" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23: Cyclosa: Redundancy-Free Graph Pattern Mining via Set Dataflowi
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-sowalker-an-io-optimized-out-of-coregraph-processing-system-for-second-order" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - SOWalker: An I/O-Optimized Out-of-CoreGraph Processing System for Second-Order...
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-light-dedup-a-light-weight-inline-deduplication-framework-for-non-volatile" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Light-Dedup: A Light-weight Inline Deduplication Framework for Non-Volatile...
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-tidedup-a-new-distributed-deduplication-architecture-for-ceph4" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - TiDedup: A New Distributed Deduplication Architecture for Ceph4
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-loopdelta-embedding-locality-aware-opportunistic-delta-compression-in-inline" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - LoopDelta: Embedding Locality-aware Opportunistic Delta Compression in Inline...
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-tc-gnn-bridging-sparse-gnn-computation-and-dense-tensor-cores-on-gpus" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - TC-GNN: Bridging Sparse GNN Computation and Dense Tensor Cores on GPUs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-legion-automatically-pushing-the-envelope-of-multi-gpu-system-for-billion-scale" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Legion: Automatically Pushing the Envelope of Multi-GPU System for Billion-Scale...
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-bridging-the-gap-between-relational-oltp-and-graph-based-olap" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Bridging the Gap between Relational OLTP and Graph-based OLAP
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-comosum-an-extensible-reconfigurable-and-fault-tolerant-iot-platform-for" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Comosum: An Extensible, Reconfigurable, and Fault-Tolerant IoT Platform for...
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-oakestra-a-lightweight-hierarchical-orchestration-framework-for-edge-computing" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Oakestra: A Lightweight Hierarchical Orchestration Framework for Edge Computing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-explore-data-placement-algorithm-for-balanced-recovery-load-distribution" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Explore Data Placement Algorithm for Balanced Recovery Load Distribution
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-luci-loader-based-dynamic-software-updates-for-off-the-shelf-shared-objects" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Luci: Loader-based Dynamic Software Updates for Off-the-shelf Shared Objects
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-melf-multivariant-executables-for-a-heterogeneous-world" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - MELF: Multivariant Executables for a Heterogeneous World
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-apron-authenticated-and-progressive-system-image-renovation" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - APRON: Authenticated and Progressive System Image Renovation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-zpoline-a-system-call-hook-mechanism-based-on-binary-rewriting" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - zpoline: a system call hook mechanism based on binary rewriting
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-sponge-fast-reactive-scaling-for-stream-processing-with-serverless-frameworks" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Sponge: Fast Reactive Scaling for Stream Processing with Serverless Frameworks
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-on-demand-container-loading-in-aws-lambda" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - On-demand Container Loading in AWS Lambda
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-decentralized-and-stateful-serverless-computing-on-the-internet-computer-blockchain" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Decentralized and Stateful Serverless Computing on the Internet Computer Blockchain
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-pinolo-detecting-logical-bugs-in-database-management-systems-with-approximate" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Pinolo: Detecting Logical Bugs in Database Management Systems with Approximate...
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-autoarts-taxonomy-insights-and-tools-for-root-cause-labelling-of-incidents-in" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - AutoARTS: Taxonomy, Insights and Tools for Root Cause Labelling of Incidents in...
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-avoiding-the-ordering-trap-in-systems-performance-measurement" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Avoiding the Ordering Trap in Systems Performance Measurement
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-aware-automate-workload-autoscaling-with-reinforcement-learning-in-production" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - AWARE: Automate Workload Autoscaling with Reinforcement Learning in Production...
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-nodens-enabling-resource-efficient-and-fast-qos-recovery-of-dynamic-microservice" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23- Nodens: Enabling Resource Efficient and Fast QoS Recovery of Dynamic Microservice...
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-lifting-the-veil-on-metas-microservice-architecture-analyses-of-topology-and" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Lifting the veil on Meta’s microservice architecture: Analyses of topology and...
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-tectonic-shift-a-composite-storage-fabric-for-large-scale-ml-training" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Tectonic-Shift: A Composite Storage Fabric for Large-Scale ML Training
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-calcspar-a-contract-aware-lsm-store-for-cloud-storage-with-low-latency-spikes" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Calcspar: A Contract-Aware LSM Store for Cloud Storage with Low Latency Spikes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-adaptive-online-cache-capacity-optimization-via-lightweight-working-set-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Adaptive Online Cache Capacity Optimization via Lightweight Working Set Size...
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-sage-software-based-attestation-for-gpu-execution" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - SAGE: Software-based Attestation for GPU Execution
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-confidential-computing-within-an-ai-accelerator" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Confidential Computing within an AI Accelerator
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-arbitor-a-numerically-accurate-hardware-emulation-tool-for-dnn-accelerators" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Arbitor: A Numerically Accurate Hardware Emulation Tool for DNN Accelerators
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-bridging-the-gap-between-qoe-and-qos-in-congestion-control-a-large-scale-mobile" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Bridging the Gap between QoE and QoS in Congestion Control: A Large-scale Mobile...
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-farreach-write-back-caching-in-programmable-switches" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - FarReach: Write-back Caching in Programmable Switches
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-cxl-anns-software-hardware-collaborative-memory-disaggregation-and-computation" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - CXL-ANNS: Software-Hardware Collaborative Memory Disaggregation and Computation...
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-overcoming-the-memory-wall-with-cxl-enabled-ssd" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Overcoming the Memory Wall with CXL-Enabled SSD
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-styx-exploiting-smartnic-capability-to-reduce-datacenter-memory-tax" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - STYX: Exploiting SmartNIC Capability to Reduce Datacenter Memory Tax
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-change-management-in-physical-network-lifecycle-automation" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Change Management in Physical Network Lifecycle Automation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-aasclepius-monitoring-diagnosing-and-detouring-at-the-internet-peering-edge" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - AAsclepius: Monitoring, Diagnosing, and Detouring at the Internet Peering Edge
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-deploying-user-space-tcp-at-cloud-scale-with-luna" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Deploying User-space TCP at Cloud Scale with LUNA
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-rubbledb-cpu-efficient-replication-with-nvme-of" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - RubbleDB: CPU-Efficient Replication with NVMe-oF
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-distributed-transactions-at-scale-in-amazon-dynamodb" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Distributed Transactions at Scale in Amazon DynamoDB
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-prefix-siphoning-exploiting-lsm-tree-range-filters-for-information-disclosure" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Prefix Siphoning: Exploiting LSM-Tree Range Filters For Information Disclosure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-epf-evil-packet-filter" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - EPF: Evil Packet Filter
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-translation-pass-through-for-near-native-paging-performance-in-vms" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Translation Pass-Through for Near-Native Paging Performance in VMs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-efficient-memory-overcommitment-for-io-passthrough-enabled-vms-via-fine-grained" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Efficient Memory Overcommitment for I/O Passthrough Enabled VMs via Fine-grained...
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-lpns-scalable-and-latency-predictable-local-storage-virtualization-for" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - LPNS: Scalable and Latency-Predictable Local Storage Virtualization for...
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-p2cache-exploring-tiered-memory-for-in-kernel-file-systems-caching" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - P2CACHE: Exploring Tiered Memory for In-Kernel File Systems Caching
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-revisiting-secondary-indexing-in-lsm-based-storage-systems-with-persistent-memory" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Revisiting Secondary Indexing in LSM-based Storage Systems with Persistent Memory
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-zhuque-failure-is-not-an-option-its-an-exception" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Zhuque: Failure is Not an Option, it’s an Exception
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-envpipe-performance-preserving-dnn-training-framework-for-saving-energy" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - EnvPipe: Performance-preserving DNN Training Framework for Saving Energy
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-decentralized-application-level-adaptive-scheduling-for-multi-instance-dnns-on" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Decentralized Application-Level Adaptive Scheduling for Multi-Instance DNNs on...
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-unfaasener-latency-and-cost-aware-offloading-of-functions-from-serverless-platforms" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23- UnFaaSener: Latency and Cost Aware Offloading of Functions from Serverless Platforms
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-llfree-scalable-and-optionally-persistent-page-frame-allocation" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - LLFree: Scalable and Optionally-Persistent Page-Frame Allocation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-singularfs-a-billion-scale-distributed-file-system-using-a-single-metadata-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - SingularFS: A Billion-Scale Distributed File System Using a Single Metadata Server
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-the-hitchhikers-guide-to-operating-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - The Hitchhiker's Guide to Operating Systems
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-accelerating-distributed-moe-training-and-inference-with-lina" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Accelerating Distributed MoE Training and Inference with Lina
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-smartmoe-efficiently-training-sparsely-activated-models-through-combiningand" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - SmartMoE: Efficiently Training Sparsely-Activated Models through Combiningand...
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-msrl-distributed-reinforcement-learning-with-dataflow-fragments" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - MSRL: Distributed Reinforcement Learning with Dataflow Fragments
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-beware-of-fragmentation-scheduling-gpu-sharing-workloads-with-fragmentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Beware of Fragmentation: Scheduling GPU-Sharing Workloads with Fragmentation...
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-towards-iterative-relational-algebra-on-the-gpu" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - Towards Iterative Relational Algebra on the GPU
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usenix-atc-23-vectorvisor-a-binary-translation-scheme-for-throughput-oriented-gpu-acceleration" class="md-nav__link">
+    <span class="md-ellipsis">
+      USENIX ATC '23 - VectorVisor: A Binary Translation Scheme for Throughput-Oriented GPU Acceleration
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Usenix atc 2023</h1>
+
+<h2 id="usenix-atc-23-and-osdi-23-joint-keynote-address-sky-computing">USENIX ATC '23 and OSDI '23 Joint Keynote Address - Sky Computing</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=AuNfxVLdo0A">https://www.youtube.com/watch?v=AuNfxVLdo0A</a></p>
+<ul>
+<li>The speaker is discussing "Sky Computing", a new lab at their university.</li>
+<li>They believe Sky Computing will happen, and are trying to answer three questions: why Sky will happen, what it looks like, and their early experience with it.</li>
+<li>The speaker references the first internet demo in 1977, where packet data was sent between two continents using different network technologies. They draw a parallel to Sky Computing, where they want to abstract away the differences in cloud technologies for users.</li>
+<li>The goal of Sky Computing is to allow users to run applications across multiple clouds, which can provide benefits such as data sovereignty, better hardware matching for specific tasks, cost reduction, and avoiding lock-in with a single cloud provider.</li>
+<li>They mention previous efforts at creating portability layers between clouds, but believe these have not been successful due to the complexity of reimplementing services at a higher layer.</li>
+<li>Instead, they propose a two-sided market approach, where services are implemented across multiple clouds and applications can choose which cloud to use based on their needs and preferences.</li>
+<li>They mention the issue of service incompatibility between clouds, and provide examples of open source and proprietary services that may be incompatible.</li>
+<li>The speaker then provides a simple example of a machine learning pipeline running on Sky, which can abstract away the cloud and choose the best option for the task based on requirements such as data confidentiality and cost minimization.</li>
+<li>They mention the use of an intercloud broker to map application requirements to available services in different clouds, and the importance of billing in a multi-cloud environment.</li>
+<li>The speaker believes that Sky will happen due to growing compatibility sets, market forces, and the desire of cloud providers to participate in these sets. They also mention the potential impact of Sky on research and innovation.</li>
+</ul>
+<h2 id="usenix-atc-23-bifrost-analysis-and-optimization-of-network-io-tax-in-confidential-virtual">USENIX ATC '23 - Bifrost: Analysis and Optimization of Network I/O Tax in Confidential Virtual...</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=E47Jgd6zXW8">https://www.youtube.com/watch?v=E47Jgd6zXW8</a></p>
+<ul>
+<li>The transcript is from a university talk about data security in cloud computing.</li>
+<li>Confidential VMS (CVMS) and CVN Hardware are proposed for secure cloud computing, providing OS level confidential computing with memory isolation and hardware encryption.</li>
+<li>Traditional VMS have been compromised, leading to disclosed sensitive data in Real Estate Services and Financial Services.</li>
+<li>GDPR has established and enforced data security regulations.</li>
+<li>CVMS provide good compatibility and transparency for application workloads.</li>
+<li>The growth of mobile network devices and ethernet speed is discussed.</li>
+<li>End-to-end encryption, POS forced dial data, and enhanced performance with extended filter are mentioned.</li>
+<li>The impact of end-to-end network performance on 3BM's network IO intensive application benchmark is evaluated.</li>
+<li>A serial attack scenario is described, focusing on CPU time spent on security protection intrinsic Network IO procedure.</li>
+<li>The non-red component histogram shows that the cvms comparison Baseline overhead mainly comes from um access tax and technical setting text.</li>
+<li>Synthetic protection secure state instance happens transiently, consuming large CPU cycles when receiving clear register add in CBM.</li>
+<li>Next Generation ethereum Hardware with bounce buffer is analyzed for traditional rear memory shared hypoider headquarters copy package directly to shared memory.</li>
+<li>The Rainbow Bridge north mythology metaphorically represents secure Rapid iodta transfer Syrian Ultra or share threat model existing cvms TCB.</li>
+<li>Design goals include performance, negative text largely reduced future hardware focus reducing bounce power tax, technically processing tax much possible time, maintaining level security guarantee, and practicality.</li>
+<li>The proposed defrost CVMS design focuses on zero copy encryption deduplication and eliminates payload bouncing.</li>
+<li>A backend-focused architecture is suggested to improve network performance by addressing the challenge of fully loaded CPUs.</li>
+<li>The prototype has low code complexity and achieves large performance improvement, but it cannot outperform the Baseline in certain scenarios.</li>
+</ul>
+<h2 id="usenix-atc-23-secretflow-spu-a-performant-and-user-friendly-framework-for-privacy-preserving">USENIX ATC '23 - SecretFlow-SPU: A Performant and User-Friendly Framework for Privacy-Preserving...</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=X20APC8c9pQ">https://www.youtube.com/watch?v=X20APC8c9pQ</a></p>
+<ul>
+<li>The transcript is from a conference presentation about the Secret Flow SPU project.</li>
+<li>The presenter discusses the importance of data privacy and security in machine learning.</li>
+<li>Secure Multiple Party Computation (MPC) is introduced as a solution to protect sensitive data during processing.</li>
+<li>A demo is shown to illustrate how MPC works, with three parties (Alice, Bob, Charlie) calculating the sum of their salaries without revealing individual amounts.</li>
+<li>The presenter then introduces Privacy-Preserving Machine Learning (PPML), which allows multiple parties to train machine learning models without exposing individual training data.</li>
+<li>MPC and PPML are distinct fields with different priorities, but integrating them is a challenge.</li>
+<li>Existing frameworks attempt to bridge this gap, either as general-purpose NPC compilers or by encapsulating cryptographic primitives in customized machine learning APIs.</li>
+<li>The presenter then introduces the Secret Flow SPU framework, which contains a compiler that converts ML model bytecodes into instructions for a high-performance runtime operating on a specific MPC protocol.</li>
+<li>The goal of Secret Flow SPU is to be user-friendly, extensible, and high-performance.</li>
+<li>The presenter concludes by mentioning the importance of GPT2 inference in the context of PPML.</li>
+</ul>
+<h2 id="usenix-atc-23-portunus-re-imagining-access-control-in-distributed-systems">USENIX ATC '23 - Portunus: Re-imagining Access Control in Distributed Systems</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=J50rieOdMRQ">https://www.youtube.com/watch?v=J50rieOdMRQ</a></p>
+<ul>
+<li>Tanya is discussing Fortuna, a geographical key management system built using attribute-based encryption variant of public key cryptography.</li>
+<li>The system allows access control and keeps customer key knowledge hidden.</li>
+<li>It's an alternative to the usual strategy of using a central party or arbiter for access control in distributed systems.</li>
+<li>TLS termination is discussed as a problem where the infrastructure provider needs access to the customer's private key.</li>
+<li>Fortuna's solution involves a globally synchronized key value store (Quicksilver) that distributes customer configuration to edge machines.</li>
+<li>The challenge is to provide edge lower latency, high availability, fault tolerance, and comply with regulations like keeping the key accessible within the EU.</li>
+<li>Three options are discussed: centralizing access control logic, sending the key to an EU-based data center, or using public key crypto.</li>
+<li>The chosen solution involves key rotation and a variant of ABE that uses ciphertext policy for expressing access control.</li>
+<li>The system includes a key generation authority, an edge machine, and a machine provisioning database.</li>
+<li>The edge machine validates the set attribute and terminates the handshake if it can decrypt the data.</li>
+<li>The talk also discusses the challenge of decryption performance and the solution involving symmetric key crypto.</li>
+<li>The speaker mentions that the use of ABE is not widespread and lacks standardization.</li>
+</ul>
+<h2 id="usenix-atc-23-glogs-interactive-graph-pattern-matching-query-at-large-scale">USENIX ATC '23 - GLogS: Interactive Graph Pattern Matching Query At Large Scale</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=qF17EMpEog4">https://www.youtube.com/watch?v=qF17EMpEog4</a></p>
+<ul>
+<li>The transcript is from a conference presentation about the design of an interactive graph query system called "geologs".</li>
+<li>The system is designed to handle large-scale graphs and support complex graph pattern matching queries.</li>
+<li>It aims to simplify the trial-and-error process typically involved in such queries, especially for non-expert users.</li>
+<li>Features of the system include:</li>
+<li>Support for a collaborative language called Grammy Cipher.</li>
+<li>Automatic optimization for performance tuning.</li>
+<li>Expected support for distributed execution across a cluster.</li>
+<li>The presentation compares geologs with existing solutions like Neo4j and TigerGraph, highlighting their strengths and weaknesses.</li>
+<li>The speaker introduces a new 4G Tech graph database that supports Cypher and GraphQL but lacks automatic optimization and distributed execution features.</li>
+<li>The speaker discusses the challenges in designing an igpm system and proposes solutions to overcome them.</li>
+<li>The proposed Glog system consists of three modules: user frontend, backend, and graph specifier.</li>
+<li>The system is designed to optimize GPM execution plans using higher-order statistic patterns stored in the innovative Glog structure.</li>
+<li>The distributed data flow engine in the backend module organizes executors corresponding to nodes in the cluster and partitions large graphs across clusters for efficient query processing.</li>
+<li>The graph specifier module is responsible for specifying the original large graph as a smaller one that maintains accuracy in pattern frequency estimation.</li>
+<li>The speaker highlights the importance of performance in the GPM system and compares execution plans generated by geologs, Neo4j, and Dulux, showing geologs' superiority in intermediate result size.</li>
+</ul>
+<h2 id="usenix-atc-23-cyclosa-redundancy-free-graph-pattern-mining-via-set-dataflowi">USENIX ATC '23: Cyclosa: Redundancy-Free Graph Pattern Mining via Set Dataflowi</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=ooJvvgOIk34">https://www.youtube.com/watch?v=ooJvvgOIk34</a></p>
+<ul>
+<li>The transcript is from a presentation at Tru Huad University Science Technology.</li>
+<li>The presenter introduces the Research Graph Pattern Mining System, which aims to solve redundant computation problems in graph mining.</li>
+<li>The system uses an embed-centric paradigm, which avoids storing subgraphs and intermediate isomorphism checks by using pattern structure to guide exploration.</li>
+<li>This approach reduces the workflow significantly and avoids unnecessary partial instances.</li>
+<li>Redundant computation exists even in optimal search spaces due to repeated set intersections. The presenter identifies two categories of redundant computation: explicit (performed between neighboring subgraphs) and implicit (performed within search paths).</li>
+<li>The proposed solution is a new abstraction at the operator level, rather than the set formula level, which allows for better tracking and prediction of redundant computations.</li>
+<li>The system uses a data reuse possibility set data flow directed graph to indicate set transfer between operators, enabling fine-grained pattern analysis and decoupling of set operators from operators.</li>
+<li>The presenter introduces the Cyclosa prototype system, which has three major tasks: analyzing user input patterns, generating efficient set data flows, and scheduling set data flows for operator execution.</li>
+<li>Cyclosa supports three basic set operators (range-based data flow graph, time-based execution engine, and set manager) and uses a two-phase pattern analysis approach that considers pattern data graph features and symmetry breaking.</li>
+<li>The system uses dual IDs to identify sets and operators, ensuring correctness and saving memory space.</li>
+<li>Cyclosa has been tested for efficiency and outperforms other works in handling explicit and implicit redundancies. It also supports fine-grade load balancing and shading among sets.</li>
+</ul>
+<h2 id="usenix-atc-23-sowalker-an-io-optimized-out-of-coregraph-processing-system-for-second-order">USENIX ATC '23 - SOWalker: An I/O-Optimized Out-of-CoreGraph Processing System for Second-Order...</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=g7JD1TppoBY">https://www.youtube.com/watch?v=g7JD1TppoBY</a></p>
+<ul>
+<li>The transcript is from a conference about using second order random work in graph processing systems.</li>
+<li>Second order random work is powerful for extracting information from graphs, as it considers recent work history and previous vertex selection.</li>
+<li>Traditional random work uses first order markup model, assuming transition probability depends only on the current vertex, not previous information.</li>
+<li>Encouraging results have been obtained with second order random work, showing its necessity in considering higher order structure of real world data.</li>
+<li>AutoCore graph processing systems are proposed to make it cheaper and easier to analyze large graphs.</li>
+<li>Current systems load all work for a block into memory when loading the block, leading to extra IO for updatable works.</li>
+<li>The transcript suggests two factors to improve second order random work efficiency: avoiding loading nonupdatable works and loading many updateable works.</li>
+<li>A concept of work Matrix is introduced, which represents the dimensionality Matrix with numbered blocks created or updated based on work state elements.</li>
+<li>The system uses a succinct data structure to encode work in 128 bits for compact organization.</li>
+<li>The existing block scheduling model is limited as it ignores dependencies between blocks, leading to nonoptimal block scheduling and low utilization.</li>
+<li>Simulated annealing method provides an approximate solution much simpler than linear programming methods for solving the problem.</li>
+<li>The system's managed work block granularity restricts work updating, which hinders efficient work updating.</li>
+<li>An experiment is conducted using two representative second order random work based algorithms (ASO worker and graph worker) on a test bed with two graphs.</li>
+<li>Results show that the graph worker achieves significant performance improvement compared to the ASO worker.</li>
+<li>The left figure shows average IO utilization, where the graph worker has the highest utilization and work updating rate.</li>
+<li>The right figure demonstrates similar performance trends for both algorithms in terms of speedup.</li>
+</ul>
+<h2 id="usenix-atc-23-light-dedup-a-light-weight-inline-deduplication-framework-for-non-volatile">USENIX ATC '23 - Light-Dedup: A Light-weight Inline Deduplication Framework for Non-Volatile...</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=dQzjK--oikw">https://www.youtube.com/watch?v=dQzjK--oikw</a></p>
+<ol>
+<li>TC talks about memory-based storage methods, such as Intel's Optane DC Persistent Memory, which are expensive but can enlarge logical space and reduce cost through basic workflow duplication in the file system.</li>
+<li>Cisco's persistence data duplication file system performs identification first, calculates hash data fingerprints for duplicated files, and uses a metadata table to determine redundant data.</li>
+<li>The system increments the reference count for non-redundant data and simply writes data with a reference count of 1.</li>
+<li>Two methods of calculating fingerprints are discussed: using noncryptographic hash access (faster, less safe) and cryptographic hash functions like SHA256 (slower, more secure).</li>
+<li>The text discusses the potential benefits of using non-crypto hash in byte container comparison for MDM software I/O bottleneck reduction.</li>
+<li>Existing works often focus on exploiting I/O asymmetry and using noncryptographic hash for byte content comparison but fail to fully utilize their benefits.</li>
+<li>The text highlights five common features that could impact MVM deduplication file systems: data distribution, update frequency, metadata overhead, access patterns, and software-defined storage.</li>
+<li>The author focuses on two important components of duplication file systems: redundant identification management and deduplication methods.</li>
+<li>A naive hash-based file system is introduced for comparison, but it incurs much higher latency compared to the Nova system due to synchronous latency hidden by fingerprint calculation.</li>
+<li>The text proposes using memory prefetch instructions or hardware prefetching to hide high read latency and improve performance.</li>
+<li>A speculative cross-block prefetch method (CBPP) is introduced, which pre-fetches the next block based on a hint field in metadata, potentially achieving full parallelism in IO operations.</li>
+<li>The authors evaluate CBPP's effectiveness, showing it reduces overall time spent on container comparison.</li>
+<li>A light redundant block identifier (LRBI) component is proposed, which uses noncryptographic hash-based approaches for speculative privilege-based content comparison.</li>
+</ol>
+<h2 id="usenix-atc-23-tidedup-a-new-distributed-deduplication-architecture-for-ceph4">USENIX ATC '23 - TiDedup: A New Distributed Deduplication Architecture for Ceph4</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=UhRRTgebFqE">https://www.youtube.com/watch?v=UhRRTgebFqE</a></p>
+<ol>
+<li>The speaker is discussing a data duplication system using fingerprint indexing for efficient backup in the YouTube system.</li>
+<li>They mention a previous proposal of a centralized architecture, but express concern that application fingerprint indices may conflict with their philosophy.</li>
+<li>The speaker highlights two main issues with existing systems:</li>
+<li>Different applications have different data types, making it difficult to uniformly handle all data.</li>
+<li>Previous duplication methods can disrupt the normal operation of the system due to locking mechanisms.</li>
+<li>They propose a new architecture called D2 that addresses these issues:</li>
+<li>It uses selective level crossover and crawling for efficient deduplication.</li>
+<li>It introduces an event-driven architecture that reacts to external APIs without background work.</li>
+<li>It implements content-defined chunking and a wide shared reference system to minimize generic messages.</li>
+<li>The speaker concludes by mentioning they have conducted experiments showing the reasonableness of their proposed design's performance, and that the source code is available in a personal repository for feedback.</li>
+</ol>
+<h2 id="usenix-atc-23-loopdelta-embedding-locality-aware-opportunistic-delta-compression-in-inline">USENIX ATC '23 - LoopDelta: Embedding Locality-aware Opportunistic Delta Compression in Inline...</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=OAHFt4KCyr0">https://www.youtube.com/watch?v=OAHFt4KCyr0</a></p>
+<ol>
+<li>The transcript is from a conference presentation on the topic of data reduction techniques in backup systems.</li>
+<li>Two common methods are mentioned: data deduplication and data compression, each with their own limitations.</li>
+<li>Data deduplication removes duplicate chunks based on fingerprints but cannot remove redundancy among non-duplicates or highly similar chunks.</li>
+<li>Data compression reduces storage cost by eliminating redundant data, but its effectiveness depends on the sketch indexing technique used.</li>
+<li>The presentation introduces a challenge related to low compression ratio in existing sketch indexing approaches and proposes a solution called Loop dirt.</li>
+<li>Loop dirt is a locality-aware sketch indexing technique that detects similar chunks based on logic and physical locality, improving data compression.</li>
+<li>The presenter also discusses the challenge of low backup throughput caused by extra I/O reading in typical duplication-based backup systems.</li>
+<li>Loop dirt is proposed to improve backup throughput by reducing xgios reading based chunk operations.</li>
+<li>Another challenge mentioned is potential miss similar chunks during writing, which Loop dirt aims to address with a locality-aware filter.</li>
+<li>The presentation concludes with an outline of the data sets used for performance evaluation and results indicating improved compression ratio and restore performance using Loop dirt.</li>
+</ol>
+<h2 id="usenix-atc-23-tc-gnn-bridging-sparse-gnn-computation-and-dense-tensor-cores-on-gpus">USENIX ATC '23 - TC-GNN: Bridging Sparse GNN Computation and Dense Tensor Cores on GPUs</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=Et-kBEnry5Y">https://www.youtube.com/watch?v=Et-kBEnry5Y</a></p>
+<ul>
+<li>The speaker is a fifth-year PhD student from UCSB.</li>
+<li>They are presenting their work on TCGN, a system that bridges Sports Gene computation with dense tensor core GPUs.</li>
+<li>Graphs are everywhere in daily life and are used to analyze social networks, friend recommendations, financial services, power grid failure detection, molecular biology property production, etc.</li>
+<li>TCGN operates in two parts: <ol>
+<li>Basic computation flow: It follows the graph-like operation of PageRank to get information from neighbors and then updates the node itself using the information from its neighbors.</li>
+<li>Basic operators used: Gene general first one is labor aggregation, which follows sparse Matrix multiplication (spmm).</li>
+</ol>
+</li>
+<li>The second computation node feature computation follows sampled tense dense matrix multiplication (node embedded Matrix transpose).</li>
+<li>The speaker discusses the trend in parallel kind development algorithms that leverage powerful units like tensor cores in recent GPUs for deep learning acceleration.</li>
+<li>They highlight the challenge of bridging the gap between basic Gene operations and high-performance GPU units, which is still a challenging task.</li>
+<li>The speaker identifies several challenges:<ol>
+<li>Existing Frameworks like PyTorch and TensorFlow support Deep learning but many focus on dance gym operation optimization.</li>
+<li>The irregular nature of gene computation makes it hard to harvest real performance as it lacks efficient sparse operators.</li>
+<li>There exists a sports library dedicated to developed vendors like Nvidia that leverages CUDA cores for acceleration, but it underutilizes resources in existing GPUs.</li>
+</ol>
+</li>
+<li>The speaker then discusses two directions to address these challenges:<ol>
+<li>Trying to let sparse GN fit dense Gene computation on GPU.</li>
+<li>Letting the GPU face GNNs by profiling basic operations and optimizing the sparse kernel.</li>
+</ol>
+</li>
+<li>The speaker concludes that applying separate operations in either direction could hardly work and suggests a holistic optimization approach for better utilization of GPU resources.</li>
+</ul>
+<h2 id="usenix-atc-23-legion-automatically-pushing-the-envelope-of-multi-gpu-system-for-billion-scale">USENIX ATC '23 - Legion: Automatically Pushing the Envelope of Multi-GPU System for Billion-Scale...</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=_5EXingIu1U">https://www.youtube.com/watch?v=_5EXingIu1U</a></p>
+<ul>
+<li>The transcript is from a well known conference presentation.</li>
+<li>The presenter discusses their work on applying graph neural networks (GNNs) to large-scale DNS work at Alibaba group and Chuchang University.</li>
+<li>They highlight the challenge of handling billion-scale graphs with current GPU capacity, which often reaches its limit with real-world datasets.</li>
+<li>The presenter introduces Legion, a system designed for training large-scale graphs in a practical way using sampling-based methods.</li>
+<li>Legion consists of three key stages: rough sampling, feature extraction model training, and example typical graph stage.</li>
+<li>The Gene model, used in Legion, typically involves two-hop sampling to extract subgraphs and generate mini-batches for filling the model.</li>
+<li>A key issue with traditional GNN systems is that CPU sampling cannot catch up with GPU tuning, leading to a bottleneck.</li>
+<li>To address this, researchers have proposed cash-based systems like Quiver Gene Lab, which use GPU feature caches to minimize CPU-GPU data transform volume and overcome the CPU sampling bottleneck.</li>
+<li>Legion aims to fully explore hardware capability in modern multi-GPU systems for training billion-scale graphs.</li>
+<li>It proposes a hierarchical graph partitioning design to solve the poor multi-GPU cache stability issue, minimize overlap among partitions, and improve load balance.</li>
+</ul>
+<h2 id="usenix-atc-23-bridging-the-gap-between-relational-oltp-and-graph-based-olap">USENIX ATC '23 - Bridging the Gap between Relational OLTP and Graph-based OLAP</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=QVZfKw4XyB0">https://www.youtube.com/watch?v=QVZfKw4XyB0</a></p>
+<ul>
+<li>Speaker from Shanghai Jon University and Alibaba group presents at a conference.</li>
+<li>They introduce the use of graph-based AP for processing dynamic data in various scenarios, such as social media networks.</li>
+<li>Two existing solutions for dynamic graph analytical processing are discussed: <ul>
+<li>ETL process with relational data stored in a graph system. This method provides good TP performance but has poor data freshness due to costly and lengthy data transformation processes.</li>
+<li>Graph database systems that store data natively as a graph, offering better freshness but slower performance for transactional data management.</li>
+</ul>
+</li>
+<li>A new computing model called Hybrid Transactional Analytical Processing (HTAP) is introduced, which provides the capability for real-time querying of data generated by transactions, achieving high performance and data freshness.</li>
+<li>The speaker presents their solution, HDJP, based on the HTAP model, addressing two unique design goals:<ul>
+<li>Preventing users from rewriting TP/JP requests by decoupling interfaces using a data menu population model convention.</li>
+<li>Ensuring efficient dynamic graph storage with high performance and data freshness using local replayers to update graph data and supporting concurrent reading and writing operations.</li>
+</ul>
+</li>
+<li>The HDJP system is designed to handle three key problems in existing general-purpose dynamic graph storage:<ol>
+<li>Topology storage (CSR) that supports efficient edge scanning but is immutable, making new edge insertion costly.</li>
+<li>Multi-version concurrency control (MVCC) that introduces overhead and breaks temporary locality during updates.</li>
+<li>Efficient property storage models for JP workloads with almost fixed access patterns.</li>
+</ol>
+</li>
+<li>The HDJP system redesigns dynamic graph storage, focusing on topology storage, MVCC poverty, and efficient property storage models.</li>
+<li>An evaluation of the HDJP system is conducted through experiments on two machines serving as both OLTP and OLAP servers, extended from standard benchmarks like LDBC-SD and TPC-C to accommodate HTGP workloads.</li>
+<li>The HDJP system is compared with offline solutions combined with state-of-the-art OLTP systems and graph systems, as well as an online solution using a graph database called Neo4j. The HDJP system achieves comparable performance to the online solution, outperforming the offline solution by an order of magnitude due to efficient graph storage and freshness.</li>
+<li>The speaker thanks the audience for listening and notes that the source code for the experiment is also available.</li>
+</ul>
+<h2 id="usenix-atc-23-comosum-an-extensible-reconfigurable-and-fault-tolerant-iot-platform-for">USENIX ATC '23 - Comosum: An Extensible, Reconfigurable, and Fault-Tolerant IoT Platform for...</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=E7L5lP1EmrI">https://www.youtube.com/watch?v=E7L5lP1EmrI</a></p>
+<ul>
+<li>The speaker is GL Bamba, a PhD candidate in computer science at Allrell University.</li>
+<li>They are discussing Kamasan, an extensible and reconfigurable platform for digital agriculture.</li>
+<li>The project is a joint work with M Cornell, Shang Wan, Chin Sail, Atatu Muid, Reman Jose Martinez, Hakim Wepon, and other team members.</li>
+<li>The project aims to convert data into actionable insights to support decision making in farming.</li>
+<li>The speaker highlights the challenges of massive data collection, storage, and analysis in digital agriculture.</li>
+<li>They mention the need for a system that can tolerate equipment failure and unreliable power, which are common in rural areas.</li>
+<li>The speaker also discusses the challenge of vendor locking, where farmers are dependent on a single provider for their data and insights.</li>
+<li>Kamasan is designed to be flexible and adaptable, able to work with different sensors, networks, and geographies.</li>
+<li>The system uses a software-defined networking (SDN) approach, with a data plane for sensor data generation and transmission, and a control plane for configuration and analytics.</li>
+<li>The speaker also mentions the use of RPC protocol to ensure module network agnostic communication.</li>
+<li>They present three case studies: water guard for water stress alert in crops, vineyard disease detection, and cow fitness monitoring.</li>
+<li>The system has been deployed in various farms, including apple orchards, hemp corn strawberry tomato growing experiments, and a dairy farm.</li>
+<li>The speaker also mentions the challenge of cloud-based systems, which can be complex to configure and manage, and can suffer from deprecated APIs.</li>
+<li>They conclude by acknowledging the contributions of various individuals and organizations in the project.</li>
+</ul>
+<h2 id="usenix-atc-23-oakestra-a-lightweight-hierarchical-orchestration-framework-for-edge-computing">USENIX ATC '23 - Oakestra: A Lightweight Hierarchical Orchestration Framework for Edge Computing</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=tdwTqPh8lH0">https://www.youtube.com/watch?v=tdwTqPh8lH0</a></p>
+<ul>
+<li>Transcript is from a presentation on Orchestra, a lightweight hierarchical orchestration framework for Edge Computing.</li>
+<li>The presenter discusses the challenge of managing applications on constrained Edge devices, which may have heterogeneous hardware and network connectivity.</li>
+<li>A toy example of a microservice application (AR pipeline) is used to illustrate the concept of orchestration. This application consists of three services: camera, object detection, and tracking.</li>
+<li>The presenter compares the traditional approach of using a centralized orchestration platform like Kubernetes with Orchestra's hierarchical approach.</li>
+<li>Orchestra is designed as a three-tier system: worker node, cluster orchestrator, and root orchestrator. Each tier has specific components and responsibilities.</li>
+<li>The worker node consists of a node engine (for maintaining application state), net manager (for networking processes), and execution runtime (for running applications).</li>
+<li>The cluster orchestrator manages worker nodes within a geographical area, keeping track of their status and scheduling decisions. It communicates with worker nodes via MQTT.</li>
+<li>The root orchestrator provides an interface for application deployment and manages multiple clusters. It uses delegated scheduling to distribute workloads across clusters based on their capabilities and constraints.</li>
+<li>The presenter also mentions the concept of aggregation services, which can be balanced across instances in a cluster using different policies (like round robin or closest).</li>
+<li>The implementation of Orchestra is open-source and modular, with a focus on lightweight design. It has been tested to perform better than Kubernetes in terms of resource consumption.</li>
+<li>A use case of an AR application is used to demonstrate the benefits of using Orchestra, showing improvements in footprint and processing time compared to running the application natively without any orchestration platform.</li>
+</ul>
+<h2 id="usenix-atc-23-explore-data-placement-algorithm-for-balanced-recovery-load-distribution">USENIX ATC '23 - Explore Data Placement Algorithm for Balanced Recovery Load Distribution</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=I9WrwbNS6pM">https://www.youtube.com/watch?v=I9WrwbNS6pM</a></p>
+<ul>
+<li>Video transcript from a conference about data placement algorithm for distributed storage systems.</li>
+<li>Explore Data Placement Algorithm is the title, presented by Junction Laboratory of Qingwai University.</li>
+<li>The research focuses on balancing recovery load distribution in HDFS and GFS systems.</li>
+<li>Recovery process can be paralyzed when dealing with multiple placement groups, leading to slower recovery times.</li>
+<li>Fingerprinting technique is suggested for distributing sufficient numbers of data units across various nodes to balance the recovery load.</li>
+<li>The research question revolves around finding a data placement algorithm that balances recovery load distribution.</li>
+<li>A 3D data placement algorithm is proposed to achieve optimal recovery load distribution, but it's an NP-hard problem.</li>
+<li>The study highlights the importance of balanced recovery load distribution and its impact on overall system performance.</li>
+<li>Recovery load distribution can affect the system expansion process, and a greedy data placement algorithm can help reduce recovery time.</li>
+<li>The transcript suggests that there is still room for exploration in discovering potentially more efficient algorithms.</li>
+</ul>
+<h2 id="usenix-atc-23-luci-loader-based-dynamic-software-updates-for-off-the-shelf-shared-objects">USENIX ATC '23 - Luci: Loader-based Dynamic Software Updates for Off-the-shelf Shared Objects</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=h9-vHlND9ZY">https://www.youtube.com/watch?v=h9-vHlND9ZY</a></p>
+<ul>
+<li>Lucy loader is a dynamic software update tool for off-the-shelf software.</li>
+<li>Existing approaches to dynamic software updates often require changes at the source level or use custom compilers, which can restrict the programming language used.</li>
+<li>Lucy's approach uses relocatable object files and doesn't require handcrafted patches, resulting in binary patch files.</li>
+<li>The approach is designed to be generic and applicable to multiple applications in user space.</li>
+<li>Lucy has been used to dynamically update the Apache web server, which has many external dependencies.</li>
+<li>A common example of a library that would benefit from dynamic updating is the expat XML parser, which had 17 vulnerabilities last year, many of which were severe.</li>
+<li>Lucy's Dynamic Software Update (DSU) capability can perform updates on dynamically linked libraries.</li>
+<li>Lucy uses the dynamic linker to load required chat libraries and performs necessary relocations at runtime.</li>
+<li>Lucy's approach doesn't modify machine instructions, making it safer and simpler.</li>
+<li>Lucy has been used to update the expert Library, which had 81 severe vulnerabilities since 2010.</li>
+<li>Lucy can hide old code and install a user page fault handler to detect access to the old code.</li>
+<li>Lucy uses a designated relocation interface and modifies code in place, making it easier to handle multiple shared object versions in memory.</li>
+<li>Lucy's approach can prevent execution of old library code if an incompatibility is detected.</li>
+<li>Lucy has been tested with the official release of a single patch built for a standard environment and was able to automatically update the library without manual intervention.</li>
+<li>Lucy can perform updates even in stable phases of a distribution, as demonstrated by tests on Debian Buster and Ubuntu LTS versions.</li>
+</ul>
+<h2 id="usenix-atc-23-melf-multivariant-executables-for-a-heterogeneous-world">USENIX ATC '23 - MELF: Multivariant Executables for a Heterogeneous World</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=bkkwaur2GCk">https://www.youtube.com/watch?v=bkkwaur2GCk</a></p>
+<ul>
+<li>Dominic Turner is a PhD student at Lapis University in Hanover.</li>
+<li>He presented the melf approach, which uses Mighty variant executables for profiling in a heterogeneous world.</li>
+<li>The motivation behind this approach is to address issues such as slow service and high latency faced by software engineers when dealing with databases.</li>
+<li>The melf approach allows for function-level granularity in profiling, enabling the profiling of individual functions within an application.</li>
+<li>This is achieved through the use of an overlay manager that allows for the concurrent use of multiple variants across the application.</li>
+<li>The overlay manager uses a synchronized address-based view concept, ensuring consistency and allowing for fast communication between processes.</li>
+<li>The melf approach has been evaluated through four case studies, including performance isolation and profiling maps.</li>
+<li>The Mighty variant elf format is used to incorporate multiple compile-time variants into a single executable file.</li>
+<li>This is done by compiling the source code twice, once with and once without the compiler transformation for profiling.</li>
+<li>The linker then builds an executable that includes both object files, placing the function sections in separate output files.</li>
+<li>A virtual address technique called memory overlaying is used to exchange sections at runtime, ensuring that function pointers remain valid.</li>
+<li>The overlay manager applies the exchange mechanism, allowing for the selection of the appropriate variant at runtime.</li>
+<li>The first case study presented involves performance isolation profiling using memkashd, where the melf approach was able to reduce the performance penalty payed when switching between connections.</li>
+<li>The second case study involves a heterogeneous ISO setup, where two core groups execute different ISA extensions to increase performance.</li>
+<li>The third approach combines the melf approach with thread pool awareness, allowing for the optimal dispatching of jobs to the appropriate core group.</li>
+</ul>
+<h2 id="usenix-atc-23-apron-authenticated-and-progressive-system-image-renovation">USENIX ATC '23 - APRON: Authenticated and Progressive System Image Renovation</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=aZn8UMDuzfw">https://www.youtube.com/watch?v=aZn8UMDuzfw</a></p>
+<ul>
+<li>
+<p>The transcript is from a Microsoft researcher's presentation on Apron, an authenticated proactive system for secure and efficient physical device recovery.</p>
+</li>
+<li>
+<p>The system aims to address issues like system corruption due to file storage errors, software or hardware faults, or postponed updates.</p>
+</li>
+<li>
+<p>The recovery process involves five stages:</p>
+<ol>
+<li>Detection of system corruption.</li>
+<li>Learning from internal/external signals like telemetry.</li>
+<li>Recognition of the need for a reset.</li>
+<li>Solution implementation, such as entering a recovered environment for repair.</li>
+<li>System recovery using a reference image downloaded from a remote or local location.</li>
+</ol>
+</li>
+<li>
+<p>Criticism of existing recovery methods includes:</p>
+<ul>
+<li>Large system image files that require long download times.</li>
+<li>Recovery environments that lack meaningful applications.</li>
+</ul>
+</li>
+<li>
+<p>The proposed Apron system aims to address these issues by:</p>
+<ol>
+<li>Differential recovery of only the necessary data blocks.</li>
+<li>Performing program-specific recovery to minimize system downtime.</li>
+<li>Implementing an interposed storage access strategy for secure device management.</li>
+</ol>
+</li>
+<li>
+<p>The Apron system works in preparation and runtime phases, with a measurement server calculating H3 image metadata and signing the root hash value. This prevents low-rate attacks and ensures data integrity.</p>
+</li>
+<li>
+<p>Evaluation of the system shows improved recovery times compared to full recovery methods, especially in high-latency network environments.</p>
+</li>
+</ul>
+<h2 id="usenix-atc-23-zpoline-a-system-call-hook-mechanism-based-on-binary-rewriting">USENIX ATC '23 - zpoline: a system call hook mechanism based on binary rewriting</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=aC_X0WU-tGM">https://www.youtube.com/watch?v=aC_X0WU-tGM</a></p>
+<ul>
+<li>The transcript is from a conference presentation about system code and user space programs.</li>
+<li>The speaker discusses the use of system code to intercept and redirect execution of user space programs.</li>
+<li>They mention a hook mechanism that can be used to apply user-defined functions transparently to existing applications.</li>
+<li>The speaker mentions DPDK, a user space networking stack, which achieves five times better performance compared to the standard Linux TCP stack.</li>
+<li>They discuss a system configuration mechanism called P Trace, which uses three signaling techniques and SQL for user dispatch.</li>
+<li>The speaker notes that high performance penalty and flux can be issues with certain binary writing approaches.</li>
+<li>They explain the basic binary writing approach for x86 CPUs, using Cisco C Center instructions to trigger system calls.</li>
+<li>The speaker introduces a calling convention loop that defines how system code is invoked and executed in user space programs.</li>
+<li>They mention the use of trampoline code addresses and sampling code to manage address ranges.</li>
+<li>The speaker discusses the need to handle null access termination values and suggests a solution involving three types of memory access: write, execute, and read.</li>
+<li>They mention an execution check during the binary writing phase, which can be done using a bitmap overhead check.</li>
+<li>The speaker compares the measured overhead of their system with that of other systems, noting a smaller overhead for their system.</li>
+<li>They present a summary of their presentation, highlighting the benefits of their system configuration mechanism on existing CPUs.</li>
+</ul>
+<h2 id="usenix-atc-23-sponge-fast-reactive-scaling-for-stream-processing-with-serverless-frameworks">USENIX ATC '23 - Sponge: Fast Reactive Scaling for Stream Processing with Serverless Frameworks</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=mhx0aWhzP6w">https://www.youtube.com/watch?v=mhx0aWhzP6w</a></p>
+<ul>
+<li>Speaker is Mohammed, discussing Sponge, a distributed system for fast and reactive scaling in stream processing.</li>
+<li>Goals of modern stream processing engines: low latency, high throughput, correctness, resource efficiency.</li>
+<li>Real-time data stream processing can be tricky due to irregular and unpredictable data.</li>
+<li>Existing works struggle with scaling stateful operators, which keep state and perform Shuffle operations.</li>
+<li>Sponge aims to provide fast adaptation scaling for both stateless and stateful operators.</li>
+<li>Uses serverless frameworks for rapid handling of problematic situations, balancing stability and fast startup time.</li>
+<li>Challenge: large initialization overhead for network connection in serverless instances.</li>
+<li>Sponge design: composed of compiler and runtime, with the compiler setting data paths and the runtime providing fast reactive scaling.</li>
+<li>Runtime synchronization workload progress compilation phase is much shorter than dynamic optimization methods.</li>
+<li>Uses router operator to redirect data flow between operators, and transient operator for stateful operators.</li>
+<li>Aims to scale system within one second, overcoming challenges of incurring large overhead.</li>
+<li>Implemented in various open-source projects, including Apache Beam and Apache Nemo.</li>
+<li>Supports AWS Lambda service framework and helps manage instance valuation in a cluster.</li>
+<li>Shows performance improvement compared to baseline scaling using VM based scale with VM initialization overhead.</li>
+<li>Able to cover different real-world environment input data patterns, as shown in representative experiments.</li>
+<li>Cost analysis shows Sponge can be more cost effective than provisioned cases, especially during bursts of traffic.</li>
+</ul>
+<h2 id="usenix-atc-23-on-demand-container-loading-in-aws-lambda">USENIX ATC '23 - On-demand Container Loading in AWS Lambda</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=Wden61jKWvs">https://www.youtube.com/watch?v=Wden61jKWvs</a></p>
+<ul>
+<li>The transcript is from a conference talk about AWS Lambda.</li>
+<li>AWS Lambda was launched in 2015 and initially supported deploying code via a zip file or raw code file.</li>
+<li>The platform initially supported a 50MB code limit, which was later raised to 250MB.</li>
+<li>The speaker discusses the challenge of increasing the package size without increasing cold start latency.</li>
+<li>The speaker mentions that customers started asking for more complex deployment methods as they tried to bring a broader range of applications to serverless.</li>
+<li>AWS Lambda increased the code file limit to 10GB, which is a 40x increase from the initial limit.</li>
+<li>This increase allowed customers to use standard container toolkits and chains for creating artifacts for deployment.</li>
+<li>The speaker mentions that the cold start is primarily contributed by downloading the package, and increasing the package size makes the cold start longer.</li>
+<li>AWS Lambda has built a pipeline for handling larger container images, including breaking them into chunks, calculating their hashes, and storing them in S3 using content-addressable storage.</li>
+<li>This allows for deduplication, which can significantly reduce the amount of data that needs to be moved around.</li>
+<li>The speaker also mentions that they've built an on-demand loading container system, which can accelerate container loading by up to 15x.</li>
+<li>They've seen a huge deduplication effect with container images, with up to 100x benefits when customers upload containers.</li>
+<li>The speaker also discusses the use of convergent encryption to allow for deduplication while maintaining security.</li>
+<li>AWS Lambda uses consistent hashing and Erasure coding in their cache design for fault tolerance and high data availability.</li>
+<li>They've built a tiered cache system with L1 local cache, L2 data center level distributed cache, and L3 S3.</li>
+<li>The speaker mentions that they've launched Lambda Snapstart caching distribution to reduce cold start times for Java applications.</li>
+</ul>
+<h2 id="usenix-atc-23-decentralized-and-stateful-serverless-computing-on-the-internet-computer-blockchain">USENIX ATC '23 - Decentralized and Stateful Serverless Computing on the Internet Computer Blockchain</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=y4rVM_dXD5s">https://www.youtube.com/watch?v=y4rVM_dXD5s</a></p>
+<ul>
+<li>The speaker is discussing the Internet Computer platform, a decentralized system for efficient computation.</li>
+<li>The platform is composed of a collection of replicated state machines, each running on independent server machines in partitioned subnets.</li>
+<li>Canister smart contracts, written in languages like Rust, Python, JavaScript, or Motoko, are run on this platform.</li>
+<li>Canisters can send messages to other canisters or make exterior HTTP calls.</li>
+<li>The system is divided into four layers: networking, consensus, message routing, and canister.</li>
+<li>Canisters can make two types of calls: updates (slow, persistent changes) and invocations (fast, non-persistent computations).</li>
+<li>The Internet Computer differs from blockchains in several ways, including its Byzantine fault tolerance, geographical distribution, and self-governance.</li>
+<li>The speaker then focuses on the efficiency of the execution environment, discussing two main challenges: statefulness and deterministic scheduling.</li>
+<li>Statefulness is achieved through a system that maps memory pages on demand and checkpoints canister state at regular intervals.</li>
+<li>Deterministic scheduling is maintained by charging based on instruction count rather than time, and by using instruction-level slicing to ensure fairness.</li>
+<li>The Internet Computer uses context switching and instruction slicing to maintain high throughput.</li>
+<li>The speaker concludes by mentioning the production readiness of the Internet Computer and its growing adoption since May 2021.</li>
+</ul>
+<h2 id="usenix-atc-23-pinolo-detecting-logical-bugs-in-database-management-systems-with-approximate">USENIX ATC '23 - Pinolo: Detecting Logical Bugs in Database Management Systems with Approximate...</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=mirh27_Pwmw">https://www.youtube.com/watch?v=mirh27_Pwmw</a></p>
+<ul>
+<li>The transcript is from a conference presentation about database management system (DBMS) testing.</li>
+<li>The speaker mentions the importance of DBMS, as it is used by many companies worldwide and even caused 9,000 flight delays when it sparked in January 2023.</li>
+<li>A specific type of bug, called a logical bug, is discussed. This bug causes the DBMS to return an incorrect result set given a SQL query.</li>
+<li>An example of a logical bug is provided, where two subqueries are used instead of one, causing inconsistency in the overall result statement.</li>
+<li>The speaker mentions that discovering and fixing logical bugs is challenging because the system may run normally but still produce wrong results.</li>
+<li>Three main lines of work are discussed for improving DBMS testing: differential testing, article guided synthesis, and metamorphic testing.</li>
+<li>Differential testing compares the results of a SQL query from different DBMS implementations. If there is a difference, at least one implementation contains a logical bug.</li>
+<li>Article guided synthesis generates a table containing data and constructs specific SQL statements to test for logical bugs.</li>
+<li>Metamorphic testing tries to construct two input/output pairs that satisfy a given metamorphic relation. If the number of outputs does not equal, at least one query triggers a logical bug.</li>
+<li>The speaker mentions limitations in existing techniques and proposes an advanced version of metamorphic testing that generates a generalized equivalence relation to detect deeply hidden bugs.</li>
+</ul>
+<h2 id="usenix-atc-23-autoarts-taxonomy-insights-and-tools-for-root-cause-labelling-of-incidents-in">USENIX ATC '23 - AutoARTS: Taxonomy, Insights and Tools for Root Cause Labelling of Incidents in...</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=sGsDeJTuhEI">https://www.youtube.com/watch?v=sGsDeJTuhEI</a></p>
+<ul>
+<li>The transcript is from a conference presentation about automating root cause labeling for incident postmortem reports in Microsoft Azure.</li>
+<li>The goal is to analyze and extract insights from past incident reports to reduce future incidents by identifying common root causes.</li>
+<li>Currently, the process of labeling postmortem reports is manual, ambiguous, and often prone to errors due to different taxonomies used by different teams.</li>
+<li>A new tool called Autoarts has been developed to automate this process using a comprehensive root cause taxonomy and machine learning techniques.</li>
+<li>The Autoarts system includes a hierarchical structure for the taxonomy, which facilitates easy navigation and helps in identifying contributing factors behind incidents.</li>
+<li>The system consists of two main tasks: root cause classification and context extraction from postmortem reports.</li>
+<li>The root cause classification module uses a multilabel text classification approach to identify contributing factors based on the taxonomy.</li>
+<li>The context extraction task involves identifying key contexts from the postmortem report to justify the chosen root cause tag.</li>
+<li>Autoarts has been trained using 2000 incident reports and 450 services in Microsoft Azure, with a focus on ensuring quality labeling by involving team incident domain experts for review.</li>
+<li>The system is open-source and continuously evolving, aiming to address issues caused by missing or ambiguous contributing factors in past incidents.</li>
+<li>Manual root cause labeling is still error-prone, while manual analysis can be expensive and not scalable for cloud environments. Autoarts addresses these concerns by automatically labeling given postmortem reports with contributing factors from the hierarchical taxonomy.</li>
+</ul>
+<h2 id="usenix-atc-23-avoiding-the-ordering-trap-in-systems-performance-measurement">USENIX ATC '23 - Avoiding the Ordering Trap in Systems Performance Measurement</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=h3CM16m_Jq4">https://www.youtube.com/watch?v=h3CM16m_Jq4</a></p>
+<ul>
+<li>The transcript is from a conference presentation.</li>
+<li>The speaker talks about a "watering trap" in performance measurement, where the order of benchmark execution can affect results.</li>
+<li>They share an example of a study where memory performance on newer servers was three times worse than on older ones, due to unbalanced memory page allocation.</li>
+<li>The speaker emphasizes the importance of considering system state changes and factors like cache data layout and RAM disk in performance testing.</li>
+<li>They mention a survey of 56 papers from top computer systems conferences, finding that only 7% specified, ran, and discussed an inner experiment reset procedure.</li>
+<li>The methodology they propose for avoiding the "watering trap" involves defining a baseline order, implementing a state reset procedure, and running tests in fixed or random orders.</li>
+<li>They suggest using a nonparametric statistical test like the Wilcoxon-Mann-Whitney test, and correcting for multiple comparisons with the Bonferroni correction.</li>
+<li>The speaker also discusses a long-term performance data set they collected, finding that order can have a significant effect on results in many cases.</li>
+<li>They conclude by emphasizing the importance of considering order when conducting rigorous performance analysis.</li>
+</ul>
+<h2 id="usenix-atc-23-aware-automate-workload-autoscaling-with-reinforcement-learning-in-production">USENIX ATC '23 - AWARE: Automate Workload Autoscaling with Reinforcement Learning in Production...</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=gnOmCb1CG1s">https://www.youtube.com/watch?v=gnOmCb1CG1s</a></p>
+<ul>
+<li>The transcript is from a conference presentation about Auto scaling in Cloud systems.</li>
+<li>The speaker discusses the use of Reinforced Learning (RL) for workload Auto scaling.</li>
+<li>The RL model is trained using data from modern Cloud systems, which generate abundant data through monitoring and measurement.</li>
+<li>The RL agent is designed to optimize specific workloads in a Cloud system, such as small jobs with low load and periodicity.</li>
+<li>The RL agent consists of two parts: policy training and policy serving.</li>
+<li>The speaker highlights the challenge of bridging the gap between the model's advancement and its deployment in production.</li>
+<li>The speaker then focuses on a concrete example of Cloud Resource Management, specifically Auto skating workload.</li>
+<li>The RL agent is modeled as a Markov decision process, with the artificial agent interacting with the environment in a step-by-step fashion.</li>
+<li>The speaker identifies three main challenges in implementing IO-based controllers in real production systems.</li>
+<li>The speaker proposes solutions for each challenge, including reliable Exploration, online serving policy, and model adaptation.</li>
+<li>The speaker introduces the concept of meta learning to address the model adaptation challenge.</li>
+<li>The speaker concludes by presenting the Aware framework, which aims to tackle three challenges in Cloud systems: providing fast adaptation through meta learning, reliable IO Exploration through bootstrapping, and robust online performance.</li>
+</ul>
+<h2 id="usenix-atc-23-nodens-enabling-resource-efficient-and-fast-qos-recovery-of-dynamic-microservice">USENIX ATC '23- Nodens: Enabling Resource Efficient and Fast QoS Recovery of Dynamic Microservice...</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=YKkyh6oAqEY">https://www.youtube.com/watch?v=YKkyh6oAqEY</a></p>
+<ul>
+<li>The transcript is from a conference discussing the complexity of medical service applications.</li>
+<li>Current architecture is monolithic, shifting towards microservices for better distribution and deployment in data centers.</li>
+<li>Challenges include managing dependencies among microservices and handling dynamic load changes.</li>
+<li>A study was conducted on 3000 medical service applications, observing load variation and choreographed proportion variation over time.</li>
+<li>Two types of dynamics were identified: predictable (based on historical data) and unpredictable.</li>
+<li>Current benchmarks support dynamic graph build, but struggle with handling unpredictable dynamics.</li>
+<li>Proposed solution is a runtime system called 'Node' that enables fast skill recovery while maintaining result efficiency.</li>
+<li>Node uses a traffic-based load monitor, an execution blocking graph, and an actual load updating mechanism.</li>
+<li>The system aims to allocate enough resources quickly to handle dynamic changes, reduce long kill recovery times, and maintain high result efficiency.</li>
+</ul>
+<h2 id="usenix-atc-23-lifting-the-veil-on-metas-microservice-architecture-analyses-of-topology-and">USENIX ATC '23 - Lifting the veil on Meta’s microservice architecture: Analyses of topology and...</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=vfsdGdVAwag">https://www.youtube.com/watch?v=vfsdGdVAwag</a></p>
+<ul>
+<li>The transcript is from a conference presentation about microservice architecture.</li>
+<li>The speaker highlights the increasing popularity of microservices, with over 10,000 papers published last year alone.</li>
+<li>A fundamental change in the development landscape, microservices allow for independent team work and quick development of different functionalities.</li>
+<li>The speaker emphasizes that a service unit should be fine-grained enough to schedule, scale, route, and observe different entities.</li>
+<li>An example of a social network application is given, where frontend, stateless services, feed, friend, ad, and database work together to form the application.</li>
+<li>The speaker notes that there is a shared understanding in current literature about microservices, including assumptions about service granularity, deployment, scaling, observability, and topology.</li>
+<li>There is ongoing research into various aspects of microservice architecture, such as topology, request workflow, resource management, and performance profiling.</li>
+<li>The speaker presents the findings of a study on meta microservice architecture, focusing on topology and request workflow.</li>
+<li>The study found that the assumption of service granularity being sufficient for management tasks is true.</li>
+<li>However, the belief that topology is relatively static was found to be false, with significant daily churn in deployed services.</li>
+<li>The study also found that services are simpler than believed, but request workflows are wider and shallower than expected.</li>
+<li>The speaker notes that there is a lot of observability research, especially into deeper traces, and introduces the concept of 'depth' as a reliable metric for predicting characteristics of request workflows.</li>
+<li>The study also found variation in concurrency dependency within child calls.</li>
+</ul>
+<h2 id="usenix-atc-23-tectonic-shift-a-composite-storage-fabric-for-large-scale-ml-training">USENIX ATC '23 - Tectonic-Shift: A Composite Storage Fabric for Large-Scale ML Training</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=F1ffpj8NkzE">https://www.youtube.com/watch?v=F1ffpj8NkzE</a></p>
+<ul>
+<li>Mark is a visiting researcher at Meadow.</li>
+<li>He talks about Tectonic, a file system used for storing data in the data center.</li>
+<li>The system is composed of a metadata layer and a linearly scalable chunk store made up of hard drive based storage nodes.</li>
+<li>Recently, there has been an explosion in demand for AI applications, which require larger and more complex models to be trained.</li>
+<li>This requires scaling the ML infrastructure, both in terms of storage capacity and IOPS (Input/Output Operations Per Second) read bandwidth.</li>
+<li>The traditional approach of using a single server or rack for training is no longer sufficient. Instead, a cluster of thousands of accelerators is needed to train these models.</li>
+<li>The same applies to the storage infrastructure. The traditional approach of provisioning enough storage capacity to store the data set is not enough. There is also a need for enough IOPS read bandwidth to handle the increased demand.</li>
+<li>Mark discusses the idea of a composite storage system, which uses hard drives for storage and SSDs for serving IOPS.</li>
+<li>He mentions that they have built a transparent flash tier, called Tectonic Shift, designed specifically for industrial ML workloads.</li>
+<li>This tier is designed to be transparent to the end user, scalable, fault-tolerant, and able to maximize IOP absorption without storing the entire data set.</li>
+<li>The production ML storage fabric of Tectonic Shift looks like a standard Tectonic cluster with an additional shift cluster made up of flash-based storage nodes.</li>
+<li>The cache policy is specifically tailored to the ML workload and able to maximize IOP absorption.</li>
+<li>Mark also mentions that they have evaluated Tectonic Shift using benchmarks consisting of three production DLRM recommendation model training workloads.</li>
+</ul>
+<h2 id="usenix-atc-23-calcspar-a-contract-aware-lsm-store-for-cloud-storage-with-low-latency-spikes">USENIX ATC '23 - Calcspar: A Contract-Aware LSM Store for Cloud Storage with Low Latency Spikes</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=esHi3z0HdRE">https://www.youtube.com/watch?v=esHi3z0HdRE</a></p>
+<ol>
+<li>The transcript is from a conference presentation about cloud block storage, specifically Amazon EBS.</li>
+<li>Cloud block storage has become organized and safer, leading to widespread adoption by businesses worldwide.</li>
+<li>Amazon EBS is chosen due to its low latency and high predictability, which are crucial for many applications.</li>
+<li>The speaker discusses the trend towards cloud-based application servers and databases.</li>
+<li>Other databases mentioned include RSM store and ASM store.</li>
+<li>Cloud block storage offers guaranteed steady and predictable latency, making it a professional resource.</li>
+<li>The speaker analyzes the latency performance of cloud block storage systems.</li>
+<li>They discuss the importance of observing and appreciating the exercise paid in terms of obvious latency increase.</li>
+<li>An example is given of a city where L2 latency increased significantly due to high load.</li>
+<li>The speaker introduces EBS's low latency characteristic and how it works well with other systems.</li>
+<li>They discuss the concept of CDM figure in cloud block storage.</li>
+<li>The speaker mentions the use of GB2 and GB3 in cloud block storage.</li>
+<li>They discuss the importance of understanding the nature of latency spec and the challenge of quantifying it.</li>
+<li>The speaker suggests that AWS EBS's regular fee control can help manage latency issues.</li>
+<li>They present an equation to configure LPS for better latency performance.</li>
+<li>The speaker discusses the impact of high RPS on latency and how it can be managed.</li>
+<li>They mention the concept of IO overdrafting and its impact on flow.</li>
+<li>The speaker discusses EBS's punishment mechanism for excessive IO requests.</li>
+<li>They present a latency model based on real-world internet latency data.</li>
+<li>The speaker discusses the challenge of cloud storage meeting demanding performance requirements.</li>
+<li>They mention the issue of fluctuation in cloud storage and how it can be handled.</li>
+<li>The speaker introduces the concept of Pro tax to avoid latency battles.</li>
+<li>They propose a solution for managing latency fluctuations in EBS.</li>
+<li>The speaker discusses the importance of proactive control in managing IO load and overdraft.</li>
+<li>They mention the challenge of fluctuation in tech support and education.</li>
+<li>The speaker suggests adopting small workloads to avoid latency battles due to internet regulation.</li>
+<li>They introduce a dynamical time Windows scheduler to reduce latency opportunity.</li>
+<li>The speaker briefly summarizes the latency characteristics of cloud block storage.</li>
+</ol>
+<h2 id="usenix-atc-23-adaptive-online-cache-capacity-optimization-via-lightweight-working-set-size">USENIX ATC '23 - Adaptive Online Cache Capacity Optimization via Lightweight Working Set Size...</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=NHDM8bd_260">https://www.youtube.com/watch?v=NHDM8bd_260</a></p>
+<ul>
+<li>The transcript is from a conference presentation about an adaptive online catching layer for data processing systems.</li>
+<li>The catching layer is used to manage the working set size and improve querying performance.</li>
+<li>The presenter discusses challenges in maintaining optimal data storage, including excessive restores and insufficient capacity.</li>
+<li>The presenter introduces Alexio, a catching layer that has been observed to have a high cache ratio in Presto deployments.</li>
+<li>The presenter highlights the importance of accurately estimating the working set size and item repetition ratio for effective resource allocation.</li>
+<li>The presenter proposes a cookie data structure for managing item information online, with operations for insertion, aging, and deletion.</li>
+<li>The presenter also suggests an optimistic concurrency control strategy called Optimistic Agent 80 for reducing locking contention in the system.</li>
+<li>The presentation evaluates the performance of the proposed system using Twitter Trace data and finds it to be more accurate and stable than existing approaches.</li>
+</ul>
+<h2 id="usenix-atc-23-sage-software-based-attestation-for-gpu-execution">USENIX ATC '23 - SAGE: Software-based Attestation for GPU Execution</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=vpsNlotLJIM">https://www.youtube.com/watch?v=vpsNlotLJIM</a></p>
+<ul>
+<li>The transcript is from a conference presentation about securing GPU execution.</li>
+<li>The presenter, Marco Canadian, is standing in for Andrei Ivanov who couldn't attend due to a visa issue. Benjamin Rothenberg and Adrian Parrig also contributed to the work.</li>
+<li>The motivation for the work is the difficulty of securely executing code on GPUs, which are often used in security-critical domains.</li>
+<li>The proposed solution is a software-based approach called Sage, which provides time-code data integrity secrecy for GPU execution.</li>
+<li>Sage works by verifying the integrity of the code before it's executed on the GPU, and then establishing a secure communication channel between the CPU and GPU.</li>
+<li>The trusted verifier in Sage is responsible for verifying the integrity of the code and setting up the secure communication channel.</li>
+<li>Sage provides verifiable code execution, ensuring that the code executed on the GPU is the same as the code verified by the trusted verifier.</li>
+<li>The presenter discusses the challenges of software-based attestation on GPUs, including the lack of documentation and the difficulty of achieving optimal GPU utilization.</li>
+<li>Sage is architected with a trusted verifier running within a CPU enclave (like Intel SGX), which sends challenges to the GPU device.</li>
+<li>The verification function in Sage computes a checksum of the code running on the GPU, and the key establishment module sets up a secure communication channel between the CPU and GPU.</li>
+<li>The presenter also discusses the challenge of predictable execution time, as any modification of the verification function could be detected by measuring the execution time.</li>
+<li>The presenter concludes by discussing the potential of combining software and hardware solutions for a multi-layer security defense.</li>
+</ul>
+<h2 id="usenix-atc-23-confidential-computing-within-an-ai-accelerator">USENIX ATC '23 - Confidential Computing within an AI Accelerator</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=nTVP6IvFlDY">https://www.youtube.com/watch?v=nTVP6IvFlDY</a></p>
+<ol>
+<li>The speaker is discussing Confidential Computing, a new paradigm in AI that provides strong protection for sensitive data and code.</li>
+<li>Confidential Computing uses a concept called Trusted Execution Environment (TEE) to protect privileged attacks including those on the hypervisor, operating system, and base assumptions.</li>
+<li>The speaker mentions that recent years have seen a new wave of AI Innovation that requires GPUs for cost-efficient training of large models in the cloud. However, this also presents a challenge in terms of confidentiality due to the risk of sophisticated attackers stealing data.</li>
+<li>Confidential Computing is seen as a solution to this problem, providing a strong security mechanism for AI workloads in the cloud.</li>
+<li>The speaker mentions that major CPU vendors have shown support for Confidential Computing over the past 10 years, but there has been limited support for PCI devices. Recently, Nvidia announced Hopper GPUs with Confidential Computing extensions.</li>
+<li>The speaker is working on a development board using TSMC 7 nanometer technology that provides strong security guarantees and isolates the entire device host. It also adds remote attestation using hardware root trust for low performance overhead.</li>
+<li>The speaker introduces the Graphcore IPU architecture, which employs a thousand tiles with multi-threader cores and specialized units for AI workloads. Unlike CPUs and GPUs, it uses flat memory space and core private SRAM for load/store additions.</li>
+<li>The IPU software stack comprises a compiler, runtime, and introduces an abstraction called stream. The compiler takes the input/output and fits it into a unique stream that generates code encapsulated in the IPU binary.</li>
+<li>The speaker discusses the need for a small TCB (Trusted Computing Base) to provide confidentiality and integrity for data computation. They introduce a security paper that makes assumptions about the threat model.</li>
+<li>The speaker then talks about the IPU trust extension, which removes trust from the runtime by decoupling compilation and execution. This is done by preprocessing data and encrypting code and data before shipping it to the cloud runtime.</li>
+<li>The encrypted code and data are decrypted using a GCM encryption engine in the PCI memory path intercept package, which can deliver PCI Gen 4 bandwidth rate.</li>
+<li>The Confidential Computing Unit (CCU) is responsible for managing the life cycle of TE and attesting to the code using the job manifest and provisioning key. It also adds a trusted mode set CCU that creates a TE based on observation training job span.</li>
+<li>The speaker concludes by stating that they believe infrastructure with hyperscale privacy-preserving AI work is foreseeable in the near future, and their work could serve as a blueprint for this.</li>
+</ol>
+<h2 id="usenix-atc-23-arbitor-a-numerically-accurate-hardware-emulation-tool-for-dnn-accelerators">USENIX ATC '23 - Arbitor: A Numerically Accurate Hardware Emulation Tool for DNN Accelerators</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=WvIHZMkGD7o">https://www.youtube.com/watch?v=WvIHZMkGD7o</a></p>
+<ul>
+<li>The transcript is from a conference presentation about the Arbiter, a hardware accelerator for machine learning training.</li>
+<li>The presenter discusses the challenges of optimizing hardware level operations for speed and precision, and how these optimizations can affect model accuracy.</li>
+<li>The Arbiter is designed to estimate the effect of these optimizations more accurately and efficiently than existing methods.</li>
+<li>The Arbiter is open-source and has been used in case studies with popular benchmark data sets, showing significant speed improvements.</li>
+<li>The presenter also mentions the use of low precision arithmetic, sparsity processing, and approximate computing for hardware acceleration.</li>
+<li>The Arbiter can emulate these operations with high precision, which is crucial for accurate machine learning model training.</li>
+<li>The presenter concludes by encouraging the audience to check out the paper and the GitHub page for more information.</li>
+</ul>
+<h2 id="usenix-atc-23-bridging-the-gap-between-qoe-and-qos-in-congestion-control-a-large-scale-mobile">USENIX ATC '23 - Bridging the Gap between QoE and QoS in Congestion Control: A Large-scale Mobile...</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=arT_YQmLKJ0">https://www.youtube.com/watch?v=arT_YQmLKJ0</a></p>
+<ol>
+<li>The transcript is from a conference about congestion control in large-scale mobile app services.</li>
+<li>Quality of Experience (QE) and Quality of Service (QS) are key metrics discussed, with QS being optimized by transport layer protocol delivery capability.</li>
+<li>The authors propose a solution for the mismatch between QE and QS optimization, focusing on end-to-end performance of web requests.</li>
+<li>They emphasize that optimizing QE is challenging due to its complex relationship with QS and the different time scales involved.</li>
+<li>The proposed solution involves introducing a layer in the application layer to select the appropriate Congestion Control Algorithm (CCA) for better QE.</li>
+<li>Two main questions are addressed: selecting the best CCA based on QE mean, and switching CCAs without traffic interruption due to dynamic network conditions.</li>
+<li>The authors propose a framework called Flu, which uses reinforcement learning to build a prediction model for CCA preference.</li>
+<li>Flu also introduces a mechanism for smooth switching between CCAs, addressing the challenges of new CCAs starting in slow-start phase and network condition mismatches.</li>
+</ol>
+<h2 id="usenix-atc-23-farreach-write-back-caching-in-programmable-switches">USENIX ATC '23 - FarReach: Write-back Caching in Programmable Switches</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=VVP0J8l9wlI">https://www.youtube.com/watch?v=VVP0J8l9wlI</a></p>
+<ol>
+<li>The study aims to improve the performance of key-value stores, particularly for write-intensive workloads which have become dominant in production environments.</li>
+<li>A programmable switch architecture is proposed to address this challenge, consisting of a control plane and data plane.</li>
+<li>The data plane includes multiple pipelines, with each pipeline containing series stages that process requests and responses within the switch memory.</li>
+<li>A write policy is deployed on the switch cache, which absorbs in-switch records instead of updating the server immediately to improve performance.</li>
+<li>However, this approach faces challenges such as restricted programming language for the switch data plane, limited resources for offloading cache management, and slow controller processing that may encourage latency in the switch data plane.</li>
+<li>The availability challenge is addressed by proposing a far-RICH (Reliable In-switch Cache) policy to ensure the latest record is always available to clients.</li>
+<li>A prototype has been implemented based on the Tofino switch, and extensive experiments have shown that it achieves 66 times the performance compared to the baseline of 128 simulated servers.</li>
+<li>The open-source prototype design and implementation details are provided in the study.</li>
+</ol>
+<h2 id="usenix-atc-23-cxl-anns-software-hardware-collaborative-memory-disaggregation-and-computation">USENIX ATC '23 - CXL-ANNS: Software-Hardware Collaborative Memory Disaggregation and Computation...</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=fa66gZiiF58">https://www.youtube.com/watch?v=fa66gZiiF58</a></p>
+<ul>
+<li>The speaker is a PhD student presenting their recent work on approximate nearest neighbor search (ANNS) at a conference.</li>
+<li>They have collaborated with a colleague on this project.</li>
+<li>ANNS is widely used in various products and services such as search engines, recommendation systems, and databases.</li>
+<li>The challenge is handling large workloads with billions of data points requiring terabytes of memory.</li>
+<li>The speaker proposes a software-hardware collaborative approach to overcome the limitations of CXL (Compute eXpress Link) technology, which has shown promising but limited performance due to its far memory light characteristic.</li>
+<li>The proposed solution involves selectively offloading computation and reducing data transfer overhead compared to traditional systems like Oracle.</li>
+<li>The speaker then introduces the target research domain and the challenge of retrievable taken, which plays a crucial role in providing fundamental support for various services such as search engines, recommendation systems, and databases.</li>
+<li>Two main approaches for reducing memory consumption are discussed: compressing embedding tables (which can lead to errors and degraded search accuracy) and storing graph embedding tables on SSDs (which can result in slower storage access and higher latency).</li>
+<li>The speaker advocates building a Point data set using CXL memory pool, which provides a large memory space and supports three protocols: CXL.io, CXL cache, and CXL map.</li>
+<li>A graph-based ANS approach is briefly explained, achieving state-of-the-art accuracy and performance in challenging workloads.</li>
+<li>The speaker highlights two observations from their research: 1) traversing nodes closer to the query provides faster memory access, and 2) distance calculation can be a bottleneck, with memory access taking up most of the execution time.</li>
+<li>To address these issues, the speaker proposes XL NS software-hardware collaborative approach that includes a root complex size software stack for endpoint hardware stack, domain-specific accelerator register delivery interface, and cxl-based memory expander for local caching and acceleration on the endpoint side.</li>
+</ul>
+<h2 id="usenix-atc-23-overcoming-the-memory-wall-with-cxl-enabled-ssd">USENIX ATC '23 - Overcoming the Memory Wall with CXL-Enabled SSD</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=dQDCqHYS1Lk">https://www.youtube.com/watch?v=dQDCqHYS1Lk</a></p>
+<ul>
+<li>
+<p>The transcript is from a presentation at Syracuse University about overcoming the memory wall challenge in natural language processing models.</p>
+</li>
+<li>
+<p>The speaker discusses the growing model size (141x per year) and the limited growth of memory resources (13x per year), which creates a gap called the 'memory wall'.</p>
+</li>
+<li>
+<p>The presenter highlights CXL, a new cache-coherent PCIe based interconnect that enables direct memory access to CPU endpoints via low latency store instruction features.</p>
+</li>
+<li>
+<p>The speaker suggests using CXL compatible devices like flash memory for expanding main memory.</p>
+</li>
+<li>
+<p>However, there are three major challenges when using flash memory as an expansion option:</p>
+<ul>
+<li>Granularity mismatch between host requests (64 bytes) and flash memory management data page grain (kilobytes).</li>
+<li>Flash memory rewrite latency is slower than the device theorem rewrite latency.</li>
+<li>Unlike DRAM, flash memory has limited endurance due to repeated program-erase cycles on the oxide layer of flash memory cells.</li>
+</ul>
+</li>
+<li>
+<p>The speaker proposes a solution using CXL Flash, which includes:</p>
+<ul>
+<li>Creating two design tools: Physical Memory Tracer and trace-driven simulator model for CXL Flash.</li>
+<li>Integrating existing optimization techniques like DRM cache and MSHR prefetcher to overcome granularity mismatch and device lifetime issues.</li>
+<li>Analyzing the effectiveness of existing algorithms for improving CXL flash performance.</li>
+</ul>
+</li>
+<li>
+<p>The speaker briefly covers potential system-level changes that could improve device performance, but does not provide details.</p>
+</li>
+</ul>
+<h2 id="usenix-atc-23-styx-exploiting-smartnic-capability-to-reduce-datacenter-memory-tax">USENIX ATC '23 - STYX: Exploiting SmartNIC Capability to Reduce Datacenter Memory Tax</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=lfupho5_iNA">https://www.youtube.com/watch?v=lfupho5_iNA</a></p>
+<ul>
+<li>The speaker is Hoshanji from UIUC.</li>
+<li>He presented a paper on "Stacks" at a conference.</li>
+<li>The talk focused on data center memory and optimization techniques.</li>
+<li>Two notable trends in data center memory are the stagnant price reduction of DRAM technology and the increasing demand for memory due to consumer needs.</li>
+<li>The speaker highlighted two memory optimization features: Kernel Samepage Merging (KSM) and compressed swap pages.</li>
+<li>KSM aims to merge page content to eliminate redundant pages, saving host memory.</li>
+<li>Compressed swap pages store swap pages in RAM cache instead of common backup storage like disk swap systems for faster access.</li>
+<li>The speaker discussed the impact of Swap Z and traditional swap methods on system performance.</li>
+<li>Kernel features can significantly interfere with memory-intensive, latency-sensitive applications due to CPU cycle consumption and cache pollution.</li>
+<li>The speaker presented a solution called "Stacks," which leverages smart network interface controllers, CPUs, ASICs, and memory IO subsystems.</li>
+<li>Stacks propose offloading data plan operations to smart ink for efficient memory optimization without involving CPU cycles.</li>
+<li>The presentation included a demonstration of the effectiveness of Stacks in reimplementing two kernel features: swap and page compression.</li>
+<li>Evaluation results showed that Stacks successfully reduced 99th percentile latency increase by up to 624x and 870x for swap and KSM respectively.</li>
+<li>The speaker also mentioned the reduction in CPU cycle consumption with Stacks integration.</li>
+<li>The presentation concluded that memory optimizing control features are beneficial but can interfere with running applications, increasing latency significantly.</li>
+<li>Stacks framework leverages compute and RDMA capabilities of smart ink to reduce interference and preserve the benefits of memory optimization features while reducing 99th percentile latency for current applications.</li>
+</ul>
+<h2 id="usenix-atc-23-change-management-in-physical-network-lifecycle-automation">USENIX ATC '23 - Change Management in Physical Network Lifecycle Automation</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=dmX_UXavC5o">https://www.youtube.com/watch?v=dmX_UXavC5o</a></p>
+<ul>
+<li>The transcript is from a conference presentation on 'change management physical Network lifecycle automation' in Google's SDN-based Data Center network, Jupiter.</li>
+<li>The speaker discusses four challenges faced in managing Google's vast network: scale, safety, deployment, and interoperability.</li>
+<li>The scale challenge involves managing the growing network with numerous human touchpoints.</li>
+<li>The safety challenge is about managing constant change without disrupting the network application running on the client.</li>
+<li>The deployment challenge is about efficiently deploying the network fabric globally in a predictable time frame.</li>
+<li>The interoperability challenge is about ensuring various teams and systems can effectively communicate and share an authoritative, consistent view of the network topology.</li>
+<li>The speaker introduces Malt, a Network management content tool that uses a language model for generating, managing, and querying network models.</li>
+<li>Malt represents the network topology as an entity-relationship graph with entities like nodes and relationships like connections.</li>
+<li>The presentation focuses on using Malt to generate, manage, and maintain a unified intent model for high-level planning and detailed Network design decisions.</li>
+<li>Two services are discussed: the Model Design Service and the Build Service, both of which use the Malt language model.</li>
+<li>The Model Design Service creates and mutates current/future network models, while the Build Service focuses on asynchronization points, resource reservation, and building the distributed data flow graph execution engine.</li>
+<li>Topo Plan, a service for managing future Network topology, is introduced as an analogy to software version control systems like Git.</li>
+<li>The presentation concludes with two case studies: Dead Zone reduction deployment project and change management in a multi-data center fabric.</li>
+</ul>
+<h2 id="usenix-atc-23-aasclepius-monitoring-diagnosing-and-detouring-at-the-internet-peering-edge">USENIX ATC '23 - AAsclepius: Monitoring, Diagnosing, and Detouring at the Internet Peering Edge</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=Fb0dCFZMLlU">https://www.youtube.com/watch?v=Fb0dCFZMLlU</a></p>
+<ol>
+<li>The transcript is from a conference discussing internet issues and solutions, specifically packet loss rate reduction in cloud services.</li>
+<li>Four key questions are addressed: automating fault process, identifying victim traffic, dealing with faults, and deterring traffic.</li>
+<li>Solutions involve monitoring user traffic in real-time, distinguishing healthy vs affected traffic, and using Swift rollback to minimize impact.</li>
+<li>Faults are classified into three categories based on occurrence: within cloud, client-based, or middle (internet network).</li>
+<li>Detection and resolution strategies vary depending on the fault type and location.</li>
+<li>A proposed Auto system aims to automate the entire process, accurately identify fault direction, and deter traffic accordingly using a private backbone.</li>
+<li>The system consists of three subsystems: monitor, diagnose, and deterrent, each with specific roles and functions.</li>
+<li>Monitoring involves active probing, fault detection, and reporting; diagnosis uses a decision tree for fine-grid localization; deterrent employs different strategies based on fault direction.</li>
+<li>The system has been successful in preventing major accidents in Huawei Cloud for three years.</li>
+</ol>
+<h2 id="usenix-atc-23-deploying-user-space-tcp-at-cloud-scale-with-luna">USENIX ATC '23 - Deploying User-space TCP at Cloud Scale with LUNA</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=TK1vEDOopX4">https://www.youtube.com/watch?v=TK1vEDOopX4</a></p>
+<ul>
+<li>The transcript is from a conference presentation by Schumer Alibaba Cloud.</li>
+<li>Topic: Experience deploying user space TCP in Alibaba cloud storage Luna.</li>
+<li>Luna's network cloud storage architecture follows the compute-storage-disk aggregation philosophy.</li>
+<li>Challenges for frontend network include different ages, drivers, and geographical locations of computers in the cluster.</li>
+<li>Kernel CCP was chosen for high reliability and compatibility, but it has high overhead and is not suitable for performance sensitive scenarios.</li>
+<li>Solutions to improve performance include RDMA and user space TCP solutions.</li>
+<li>Luna uses a user space driver and a unique thread, memory, and traffic model.</li>
+<li>Luna's thread model includes batch r2c and inline r2c models.</li>
+<li>Luna's memory model provides transparent 4K stack and zero-copy for application upper layer.</li>
+<li>Luna's traffic model collaborates with the kernel network stack.</li>
+<li>Performance evaluation shows that Luna reduces response latency by 70% and increases throughput by 35%.</li>
+<li>Luna has been deployed in production since 2017, increasing throughput for elastic block storage by 50% while maintaining low latency.</li>
+</ul>
+<h2 id="usenix-atc-23-rubbledb-cpu-efficient-replication-with-nvme-of">USENIX ATC '23 - RubbleDB: CPU-Efficient Replication with NVMe-oF</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=1Sjf79QyvrM">https://www.youtube.com/watch?v=1Sjf79QyvrM</a></p>
+<ul>
+<li>The transcript is from a conference discussing improvements in CPU efficiency for replicated key-value stores using NVMeOF.</li>
+<li>A log structure merge tree example was used to illustrate the problem of slow and dead systems, often caused by the CPU becoming a bottleneck in the system's key-value store.</li>
+<li>The discussion focused on redundant compaction in a replicated setting, suggesting that it might not be necessary.</li>
+<li>The idea is to outsource and eliminate redundant compaction, making it possible for a robot DB to make protocol avoid redundant compaction and help NVMeOF remove redundant compaction.</li>
+<li>The speaker also mentioned the challenges of saving CPU while introducing secondary SD file shipping, which can add CPU overhead due to data disk file system operations.</li>
+<li>The speaker then introduced NVMoF, a protocol that allows hosts to mount remote mid-disks as local file systems, with data transferred via RDMA or TCP configurations.</li>
+<li>The primary and secondary disks are distinguished in the figure, and the primary can ship SD files without CPU involvement, bypassing the secondary's CPU but introducing a new challenge of handling this bypassed long CPU NVMe work on the Linux product layer.</li>
+<li>Many key-value stores rely on file system interfaces to access data, which can cause issues when shipping SD files to the secretary, who may not even see the incoming file.</li>
+<li>The speaker then discussed the issue of SSD file preallocation and proposed a mechanism where the primary can successfully ship SSD files to the secondary using NVMoF.</li>
+<li>However, this doesn't entirely solve the problem, as an interesting challenge arises when applying compaction results from the primary to the secondary, especially when mem tables are involved.</li>
+<li>The speaker then discussed two techniques used in RobotDB: partial order and request ID tagging, which can help fix consistency issues and ensure that requests are processed in the correct order.</li>
+<li>An evaluation result was presented, comparing the end-to-end performance of replicated RocksDB with and without compaction every instance.</li>
+<li>The speaker also compared tail latency, showing that RobotDB had a lower latency than the Baseline for both read and update workloads.</li>
+</ul>
+<h2 id="usenix-atc-23-distributed-transactions-at-scale-in-amazon-dynamodb">USENIX ATC '23 - Distributed Transactions at Scale in Amazon DynamoDB</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=3OpEIMR-ml0">https://www.youtube.com/watch?v=3OpEIMR-ml0</a></p>
+<ul>
+<li>The transcript is from a conference presentation about using transactions in DynamoDB, a NoSQL database.</li>
+<li>The speaker discusses the benefits and challenges of adding transaction support to DynamoDB.</li>
+<li>Transactions can simplify application development and help maintain multi-item invariance, which is crucial for many applications, such as online ecommerce.</li>
+<li>However, maintaining invariance in a distributed system is difficult. Traditional methods like two-phase locking can prevent concurrent access but can also lead to performance issues.</li>
+<li>DynamoDB uses a multitenant service that allows applications to begin and end transactions. It doesn't use traditional two-phase locking due to the cost of maintaining multiple versions of items.</li>
+<li>Instead, DynamoDB introduces two new APIs: Transact Get Item and Transact Write Item. The former allows multiple items to be read consistently from an arbitrary set of tables owned by the customer. The latter allows multiple items to be created, deleted, or updated atomically.</li>
+<li>The speaker also introduces a new operation called Check Item, which is used when a transaction wants to verify whether another item is in a certain state before updating.</li>
+<li>The speaker then discusses how these APIs can be used to model various use cases, such as a shopping cart example with the Transact Write Item API.</li>
+<li>The speaker also explains the high-level architecture of how transactions work in DynamoDB, including the two-phase protocol used for preparing and committing transactions.</li>
+<li>Fault tolerance is achieved through checkpointing and recovery mechanisms.</li>
+<li>The speaker concludes by mentioning that DynamoDB now supports full ACID transactions, providing high scalability, high availability, and predictable performance.</li>
+</ul>
+<h2 id="usenix-atc-23-prefix-siphoning-exploiting-lsm-tree-range-filters-for-information-disclosure">USENIX ATC '23 - Prefix Siphoning: Exploiting LSM-Tree Range Filters For Information Disclosure</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=NgVVmu39u7g">https://www.youtube.com/watch?v=NgVVmu39u7g</a></p>
+<ul>
+<li>Presenter: Moshik Kovich</li>
+<li>Topic: Information Disclosure Attack on Key Value Store using Range Filter</li>
+<li>
+<p>Collaborators: Ad Kman and Anda Morrison, Tel Aviv University</p>
+</li>
+<li>
+<p>Key Value Stores (KVS) are used in many data stores, object storage, database systems for their performance benefits.</p>
+</li>
+<li>KVS can also pose a security risk due to timing attacks, where an attacker can distinguish between the response times of queries to different keys.</li>
+<li>The presentation focuses on a specific type of timing attack called 'Perfect Siphoning', which reveals key prefixes using range filters in KVS.</li>
+<li>Range filters store information about key prefixes, which can be exploited by an attacker to reveal full keys.</li>
+<li>The attack is demonstrated on two different types of range filter: Surf and Sigma.</li>
+<li>The attack involves finding a false positive key, identifying its prefix, and then scanning for possible suffixes.</li>
+<li>The attack is feasible due to the high probability of finding false positive keys and the low linear key length call function.</li>
+<li>The presentation also discusses potential mitigation strategies, such as using authorized keys for queries, keeping ACLs outside the KVS, rate limiting user requests, and using a separate filter for Point queries.</li>
+</ul>
+<h2 id="usenix-atc-23-epf-evil-packet-filter">USENIX ATC '23 - EPF: Evil Packet Filter</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=pkR5kJkFGkc">https://www.youtube.com/watch?v=pkR5kJkFGkc</a></p>
+<ul>
+<li>The transcript is from a conference presentation on EPF pack filter joint work.</li>
+<li>The presenter discusses BPF (Berkeley Packet Filter) and its role in enabling new attacks on Kernel Security.</li>
+<li>Current security exploitation methods are discussed, with a focus on how BPF can be used to weaken kernel security.</li>
+<li>The presentation shows that BPF allows attackers to create large amounts of content in the kernel space and manipulate it, bypassing existing isolation mechanisms.</li>
+<li>The presenter introduces a new way to use BPF for password defense.</li>
+<li>The talk also discusses how BPF can be used to bypass user-space defenses and execute malicious code in the kernel space.</li>
+<li>The presentation mentions three defenses against these attacks: BPF ISR, BPF NX, and BPF CFI.</li>
+<li>The presenter evaluates the effectiveness of these defenses against two novel attacks that abuse the BPF subsystem.</li>
+<li>The evaluation shows that the defenses incur low to moderate overhead.</li>
+</ul>
+<h2 id="usenix-atc-23-translation-pass-through-for-near-native-paging-performance-in-vms">USENIX ATC '23 - Translation Pass-Through for Near-Native Paging Performance in VMs</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=e1DrrIKU0Ko">https://www.youtube.com/watch?v=e1DrrIKU0Ko</a></p>
+<ul>
+<li>The transcript is from a conference discussing optimizing performance of virtual machines, which are used for consolidation and efficiency in resource utilization.</li>
+<li>Virtualization can lead to a substantial performance impact due to additional mechanisms required for abstraction and isolation.</li>
+<li>A significant issue is memory translation overhead, which can cause a lot of slowdown in applications.</li>
+<li>Two main approaches to virtualization are:</li>
+<li>Nested paging: The operating system within the VM exposes a page table that translates guest virtual addresses to guest physical addresses. The hypervisor then provides an additional hierarchy page table to translate guest physical addresses to host physical addresses.</li>
+<li>Shadow paging: The operating system within the VM provides a set of page tables to translate guest virtual addresses to guest physical addresses, but the hardware MMU performs the memory translation using a shadow page table provided by the hypervisor.</li>
+<li>Current systems require multiple memory accesses to translate a single virtual memory address to a physical memory address, which can lead to performance issues.</li>
+<li>The goal of the Translation Passthrough (TPT) system is to enable efficient translation management within virtualized systems while maintaining protection and isolation.</li>
+<li>TPT allows for self-managed direct guest VM host memory translation, providing native address translation performance.</li>
+<li>TPT maintains protection and isolation using a new hardware component that enforces isolation for virtual machines accessing physical pages.</li>
+<li>The TPT design is backwards compatible and easy to integrate into existing systems.</li>
+</ul>
+<h2 id="usenix-atc-23-efficient-memory-overcommitment-for-io-passthrough-enabled-vms-via-fine-grained">USENIX ATC '23 - Efficient Memory Overcommitment for I/O Passthrough Enabled VMs via Fine-grained...</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=IeDlXZLyXaA">https://www.youtube.com/watch?v=IeDlXZLyXaA</a></p>
+<ul>
+<li>The transcript is from a conference presentation.</li>
+<li>The speaker worked on memory commitment in VMS at Alibaba group.</li>
+<li>Memory commitment helps mitigate inefficient memory resource utilization in VMS.</li>
+<li>DMA (Direct Memory Access) is an important part of virtualization systems, especially for high-performance RDMA applications.</li>
+<li>A contradiction exists between memory commitment and DMA: when a page is reclaimed, it can cause a DMA failure if the IOP table entry is missing.</li>
+<li>Solutions to this problem include adding paid support hardware or monitoring DMA buffer allocation within the guest.</li>
+<li>The speaker discusses two software solutions, both of which require dedicated hardware and still face memory swapping overhead.</li>
+<li>A method called "three-page reporting" is mentioned as a way to get a report of free pages from the hypervisor without guest intervention.</li>
+<li>The goal is to make MSA (Memory Scaling Architecture) memory reformatting and password coexist, ensuring hardware compatibility and guest compatibility for easy deployment in existing systems.</li>
+<li>Wiprobe, a tool used for memory reclamation, contains three parts: wave probe data manager, memory formation routine, and wave probe injector guest module.</li>
+<li>A rule-based software isolation method is used to prevent harmful code use.</li>
+<li>The memory reclamation process involves synchronization problem handling.</li>
+<li>An experimental evaluation of the tool is conducted based on a hardware architecture with an Intel CPU and a cumulus hypervisor host.</li>
+<li>The wave probe significantly outperforms page ballooning in terms of time cost.</li>
+<li>Limitations of the work include its specificity to x86 architecture and Linux-based OS.</li>
+</ul>
+<h2 id="usenix-atc-23-lpns-scalable-and-latency-predictable-local-storage-virtualization-for">USENIX ATC '23 - LPNS: Scalable and Latency-Predictable Local Storage Virtualization for...</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=iD4CdPmtagU">https://www.youtube.com/watch?v=iD4CdPmtagU</a></p>
+<ul>
+<li>The transcript is from a presentation about LPS (Latency Predictable Storage) NVMe virtualization.</li>
+<li>Background motivation includes the limitations of current storage virtualization mechanisms in providing accurate latency predictability and Quality of Service (QoS) control for multitude workloads with different QoS requirements.</li>
+<li>The proposed architecture utilizes a key component called LBNs (Latency Bound Network Stacks).</li>
+<li>Implementation details include micro-benchmark and application benchmark evaluations, demonstrating that LPNs provide reliable latency predictability and QoS control for virtualization scenarios in real-world applications.</li>
+<li>Overhead issues are discussed, focusing on the challenge of removing additional bottleneck latency caused by network devices and complex network topologies in data centers.</li>
+<li>The presentation concludes with a summary of LPS providing predictable latency QoS control for cloud storage while optimizing performance and reducing costs compared to traditional software-level virtualization designs.</li>
+</ul>
+<h2 id="usenix-atc-23-p2cache-exploring-tiered-memory-for-in-kernel-file-systems-caching">USENIX ATC '23 - P2CACHE: Exploring Tiered Memory for In-Kernel File Systems Caching</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=oqm207ZscPg">https://www.youtube.com/watch?v=oqm207ZscPg</a></p>
+<ol>
+<li>The speaker is presenting at State University New York Hampton on the topic of exploiting memory, internal file system, and casting strong work in storage technologies.</li>
+<li>They mention Ling Fung Xiang from Jarrow University Texas Arlington and observe trends in storage technologies.</li>
+<li>The first trend mentioned is that storage devices are becoming increasingly fast, with traditional rotating base HDDs evolving into land-based SSDs.</li>
+<li>The speaker introduces the concept of worldtime memory, a type of cell-based storage device that exposes a memory-like interface and operates at byte-addressable levels.</li>
+<li>A concrete example is given using Intel's Optane persistent memory and its test version, esd4, which leverages bi-directional adjustability to improve performance in the software stack.</li>
+<li>The speaker highlights that software overhead has become dominant in storage stacks and uses hd4 as an example of a traditional kernel file system unable to fully explore available PM boundaries.</li>
+<li>A comparison is made between the est4 test file system's performance and ht4 text, showing significant improvements with esd4 achieving 25 clicks per second for hour-sized 64k IO operations.</li>
+<li>The speaker then lists several proposed solutions to address challenges in leveraging bi-directional adjustability and ensuring crash consistency while maintaining high performance.</li>
+<li>These proposed solutions include East Vertex SFS, text Nova, stratum split FS, and a specialized file system tailored for persistent memory systems.</li>
+<li>The speaker emphasizes that the biggest roadblock to these PM specialized file systems is their maturity level and the time it will take for them to become production-ready.</li>
+<li>Existing well-tested and production-ready kernel file systems need to evolve effectively to harness the performance benefits of new storage device characteristics.</li>
+<li>The presentation introduces PSquare cash, a novel kernel casting mechanism designed specifically for PM specialized systems, offering instant data durability, strong consistency, and high performance without requiring application modification or radical system redesign.</li>
+<li>PSquare cash is open-source on GitHub and employs a rewrite distinguishable memory hierarchy, lightweight journaling mechanism, and PM's light adjustability to speed up data updates.</li>
+</ol>
+<h2 id="usenix-atc-23-revisiting-secondary-indexing-in-lsm-based-storage-systems-with-persistent-memory">USENIX ATC '23 - Revisiting Secondary Indexing in LSM-based Storage Systems with Persistent Memory</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=oqQlKjBiwM4">https://www.youtube.com/watch?v=oqQlKjBiwM4</a></p>
+<ul>
+<li>The transcript is from a conference presentation about improving the performance of secondary indexing in RSM-based storage systems.</li>
+<li>RSM3, a widely adopted storage engine, has high write performance but inferior read performance due to its multilevel structure.</li>
+<li>Recent research suggests that advanced storage devices like ASM3 can handle heavy computing overhead, but they require high rate performance. Many database applications also require higher query performance.</li>
+<li>Indexing is an important technique for improving query performance. However, it can be inefficient in LSM3 due to consistency issues between the secondary index and primary table.</li>
+<li>The presentation introduces a new calculator pair approach for blind white buffering in RSM3, which improves performance by reducing read data.</li>
+<li>The presenter also discusses two strategies for handling many database systems that tend to use synchronous strategy or validation strategy for secondary key updates.</li>
+<li>The presentation suggests using persistent memory (PM) for secondary indexing due to its addressability, comparable latency to DRAM, and data persistency.</li>
+<li>However, directly adopting PM index for secondary indexing can be inefficient due to nonunique secondary keys and low data locality.</li>
+<li>The presenter introduces PS3, a PM-based secondary index mechanism that uses a specific layer value secondary key and hybrid hash table with lightweight validation approach.</li>
+<li>PS3 also proposes two optimization techniques for nonindex query level region error trace feature.</li>
+<li>The presentation compares the performance of various secondary indexing approaches, including LSM-based, PM-based, and Composite Index log structure approach.</li>
+<li>The presenter concludes that precise steel (PS3) outperforms PM-based secondary index due to its good locality for searching secondary entries.</li>
+</ul>
+<h2 id="usenix-atc-23-zhuque-failure-is-not-an-option-its-an-exception">USENIX ATC '23 - Zhuque: Failure is Not an Option, it’s an Exception</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=yC_oMzOb02Q">https://www.youtube.com/watch?v=yC_oMzOb02Q</a></p>
+<ul>
+<li>Presenting research on a simple pre-programming model for persistent memory systems.</li>
+<li>Uses flush-fail semantics, similar to EADR/GPF model.</li>
+<li>Claims to require little effort from application developers and performs at least 3x faster than prior work.</li>
+<li>Discusses the issues with naive approach of making program persistent by putting it in persistent memory.</li>
+<li>Introduces three groups based on programming models: common transactional model, relaxed failure atomicity model, and whole system persistence model.</li>
+<li>The transactional model imports traditional ACID transaction database systems but has restrictions on locking semantics.</li>
+<li>The relaxed failure atomicity model divides the program into regions and uses runtime tracking of dependencies between threads.</li>
+<li>The whole system persistence model expects system to deliver interrupt in a specific order when power failure occurs.</li>
+<li>Discusses a new programming model called 'whole process persistence model' which transforms memory allocated for a process to persistent memory on power failure.</li>
+<li>This model is implemented using libsy based runtime work, which is interposed and intercepts arguments to accomplish the goal entirely transparently to the application.</li>
+<li>Performance results show moderate improvement over prior work with some overhead versus native implementation.</li>
+</ul>
+<h2 id="usenix-atc-23-envpipe-performance-preserving-dnn-training-framework-for-saving-energy">USENIX ATC '23 - EnvPipe: Performance-preserving DNN Training Framework for Saving Energy</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=RfAq1JbHbXI">https://www.youtube.com/watch?v=RfAq1JbHbXI</a></p>
+<ul>
+<li>Christ talks about the impact of DNN training and inference on carbon emissions.</li>
+<li>The rapid expansion of AI is causing significant energy consumption, leading to a larger carbon footprint.</li>
+<li>Previous approaches have aimed at saving energy during DNN training by using GPU Dynamic Voltage Frequency Scaling (DVFS).</li>
+<li>This method seeks the optimal streaming multiprocessor (SM) and memory frequency for the GPU.</li>
+<li>However, reducing SM frequency can lead to a trade-off between energy saving and performance degradation.</li>
+<li>The speaker presents mvpipe, a performance-preserving DNN training framework that saves energy.</li>
+<li>mvpipe is implemented as a library in PyTorch and has three main components: a profiler, a scheduler, and a frequency planner.</li>
+<li>The profiler profiles the performance and energy trend of the pipeline stage.</li>
+<li>The scheduler schedules the pipeline units to maximize energy saving.</li>
+<li>The frequency planner reconfigures the SM frequency to minimize performance degradation.</li>
+<li>The goal is to maximize energy saving, preserve accuracy, and minimize performance degradation.</li>
+</ul>
+<h2 id="usenix-atc-23-decentralized-application-level-adaptive-scheduling-for-multi-instance-dnns-on">USENIX ATC '23 - Decentralized Application-Level Adaptive Scheduling for Multi-Instance DNNs on...</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=6ToXzky1Dl4">https://www.youtube.com/watch?v=6ToXzky1Dl4</a></p>
+<ol>
+<li>Introduction of decentralized application Level scheduling for mobile devices.</li>
+<li>Discussion on limited resources and compatibility issues in mobile environments.</li>
+<li>Presentation of a DNA network profiling model to optimize power consumption and performance.</li>
+<li>Highlight on the challenges of proper assignment of top applications for performance enhancement.</li>
+<li>Mention of privacy concerns with apps tracking user data.</li>
+<li>Proposal of using GPU accelerators for AI tasks in mobile devices.</li>
+<li>Discussion on the importance of scheduling for efficient computing and power consumption.</li>
+<li>Introduction to research questions focusing on offline algorithms, semisupervised deep reinforcement learning, and decentralized scheduling.</li>
+<li>Mention of a paper presenting a latency-inference DNS model and a power model for OS operating systems.</li>
+<li>Discussion on the need for user level solutions to deal with OS influence on execution.</li>
+<li>Introduction of a third research question focusing on decentralized scheduling in open mobile systems.</li>
+<li>Mention of a paper reviewing previous work and proposing a global optimization solution for multitenant scheduling.</li>
+<li>Discussion on the use of software and hardware for testing in the experiments.</li>
+<li>Presentation of three groups of experiments comparing different DNS models under various conditions.</li>
+<li>Mention of machine learning based decision model for decentralized scheduling.</li>
+<li>Conclusion emphasizing the importance of privacy and performance maintenance in mobile applications.</li>
+</ol>
+<h2 id="usenix-atc-23-unfaasener-latency-and-cost-aware-offloading-of-functions-from-serverless-platforms">USENIX ATC '23- UnFaaSener: Latency and Cost Aware Offloading of Functions from Serverless Platforms</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=Yk9N5Ui6oaI">https://www.youtube.com/watch?v=Yk9N5Ui6oaI</a></p>
+<ul>
+<li>Serverless computing is a popular and growing field.</li>
+<li>Many organizations are using serverless applications in some form.</li>
+<li>Azure workloads from 2019-2020 showed a majority of applications had one function, with a significant growth in workflow applications.</li>
+<li>There is a proposal to leverage unused capacity in virtual machines (VMs) for serverless functions, which could reduce costs and improve efficiency.</li>
+<li>Serverless functions are typically stateless and event-driven, executing wherever there is available resource infrastructure.</li>
+<li>The design of applications with a degree of disaggregation can help migrate computational functions everywhere and communicate with the rest of the system.</li>
+<li>There is a trend towards building complex applications with serverless functions, which can help manage critical path performance.</li>
+<li>A high-level idea is to build a system that can change existing serverless platforms to better utilize resources and lower costs. This would involve offloading functions to various hosts, including VMs, and using a scheduler to determine the best offloading scenario.</li>
+<li>A pop messaging system could be used to communicate between different components of this system.</li>
+<li>The system would aim to optimize cost and latency, and would need to consider performance jitter and the cost associated with moving data around.</li>
+<li>The system would also need to monitor resource availability and predict future resource availability for offloading.</li>
+<li>The system would not add anything critical to the path or support provider schedulers, but would aim to improve performance and reduce cost.</li>
+</ul>
+<h2 id="usenix-atc-23-llfree-scalable-and-optionally-persistent-page-frame-allocation">USENIX ATC '23 - LLFree: Scalable and Optionally-Persistent Page-Frame Allocation</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=yvd3D5VOHc8">https://www.youtube.com/watch?v=yvd3D5VOHc8</a></p>
+<ol>
+<li>A new allocator, LA3, was developed by a well-known project for scalable and optionally persistent memory management.</li>
+<li>The problem: Many memory management subsystems were designed for single core systems with low memory capacity. However, modern systems have multiple CPUs accessing memory in parallel and larger memory capacities with different properties like persistency.</li>
+<li>Existing allocators can become bottlenecks due to contention data structures. For example, the Linux page frame allocator manages physical memory and supports huge pages, but it can suffer from performance bottlenecks due to page fragmentation.</li>
+<li>The new LA3 allocator aims to address these issues by being designed for multiple cores and optionally supporting persistency. It avoids memory sharing and uses atomic instructions for updates.</li>
+<li>The LA3 allocator is log-free, which helps with scalability and performance. It uses a large bit field for managing pages, with each 4 KB page represented by a single bit.</li>
+<li>The allocator also uses an index-like data structure to group bits together, improving search times for free pages.</li>
+<li>For persistency, the LA3 allocator uses Atomic instructions for updates and ensures crash consistency without using logs.</li>
+<li>Performance benchmarks show that the LA3 allocator has a consistent allocation time independent of the number of cores allocating in parallel. It is significantly faster than the Linux allocator for huge page allocation.</li>
+<li>The LA3 allocator also handles fragmentation well, able to recover entire huge pages over time and avoid unnecessary checks that can slow down performance.</li>
+</ol>
+<h2 id="usenix-atc-23-singularfs-a-billion-scale-distributed-file-system-using-a-single-metadata-server">USENIX ATC '23 - SingularFS: A Billion-Scale Distributed File System Using a Single Metadata Server</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=bjzU3RhvBXg">https://www.youtube.com/watch?v=bjzU3RhvBXg</a></p>
+<ul>
+<li>The transcript is from a conference discussing a distributed file system using a single medium server.</li>
+<li>The motivation behind this is the dominance of distributed file systems in modern data centers, and the desire to scale while reducing TCO.</li>
+<li>A single medium server is capable of managing billions of files, as demonstrated by Alibaba's use of a Billy scale file system.</li>
+<li>However, existing solutions fail to fully utilize the performance capabilities of new hardware, such as RDMA NICs and persistent memory.</li>
+<li>The speakers identify three challenges contributing to this performance gap: crash consistency overhead, concurrency control in shared directories, and scalability.</li>
+<li>The proposed solution is Singular FS, a billion-scale distributed file system using a single medium server, focusing on optimizing medium storage methods and operation methods.</li>
+<li>The key design features of Singular FS include logfree method operations, hierarchical concurrency control, and hybrid inode partitioning.</li>
+<li>Logfree method operations are used to classify and handle different types of operations, eliminating the need for additional crash consistency costs.</li>
+<li>Hierarchical concurrency control is used to minimize critical areas in double node operations and eliminate transaction conflicts.</li>
+<li>Hybrid inode partitioning ensures locality in file operations and delegates requests to corresponding physical nodes.</li>
+<li>The evaluation of Singular FS shows comparable latency to local PM file systems and lower latency than distributed file systems for certain operations.</li>
+<li>Singular FS also demonstrates higher throughput per node compared to existing distributed file systems.</li>
+</ul>
+<h2 id="usenix-atc-23-the-hitchhikers-guide-to-operating-systems">USENIX ATC '23 - The Hitchhiker's Guide to Operating Systems</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=crWJEi6udNU">https://www.youtube.com/watch?v=crWJEi6udNU</a></p>
+<ul>
+<li>The transcript is from a conference presentation about teaching an operating system course.</li>
+<li>The presenter notes that one reviewer found the paper on teaching operating systems interesting, but thought it could be improved.</li>
+<li>The presenter mentions a problem with the textbook used, stating that even though it's great, it doesn't fully address the needs of students who might become top-notch system researchers.</li>
+<li>The presenter suggests using the OSDI book and provides a reflection on a missing plane system class.</li>
+<li>The presenter proposes an interesting program assignment: Tower of Hanoi, which they expect will be challenging due to its recursive nature.</li>
+<li>The presenter discusses the concept of a state machine in programming and operating systems, and how it can help in understanding and debugging systems.</li>
+<li>The presenter mentions that an operating system is a state machine built on host programs, and that understanding this can provide a refreshing perspective.</li>
+<li>The presenter talks about the use of process APIs and system calls like fork, exit, and exec from a state machine perspective.</li>
+<li>The presenter suggests using a state machine to teach debugging, providing examples of state machine trace and debugging tools like address sanitizer and thread sanitizer.</li>
+<li>The presenter mentions that the operating system course should cover process, thread, and storage, with Three Easy Pieces as an implementation example.</li>
+<li>The presenter discusses the importance of understanding end-to-end stories in system calls and how a state machine model can help.</li>
+<li>The presenter suggests building a toy emulator to clarify concepts mathematically, and mentions the Unix philosophy of piping output to another command.</li>
+<li>The presenter briefly talks about the use of a model checker for exhaustive checking and verification of system behavior.</li>
+<li>The presenter mentions that the course has received positive feedback and is popular in mainland China.</li>
+</ul>
+<h2 id="usenix-atc-23-accelerating-distributed-moe-training-and-inference-with-lina">USENIX ATC '23 - Accelerating Distributed MoE Training and Inference with Lina</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=Vsb4j6hHAaA">https://www.youtube.com/watch?v=Vsb4j6hHAaA</a></p>
+<ul>
+<li>Presenter's name is Xiaoming from City University of Hong Kong.</li>
+<li>The presentation is about a mixture expert system called Lena, a joint work with City University of Hong Kong and Chinese University of Hong Kong.</li>
+<li>Moe (Mixture of Experts) is an example model paradigm that comprises several expert gating networks assigning weights to expert outputs.</li>
+<li>Moe architecture is sparsely activated, selecting only certain experts for processing instead of computing the complete graph. This benefits from the sparsity of computation.</li>
+<li>The number of experts can be increased without significantly increasing the computation cost, allowing for a larger model with lower computation cost.</li>
+<li>Moe has shown great potential in NLP tasks using Transformer models. Google's Glam Moe model family outperforms GPT3 in 29 language tasks.</li>
+<li>Distributed systems are used to achieve efficient training and inference in Moe, which involves another parallelism called expert partisan.</li>
+<li>However, this also introduces additional communication costs as data samples may need to be routed to different devices' gating networks and experts.</li>
+<li>The size of data transfers in Transformer-based Moes can be large due to the architecture of the Moe Network and the expert networks.</li>
+<li>An experiment with different scale Moe models and architectures found that the overhead (Ottawa) takes an average of 30-34 steps, which is significant.</li>
+<li>The bottleneck in Moe performance is identified as the Moe layer, which becomes a performance bottleneck due to the exponential computation restart required for the original sequence.</li>
+<li>Asynchronized blocking operations and data transfer operations also contribute to the performance bottleneck.</li>
+<li>The Slowdown Factor varies and cannot be determined due to the Black Box nature of GPUs. It has been measured to be up to four times the maximum in some cases.</li>
+<li>Inference in Moe is biased towards expert popularity, which is purely data-driven. This can lead to imbalanced device loads.</li>
+<li>A design choice for training stage is proposed to prioritize avoiding network bandwidth sharing and minimize blocking periods.</li>
+<li>Tensor partitioning is proposed as a solution to overcome the challenge of communication primitives that cannot be preempted easily.</li>
+<li>The challenge is to control resource sharing among GPU operations.</li>
+<li>The proposed solution involves using tensor partitioning to reduce the Micro Ops, which can always prioritize o2o whenever ready and reduce microop execution time.</li>
+</ul>
+<h2 id="usenix-atc-23-smartmoe-efficiently-training-sparsely-activated-models-through-combiningand">USENIX ATC '23 - SmartMoE: Efficiently Training Sparsely-Activated Models through Combiningand...</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=iGDt-nzTofY">https://www.youtube.com/watch?v=iGDt-nzTofY</a></p>
+<ul>
+<li>The transcript is from a conference presentation about the work conducted at Pacman lab, Qinghao University.</li>
+<li>The team worked on training sparsely activated models more efficiently by combining offline and online parallelizations.</li>
+<li>Larger models tend to yield higher accuracy in downstream tasks, but scaling these models is constrained by computation resources.</li>
+<li>Mixture of Experts (MoE) is proposed as a promising solution for scaling large models without adding computation.</li>
+<li>The challenge is that increasing model size also means increased computation. MoE aims to make this process more efficient.</li>
+<li>MoE consists of many expert sub-networks, and the training process involves activating a subset of these experts to prevent an increase in computation.</li>
+<li>The team explored hybrid parallelism for MoE models, which requires system expertise to finetune the best configuration.</li>
+<li>Existing works have failed to handle MoE's imbalance and dynamic workload property, leading to overloaded experts and low GPU utilization.</li>
+<li>The proposed smart MoE is a dedicated automatic parallelization system designed for MoE models, which understands the limitations of existing works.</li>
+<li>Smart MoE provides an enlarged space for hybrid parallelism support and a two-stage automatic polarization approach to handle dynamic workload efficiently.</li>
+<li>The two-stage approach includes an offline stage that constructs a comprehensive search space and obtains a candidate pool, and an online stage that selects and improves the plan from the pool.</li>
+<li>The system was tested with various scenarios using three clusters of different GPUs, network bandwidth, skill models, and MoE swing models.</li>
+<li>Smart MoE was compared to four strong baselines, including Deep Speed MoE, Faster MoE, and TAO, achieving excellent results across different model structures and clusters.</li>
+</ul>
+<h2 id="usenix-atc-23-msrl-distributed-reinforcement-learning-with-dataflow-fragments">USENIX ATC '23 - MSRL: Distributed Reinforcement Learning with Dataflow Fragments</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=f14YBz2v-OU">https://www.youtube.com/watch?v=f14YBz2v-OU</a></p>
+<ul>
+<li>The transcript is from a conference presentation on MSRL, a distributed reinforcement learning system.</li>
+<li>The presenter discusses the challenges in RL training systems, including large models, accelerating the entire training loop, and handling diversity of algorithms.</li>
+<li>The first challenge is addressed by using a non-distributed approach, which can handle larger models efficiently.</li>
+<li>The second challenge is tackled by using hardware acceleration, specifically GPUs.</li>
+<li>The third challenge is handled by developing an actor-based system, which can be deployed on various types of hardware.</li>
+<li>The presenter then introduces MSRL, a system that decouples algorithm specification and operational execution.</li>
+<li>This is achieved through three key technologies: defining a computation data flow graph, accelerating the data flow graph on heterogeneous devices, and supporting flexible distribution policies.</li>
+<li>The presenter uses PPO as an example of how MSRL can be used to develop algorithms.</li>
+<li>MSRL generates fragments based on information provided by the distribution policy.</li>
+<li>The system architecture includes a continent coordinator, fragment generator, fragment dispatcher, execution backends, and a fragment optimizer.</li>
+<li>The presenter concludes by sharing experiment results that demonstrate MSRL's efficiency and scalability compared to other systems.</li>
+</ul>
+<h2 id="usenix-atc-23-beware-of-fragmentation-scheduling-gpu-sharing-workloads-with-fragmentation">USENIX ATC '23 - Beware of Fragmentation: Scheduling GPU-Sharing Workloads with Fragmentation...</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=-37_clawjdc">https://www.youtube.com/watch?v=-37_clawjdc</a></p>
+<ul>
+<li>Joint work by HKUST and iPAPA on resource management scheduling for GPU cluster.</li>
+<li>Agenda: background, GPU sharing fragmentation, machine learning cluster popularity, machine learning workload driven development.</li>
+<li>GPU cluster provides machine learning service with general architecture that satisfies different user requirements and supports a wide range of workloads including training and influence evaluation.</li>
+<li>Specific focus on the resource scheduling layer responsible for managing ML task containers and assigning them across a heterogeneous cluster with thousands of CPU/GPU servers with diverse capacity.</li>
+<li>Commonly observed low GPU utilization despite the cluster's capability to host thousands of GPUs.</li>
+<li>Illustration of medium utilization across nodes, with two out of eight GPUs showing usage, and the rest mostly at 50% utilization.</li>
+<li>Reference to a paper published at NSDI 2020 by Alibaba Cloud on their machine learning service.</li>
+<li>Introduction of a solution called GPU sharing (or transition share) that enables multiple tasks to run concurrently on GPUs in a multi-time multiplex manner.</li>
+<li>Related work includes framework level modification, Coda API interception, and hardware methods like Nvidia MIG.</li>
+<li>Measured and simulated results showing that the workload could utilize twice as many GPUs without sharing, but GPU sharing is not a silver bullet solution.</li>
+<li>Analysis of the cluster with 1000 nodes and 6000 GPUs hosting AI tasks, showing that around 50 tasks require one GPU, indicating insufficiency.</li>
+<li>Observation of stranded GPUs due to insufficient CPUs, leading to unexpected scheduling failures despite sufficient GPU quota.</li>
+<li>Work aimed at addressing fragmentation-induced resource utilization.</li>
+<li>Existing approach: packing limitation and mitigation through consolidating tasks onto one node and freezing resources.</li>
+<li>Classical bin packing formulation problematic for GPU sharing workload scheduling.</li>
+<li>Introduction of a new approach to address the fermentation problem in scheduling GPU sharing workloads.</li>
+<li>Definition of fragmentation, its source, and an example of insufficient GPUs and stranded GPUs contributing to fragmentation.</li>
+<li>Proposed solution: Fermionic Scheduling Gradient Descent (FSGD), a statistical measure that quantifies expected unallocated GPU resource given a target workload distribution.</li>
+<li>FSGD outperforms traditional methods in reducing unallocated GPUs and utilizes more GPU resources compared to the best-fit policy.</li>
+<li>Implementation of FSGD as a pluggable component in Kubernetes using a scheduling framework, with a high-fidelity event-driven tree simulation for replaying traces collected from real kubernetes clusters.</li>
+</ul>
+<h2 id="usenix-atc-23-towards-iterative-relational-algebra-on-the-gpu">USENIX ATC '23 - Towards Iterative Relational Algebra on the GPU</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=NUIA_c-dOzI">https://www.youtube.com/watch?v=NUIA_c-dOzI</a></p>
+<ul>
+<li>The transcript is from a conference discussing iterative relational algebra and its use in GPU environments.</li>
+<li>The speaker introduces data logic (data log) and iterative relational algebra, explaining how they are used to compute the transitive closure of a graph.</li>
+<li>The speaker mentions that data log rules are simple and can be used in various fields, including machine learning and detective databases.</li>
+<li>The iterative relational algebra is used to compute the transitive closure using two rules: one for the base case and another for recursion.</li>
+<li>The iterative relational algebra is then compiled into common relational algebra primitives like Union, projection, rename, and join.</li>
+<li>Joint operation in relational algebra can generate duplicate tuples, which can be computationally expensive to remove.</li>
+<li>Data log programs can be parallelized using modern data log implementations such as Souffle thread parallel implementation and DP array target GPU parallel GPU parallelism.</li>
+<li>The speaker then discusses two popular join algorithms: short merge join and hash join.</li>
+<li>The speaker also mentions the importance of handling duplicate tuples in the iterative relational algebra algorithm.</li>
+<li>The transitive closure operation is then demonstrated using a parallel iterative relational algebra, with the algorithm stopping when no new paths are found.</li>
+<li>The speaker introduces an open addressing based approach for hash table implementation on GPUs.</li>
+<li>The speaker also discusses the importance of handling memory overhead in CUDA libraries like cuDF and Souffle.</li>
+<li>Finally, the speaker summarizes their contributions to high-performance GPU HTBL iterative relational algebra and efficient GPU memory management systems.</li>
+</ul>
+<h2 id="usenix-atc-23-vectorvisor-a-binary-translation-scheme-for-throughput-oriented-gpu-acceleration">USENIX ATC '23 - VectorVisor: A Binary Translation Scheme for Throughput-Oriented GPU Acceleration</h2>
+<p>URL: <a href="https://www.youtube.com/watch?v=TElCneM9UxQ">https://www.youtube.com/watch?v=TElCneM9UxQ</a></p>
+<ul>
+<li>Sam is a 6-year PhD candidate at Princeton.</li>
+<li>GPU programming has become more accessible due to cloud availability and falling prices.</li>
+<li>However, GPU programming can be complex due to the need for memory coalescing, divergent control flow, and different hardware architecture.</li>
+<li>High-level DSLs and libraries exist but may not fit all workloads well.</li>
+<li>Low-level frameworks like CUDA or OpenCL have their own challenges and potential issues.</li>
+<li>GPU programming model is notably different from typical programming models.</li>
+<li>WebAssembly could be a solution for easier GPU programming, as it supports multiple languages and provides memory isolation.</li>
+<li>The speaker proposes a new GPU programming model that could accelerate existing programs without modification, providing backwards compatibility and cross-vendor support.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+    
+  </body>
+</html>
