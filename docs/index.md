@@ -4,16 +4,44 @@ This website is my personal endeavor, focusing on software architecture resource
 
 ## Summaries
 
-* [GOTO Conferences - Software architecture playlist](goto_sw_arch_list.md)
-* [GOTO Conferences - Design thinking and UI/UX playlist](goto_dt_ui_ux.md)
-* [GOTO Conferences - Programming languages playlist](goto_programming_lang.md)
-<!-- * [GOTO Conferences - Frontend playlist](goto_FE.md)
-* [GOTO Conferences - Frontend playlist-v2](goto_FE_v2.md)
-* [GOTO Conferences - Frontend playlist-v3](goto_FE_v3.md) -->
-* [GOTO Conferences - Frontend playlist](goto_FE_v4.md)
-* [Davos 2024](davos_2024.md)
-* [Usenix ATC 2023](usenix_atc_2023_v2.md)
-<!-- * [Usenix ATC 2023-v2](usenix_atc_2023_v2.md) -->
+### GOTO
+
+* [GOTO Conferences - Software architecture playlist](summaries/goto/goto_sw_arch_list.md)
+* [GOTO Conferences - Design thinking and UI/UX playlist](summaries/goto/goto_dt_ui_ux.md)
+* [GOTO Conferences - Programming languages playlist](summaries/goto/goto_programming_lang.md)
+* [GOTO Conferences - Frontend playlist](summaries/goto/goto_FE_v4.md)
+
+
+### Davos
+
+* [Davos 2024](summaries/davos/davos_2024.md)
+
+
+### Usenix
+
+* [Usenix ATC 2023](summaries/usenix/usenix_atc_2023_v2.md)
+* [Usenix FAST 2023](summaries/usenix/usenix_fast_2023.md)
+* [Usenix System Reliability Eng Americas 2023](summaries/usenix/usenix_sre_americas2023.md)
+
+### Business
+
+* [Stanford Seminar - Enterpreneurial Though Leader](summaries/business/stanford_seminar_enterpreneurial_though_leader.md)
+
+### a16z
+
+* [AI](summaries/a16z/a16z_ai.md)
+* [Company building](summaries/a16z/a16z_company_building.md)
+* [Podcast](summaries/a16z/a16z_company_building.md)
+
+### Google
+
+* [Google I/O 2023](summaries/google/google_io_2023.md)
+
+
+### ycombinator
+
+* [Dalton & Michael](summaries/ycombinator/ycombinator_dalton_michael.md)
+
 
 ## Blogs
 
@@ -21,10 +49,12 @@ This website is my personal endeavor, focusing on software architecture resource
 
 * [Building Distributed Applications with Event-Driven Architecture - Eric Johnson's presentation at GOTO 2023](blog/architecture/eda.md)
 
-### Design:
+### Design
 
 * [Design for the Utopia You Want, Not the Dystopia You're In: Insights from Chris Atherton at GOTO Conference 2022](blog/design/design_for_the_utopia.md)
 
 ### Programming
 
 ### Other
+
+* [Technology Radar Volume 29 - preview: Navigating New Frontiers in Software Development](blog/other/tech_rada_trends_preview.md)
