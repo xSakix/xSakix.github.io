@@ -42,6 +42,11 @@ This website is my personal endeavor, focusing on software architecture resource
 
 * [Dalton & Michael](summaries/ycombinator/ycombinator_dalton_michael.md)
 
+### web dev
+
+* [ng-conf - reliable web summit](summaries/web_dev/reliable_web_summit_2021.md)
+* [ng-conf 2022](summaries/web_dev/ng_conf_2022.md)
+* [nordic.js 2022](summaries/web_dev/nordic_js_2022.md)
 
 ## Blogs
 
