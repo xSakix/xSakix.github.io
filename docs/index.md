@@ -36,11 +36,14 @@ This website is my personal endeavor, focusing on software architecture resource
 ### Google
 
 * [Google I/O 2023](summaries/google/google_io_2023.md)
+* [Google tech talks](summaries/google/google_talks_tech.md)
 
 
 ### ycombinator
 
 * [Dalton & Michael](summaries/ycombinator/ycombinator_dalton_michael.md)
+* [How to build future](summaries/ycombinator/ycombinator_how_to_build_future.md)
+* [Startup school](summaries/ycombinator/ycombinator_startup_school.md)
 
 ### web dev
 
@@ -52,6 +55,10 @@ This website is my personal endeavor, focusing on software architecture resource
 ### thoughtworks
 
 * [thoughtworks xconf 2023](summaries/thoughtworks/thoughtworks_xconf_eu_2023.md)
+
+### GDC
+
+* [GDC 2023](summaries/gdc/gdc_2023.md)
 
 ## Blogs
 
