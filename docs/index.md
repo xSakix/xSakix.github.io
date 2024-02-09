@@ -60,6 +60,11 @@ This website is my personal endeavor, focusing on software architecture resource
 
 * [GDC 2023](summaries/gdc/gdc_2023.md)
 
+### JakartaEE
+
+* [jakartaone 2023](summaries/jakartaee/jakartaone_2023.md)
+
+
 ## Blogs
 
 ### Architecture

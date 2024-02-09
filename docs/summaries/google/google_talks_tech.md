@@ -61,24 +61,24 @@ URL: [https://www.youtube.com/watch?v=OfBFjbVKCLc](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=F8smRsbTYMQ](https://www.youtube.com/watch?v=F8smRsbTYMQ)
 
-    - Lonnie Johnson, inventor and engineer, has a long history of creating innovative toys and technology.
-    - He invented the Super Soaker water gun, which became one of the most successful toy lines in history.
-    - His other creations include the Bionic Man, a robot that could walk on two legs; and the Jet Propulsion Laboratory's Galileo mission, among others.
-    - Johnson is also involved in education initiatives like FIRST Robotics, where he mentors and coaches young students in science and technology.
-    - He runs JTEC Energy, a company focused on developing new heat engine technologies for more efficient energy production.
-    - Lonnie believes that creativity, perseverance, and dedication are key to success, both in his own life and the lives of those he mentors.
+- Lonnie Johnson, inventor and engineer, has a long history of creating innovative toys and technology.
+- He invented the Super Soaker water gun, which became one of the most successful toy lines in history.
+- His other creations include the Bionic Man, a robot that could walk on two legs; and the Jet Propulsion Laboratory's Galileo mission, among others.
+- Johnson is also involved in education initiatives like FIRST Robotics, where he mentors and coaches young students in science and technology.
+- He runs JTEC Energy, a company focused on developing new heat engine technologies for more efficient energy production.
+- Lonnie believes that creativity, perseverance, and dedication are key to success, both in his own life and the lives of those he mentors.
 
 
 ## Improvising on the Piano with Code | Dan Tepfer | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=LW5Rhc-1LpI](https://www.youtube.com/watch?v=LW5Rhc-1LpI)
 
-    - Bach's Goldberg Variations played in an unusual way by D. Tepfer, who reversed the harmonic structure of each variation.
-    - Natural Machines project that uses a combination of human and computer interaction to create music.
-    - FarPlay app for playing music over the internet with minimal latency.
-    - Triad Sculptures algorithm that visualizes harmony ratios in 3D space, helping musicians understand their improvisations.
-    - Discussion about how technology can improve musical performance and creativity.
-    - The importance of practice, self-improvement, and learning from history in music making.
+- Bach's Goldberg Variations played in an unusual way by D. Tepfer, who reversed the harmonic structure of each variation.
+- Natural Machines project that uses a combination of human and computer interaction to create music.
+- FarPlay app for playing music over the internet with minimal latency.
+- Triad Sculptures algorithm that visualizes harmony ratios in 3D space, helping musicians understand their improvisations.
+- Discussion about how technology can improve musical performance and creativity.
+- The importance of practice, self-improvement, and learning from history in music making.
 
 
 ## The Importance of Lead User Innovations—& How to Find & Use Them | Eric von Hippel | Talks at Google
@@ -131,25 +131,25 @@ URL: [https://www.youtube.com/watch?v=vlkLJOazRh4](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=3tfRWpPYfqA](https://www.youtube.com/watch?v=3tfRWpPYfqA)
 
-    - Laboratoria is a nonprofit organization that empowers women to pursue careers in technology.
-    - The company was co-founded by Mariana Costa Checa, who shared the story of its beginning and mission.
-    - Their main goal is to empower women through education and job opportunities in technology.
-    - Laboratoria has a strong emphasis on community, providing support for students even after they graduate.
-    - The organization is working towards expanding their reach into countries such as Brazil, Peru, Mexico, and Colombia.
-    - They are also planning to launch Codigo M, a program focused on training women in the tech industry.
-    - Laboratoria's ultimate goal is to create a better future for women in Latin America through education and job opportunities.
+- Laboratoria is a nonprofit organization that empowers women to pursue careers in technology.
+- The company was co-founded by Mariana Costa Checa, who shared the story of its beginning and mission.
+- Their main goal is to empower women through education and job opportunities in technology.
+- Laboratoria has a strong emphasis on community, providing support for students even after they graduate.
+- The organization is working towards expanding their reach into countries such as Brazil, Peru, Mexico, and Colombia.
+- They are also planning to launch Codigo M, a program focused on training women in the tech industry.
+- Laboratoria's ultimate goal is to create a better future for women in Latin America through education and job opportunities.
 
 
 ## Eli Beer | Innovative Emergency Care | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=zkFq2qffuI8](https://www.youtube.com/watch?v=zkFq2qffuI8)
 
-    - Eli Posner, founder of United Hatzalah, describes the organization's mission to save lives using innovative methods.
-    - The group has around 2000 volunteers, mostly teenagers who use bicycles, motorcycles, and ambucycles (motorcycles with medical supplies) to reach patients faster than traditional ambulances.
-    - They have developed a GPS-based system to locate the closest volunteer based on location, which has been adopted by Israel's national emergency response system.
-    - The organization also uses drones and WhatsApp for communication during emergencies.
-    - United Hatzalah aims to expand globally and is working towards creating a worldwide network of volunteers to provide immediate medical assistance.
-    - The group has raised funds through various initiatives such as Google Cycle, which involves donating bicycles or motorcycles with medical supplies for use in emergency situations.
+- Eli Posner, founder of United Hatzalah, describes the organization's mission to save lives using innovative methods.
+- The group has around 2000 volunteers, mostly teenagers who use bicycles, motorcycles, and ambucycles (motorcycles with medical supplies) to reach patients faster than traditional ambulances.
+- They have developed a GPS-based system to locate the closest volunteer based on location, which has been adopted by Israel's national emergency response system.
+- The organization also uses drones and WhatsApp for communication during emergencies.
+- United Hatzalah aims to expand globally and is working towards creating a worldwide network of volunteers to provide immediate medical assistance.
+- The group has raised funds through various initiatives such as Google Cycle, which involves donating bicycles or motorcycles with medical supplies for use in emergency situations.
 
 
 ## Alvy Ray Smith | A Biography of the Pixel | Talks at Google
@@ -169,13 +169,13 @@ URL: [https://www.youtube.com/watch?v=V0GXQ2ZoWJc](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=1u8e9a0EI0A](https://www.youtube.com/watch?v=1u8e9a0EI0A)
 
-    - Blind adventurer Mark Pollock discusses his life, the power of collaboration, and his work to cure paralysis.
-    - His journey from losing sight in one eye at age 5, through becoming an investment banker, rowing champion, and polar explorer, has shaped his understanding of flow state and performance potential.
-    - Flow state is a neurological condition where the brain releases endorphins and dopamine, making people feel their best and perform at peak levels.
-    - Mark's injury in 1998 led him to create Collaborative Cures, an organization focused on bringing together scientists, technologists, investors, philanthropists, and charities to accelerate the cure for paralysis.
-    - A key theme throughout the discussion is the importance of trust, communication, and collaboration in achieving success and overcoming challenges.
-    - Mark's guide dog, Larry, plays a crucial role in his life by providing emotional support, companionship, and helping him regain identity after losing sight.
-    - Inclusion and diversity are critical for creating an inclusive workplace environment that allows people with disabilities to contribute meaningfully and perform at their best.
+- Blind adventurer Mark Pollock discusses his life, the power of collaboration, and his work to cure paralysis.
+- His journey from losing sight in one eye at age 5, through becoming an investment banker, rowing champion, and polar explorer, has shaped his understanding of flow state and performance potential.
+- Flow state is a neurological condition where the brain releases endorphins and dopamine, making people feel their best and perform at peak levels.
+- Mark's injury in 1998 led him to create Collaborative Cures, an organization focused on bringing together scientists, technologists, investors, philanthropists, and charities to accelerate the cure for paralysis.
+- A key theme throughout the discussion is the importance of trust, communication, and collaboration in achieving success and overcoming challenges.
+- Mark's guide dog, Larry, plays a crucial role in his life by providing emotional support, companionship, and helping him regain identity after losing sight.
+- Inclusion and diversity are critical for creating an inclusive workplace environment that allows people with disabilities to contribute meaningfully and perform at their best.
 
 
 ## Rizwan Virk | The Simulated Multiverse | Talks at Google
@@ -207,126 +207,123 @@ URL: [https://www.youtube.com/watch?v=Lvkl5SHPHDo](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=TS5zcTGiAH4](https://www.youtube.com/watch?v=TS5zcTGiAH4)
 
-    - Neocortex theory: 150,000 cortical columns, each building model of world, connected to specific context
-    - Sparsity in brain: active neuron count per second, 2 active, efficient learning
-    - Dendritic trees: complex structure, context integration
-    - Brain learning: Hierarchical, continuous, self-supervised
-    - Reference frames: Embedded movement behavior, generalization, small training set
-    - Deep learning comparison: Efficient, robust, continual learning
-    - AI in 20 years: Existential risk, powerful technology, revolutionize world, improve human life
-    - Neuromorphic computing: Rain Neuromorphics, distributed voting system, local computation, long-distance communication
-    - Next steps: Understand brain's fundamental algorithm, apply to AI, build intelligent machines
-    - Context: No context provided. If you have no context, write 'no context'. Please use markdown style for output.
-
-Note: This summary is based on the given transcript; it may not capture all details and points discussed during the conversation.
+- Neocortex theory: 150,000 cortical columns, each building model of world, connected to specific context
+- Sparsity in brain: active neuron count per second, 2 active, efficient learning
+- Dendritic trees: complex structure, context integration
+- Brain learning: Hierarchical, continuous, self-supervised
+- Reference frames: Embedded movement behavior, generalization, small training set
+- Deep learning comparison: Efficient, robust, continual learning
+- AI in 20 years: Existential risk, powerful technology, revolutionize world, improve human life
+- Neuromorphic computing: Rain Neuromorphics, distributed voting system, local computation, long-distance communication
+- Next steps: Understand brain's fundamental algorithm, apply to AI, build intelligent machines
 
 
 ## Yolande Strengers & Jenny Kennedy | Why Smart Home Devices Need a Feminist Reboot | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=p7JbasJLgW0](https://www.youtube.com/watch?v=p7JbasJLgW0)
 
-    - Discussed the concept of 'The Smart Wife' book, which refers to smart devices targeted at women and their potential gender bias.
-    - The authors discussed the history behind the term 'smart wife', its connection with technology, and how it reflects traditional roles in society.
-    - They mentioned the concept of 'wife drought', referring to a lack of female representation in AI-powered devices.
-    - They talked about the influence of science fiction on smart home devices, particularly robots like Rosie from The Jetsons or Astro Boy.
-    - The book discusses the potential negative consequences of smart devices and how they may reinforce traditional gender roles and stereotypes.
-    - They also discussed the importance of diversity in technology, including a variety of genders, races, and abilities.
-    - There was a discussion about the need for more diverse representation in AI voice assistants, as well as the potential for these devices to be used maliciously, such as in cases of domestic abuse.
-    - The authors emphasized the importance of considering the broader context when designing technology, including its impact on society and gender equality.
+- Discussed the concept of 'The Smart Wife' book, which refers to smart devices targeted at women and their potential gender bias.
+- The authors discussed the history behind the term 'smart wife', its connection with technology, and how it reflects traditional roles in society.
+- They mentioned the concept of 'wife drought', referring to a lack of female representation in AI-powered devices.
+- They talked about the influence of science fiction on smart home devices, particularly robots like Rosie from The Jetsons or Astro Boy.
+- The book discusses the potential negative consequences of smart devices and how they may reinforce traditional gender roles and stereotypes.
+- They also discussed the importance of diversity in technology, including a variety of genders, races, and abilities.
+- There was a discussion about the need for more diverse representation in AI voice assistants, as well as the potential for these devices to be used maliciously, such as in cases of domestic abuse.
+- The authors emphasized the importance of considering the broader context when designing technology, including its impact on society and gender equality.
 
 
 ## Yiying Lu | Empowering Through Cross-Cultural Design & Innovation | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=dwMj2gQFjss](https://www.youtube.com/watch?v=dwMj2gQFjss)
 
-    - Bridge gaps through art and technology: Use design to connect people from different cultures, backgrounds and perspectives.
-    - Art as a universal language: Emojis are an example of how visual communication transcends linguistic barriers.
-    - Incorporate local culture into global brands: Yiying Lu's work with Disney Shanghai showcases the importance of incorporating local elements in international brands to resonate with local audiences.
-    - Work-life balance and mental health: The pandemic has highlighted the need for a healthy lifestyle, including taking breaks from screens and prioritizing self-care.
-    - Design thinking and empathy: Embrace diverse perspectives to create inclusive products that cater to a wide range of users.
-    - Storytelling through art: Use visual storytelling to share personal experiences and connect with others on an emotional level.
-    - Bridging the gap between East and West: Leverage art as a tool to foster understanding and collaboration across cultures.
-    - Art therapy: Create spaces for self-expression, healing, and empowerment through art.
+- Bridge gaps through art and technology: Use design to connect people from different cultures, backgrounds and perspectives.
+- Art as a universal language: Emojis are an example of how visual communication transcends linguistic barriers.
+- Incorporate local culture into global brands: Yiying Lu's work with Disney Shanghai showcases the importance of incorporating local elements in international brands to resonate with local audiences.
+- Work-life balance and mental health: The pandemic has highlighted the need for a healthy lifestyle, including taking breaks from screens and prioritizing self-care.
+- Design thinking and empathy: Embrace diverse perspectives to create inclusive products that cater to a wide range of users.
+- Storytelling through art: Use visual storytelling to share personal experiences and connect with others on an emotional level.
+- Bridging the gap between East and West: Leverage art as a tool to foster understanding and collaboration across cultures.
+- Art therapy: Create spaces for self-expression, healing, and empowerment through art.
 
 
 ## John Lennox | 2084: Artificial Intelligence and the Future of Humanity | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=Z8UwMvbfoI4](https://www.youtube.com/watch?v=Z8UwMvbfoI4)
 
-    - Professor John Lennox discussed various topics including AI, ethics, religion, and human values.
-    - He emphasized the importance of ethical considerations in AI development.
-    - Regarding narrow and general AI (AGI), he expressed concerns about their potential dangers.
-    - He mentioned the need for a balance between technological advancement and moral responsibility.
-    - Professor Lennox highlighted the significance of human values, especially those rooted in Christianity, as a foundation for ethical decision-making.
-    - AI research should be guided by a moral framework that promotes trust and respect within society.
-    - He also talked about the importance of maintaining an open dialogue with people from different backgrounds to foster understanding and collaboration.
+- Professor John Lennox discussed various topics including AI, ethics, religion, and human values.
+- He emphasized the importance of ethical considerations in AI development.
+- Regarding narrow and general AI (AGI), he expressed concerns about their potential dangers.
+- He mentioned the need for a balance between technological advancement and moral responsibility.
+- Professor Lennox highlighted the significance of human values, especially those rooted in Christianity, as a foundation for ethical decision-making.
+- AI research should be guided by a moral framework that promotes trust and respect within society.
+- He also talked about the importance of maintaining an open dialogue with people from different backgrounds to foster understanding and collaboration.
 
 
 ## César Hidalgo | How Humans Judge Machines | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=H10-t5hnnw0](https://www.youtube.com/watch?v=H10-t5hnnw0)
 
-    - César Hidalgo presented a study on how humans judge machines and vice versa.
-    - Moral function in human judgment is based on intention, harm, and wrongness.
-    - People tend to forgive machine mistakes if they're accidental, but hold humans accountable for similar mistakes.
-    - The intention of humans and machines can be perceived differently depending on context.
-    - When judging a moral dilemma involving a human and a machine, people prefer preserving the human over the machine, even if it means causing harm to the human.
-    - People judge autonomous vehicles based on their cultural background. For example, Saudis are more likely to blame the driver for accidents, while Americans tend to blame the car manufacturer.
-    - There is a difference in judgment between people with higher education and lower education. Those with higher education tend to be more forgiving of machines.
-    - When it comes to self-driving cars, people judge based on their cultural background and level of trust.
-    - People are more likely to blame the driver for accidents involving autonomous vehicles if they're from a collectivist culture. In contrast, individualistic cultures tend to blame the machine or manufacturer.
-    - People prefer machines that can learn and adapt to new tasks over those that perform specific tasks well.
-    - People judge moral dilemmas differently based on their cultural background. For example, Americans focus on harm while Asians focus more on intention.
-    - In a self-driving car scenario, people tend to blame the driver if they're from a collectivist culture and blame the machine or manufacturer if they're from an individualistic culture.
-    - People are more likely to forgive machines for accidents if they have higher education.
-    - When judging autonomous vehicles, people consider both cultural background and level of trust in self-driving technology.
-    - In a moral dilemma involving a human and machine, people tend to prefer preserving the human over the machine. However, this preference may vary across cultures.
+- César Hidalgo presented a study on how humans judge machines and vice versa.
+- Moral function in human judgment is based on intention, harm, and wrongness.
+- People tend to forgive machine mistakes if they're accidental, but hold humans accountable for similar mistakes.
+- The intention of humans and machines can be perceived differently depending on context.
+- When judging a moral dilemma involving a human and a machine, people prefer preserving the human over the machine, even if it means causing harm to the human.
+- People judge autonomous vehicles based on their cultural background. For example, Saudis are more likely to blame the driver for accidents, while Americans tend to blame the car manufacturer.
+- There is a difference in judgment between people with higher education and lower education. Those with higher education tend to be more forgiving of machines.
+- When it comes to self-driving cars, people judge based on their cultural background and level of trust.
+- People are more likely to blame the driver for accidents involving autonomous vehicles if they're from a collectivist culture. In contrast, individualistic cultures tend to blame the machine or manufacturer.
+- People prefer machines that can learn and adapt to new tasks over those that perform specific tasks well.
+- People judge moral dilemmas differently based on their cultural background. For example, Americans focus on harm while Asians focus more on intention.
+- In a self-driving car scenario, people tend to blame the driver if they're from a collectivist culture and blame the machine or manufacturer if they're from an individualistic culture.
+- People are more likely to forgive machines for accidents if they have higher education.
+- When judging autonomous vehicles, people consider both cultural background and level of trust in self-driving technology.
+- In a moral dilemma involving a human and machine, people tend to prefer preserving the human over the machine. However, this preference may vary across cultures.
 
 
 ## Lisa Piccirillo | How You Too Can Solve 50+ Year Old Problems | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=8zIiCTD9ewQ](https://www.youtube.com/watch?v=8zIiCTD9ewQ)
 
-    - Lisa Piccirillo, an associate professor at MIT, discussed her work on Conway knot and four-dimensional space.
-    - She emphasized the importance of community and mentorship in academia, especially for women in STEM fields.
-    - She also talked about the impact of stereotype threat on women pursuing careers in math and science.
-    - Piccirillo highlighted the need to build infrastructure for problems that are not yet well understood or solved.
-    - Her advice for aspiring mathematicians is to find a problem they're passionate about, choose a supportive environment, and learn mathematics slowly and carefully.
+- Lisa Piccirillo, an associate professor at MIT, discussed her work on Conway knot and four-dimensional space.
+- She emphasized the importance of community and mentorship in academia, especially for women in STEM fields.
+- She also talked about the impact of stereotype threat on women pursuing careers in math and science.
+- Piccirillo highlighted the need to build infrastructure for problems that are not yet well understood or solved.
+- Her advice for aspiring mathematicians is to find a problem they're passionate about, choose a supportive environment, and learn mathematics slowly and carefully.
 
 
 ## Iddris Sandu | Black Creatives in Technology | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=cwu_aKIAtCI](https://www.youtube.com/watch?v=cwu_aKIAtCI)
 
-    - Aspirational necessitation and empathy-based entrepreneurship in technology
-    - Creating a more inclusive, accessible, and empowered future through technology
-    - Collaboration with diverse communities for innovation and growth
-    - Innovating within existing infrastructure to democratize technology
-    - Building bridges between marginalized communities and the tech industry
-    - Understanding and addressing unconscious bias in AI and machine learning
-    - Focus on next generation and community empowerment through education, mentorship, and accessibility
-    - Using technology for social good: healthcare, education, and environmental sustainability
-    - Importance of storytelling and representation in the tech industry
-    - Embracing cultural diversity and inclusivity within technology
-    - Balancing innovation with maintaining historical significance and preserving culture
-    - Collaboration between established companies and startups to promote inclusivity and accessibility
-    - Empowering youth through education, mentorship, and entrepreneurship programs
+- Aspirational necessitation and empathy-based entrepreneurship in technology
+- Creating a more inclusive, accessible, and empowered future through technology
+- Collaboration with diverse communities for innovation and growth
+- Innovating within existing infrastructure to democratize technology
+- Building bridges between marginalized communities and the tech industry
+- Understanding and addressing unconscious bias in AI and machine learning
+- Focus on next generation and community empowerment through education, mentorship, and accessibility
+- Using technology for social good: healthcare, education, and environmental sustainability
+- Importance of storytelling and representation in the tech industry
+- Embracing cultural diversity and inclusivity within technology
+- Balancing innovation with maintaining historical significance and preserving culture
+- Collaboration between established companies and startups to promote inclusivity and accessibility
+- Empowering youth through education, mentorship, and entrepreneurship programs
 
 
 ## Nicholas Thompson | Building for Digital Health | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=vZtWBM2Q41w](https://www.youtube.com/watch?v=vZtWBM2Q41w)
 
-    - Telemedicine is transforming healthcare, changing the way medical work is done.
-    - AI is revolutionizing multiple industries, including medicine and health care.
-    - Healthcare data democratization can lead to better treatment options for patients.
-    - Drug discovery could be accelerated using AI and computing power.
-    - The future of telemedicine may widen inequality, but it also has the potential to improve access to healthcare.
-    - There is a risk that China's technological dominance in AI could lead to conflicts with other countries.
-    - Privacy concerns are paramount when sharing health data, and companies must be transparent about how they handle it.
-    - Healthcare data privacy regulations should be simplified and standardized globally.
-    - The future of medicine will involve a combination of AI, machine learning, and human empathy.
-    - A major challenge is ensuring that AI is used for the benefit of all people, not just those with wealth or power.
+- Telemedicine is transforming healthcare, changing the way medical work is done.
+- AI is revolutionizing multiple industries, including medicine and health care.
+- Healthcare data democratization can lead to better treatment options for patients.
+- Drug discovery could be accelerated using AI and computing power.
+- The future of telemedicine may widen inequality, but it also has the potential to improve access to healthcare.
+- There is a risk that China's technological dominance in AI could lead to conflicts with other countries.
+- Privacy concerns are paramount when sharing health data, and companies must be transparent about how they handle it.
+- Healthcare data privacy regulations should be simplified and standardized globally.
+- The future of medicine will involve a combination of AI, machine learning, and human empathy.
+- A major challenge is ensuring that AI is used for the benefit of all people, not just those with wealth or power.
 
 
 ## AI, Human Augmentation, and the Future of Intelligence on Earth | David Brin | Talks at Google
@@ -358,26 +355,26 @@ URL: [https://www.youtube.com/watch?v=SLEvwoD1kPM](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=M7VP5reY1ok](https://www.youtube.com/watch?v=M7VP5reY1ok)
 
-    - Discussing happiness and its relation to various aspects of life
-    - Happiness may be a byproduct of achieving meaningful goals or engaging in activities that align with personal values
-    - Mind uploading, the idea of transferring consciousness to a computer, could lead to better understanding of happiness and human flourishing
-    - Pain might have positive effects in certain situations, such as learning from mistakes or avoiding harm
-    - Optimism can be beneficial for fostering happiness, as it encourages exploration and open-ended growth
-    - Aiming for sustainable happiness may involve finding something worthwhile to pursue while exploring the universe's wonders
+- Discussing happiness and its relation to various aspects of life
+- Happiness may be a byproduct of achieving meaningful goals or engaging in activities that align with personal values
+- Mind uploading, the idea of transferring consciousness to a computer, could lead to better understanding of happiness and human flourishing
+- Pain might have positive effects in certain situations, such as learning from mistakes or avoiding harm
+- Optimism can be beneficial for fostering happiness, as it encourages exploration and open-ended growth
+- Aiming for sustainable happiness may involve finding something worthwhile to pursue while exploring the universe's wonders
 
 
 ## The Reasonable Robot | Ryan Abbott | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=VgZxtVpz2Sg](https://www.youtube.com/watch?v=VgZxtVpz2Sg)
 
-    - Ryan Abbott, author of 'The Reasonable Robot', discussed the legal implications of AI.
-    - The book explores the idea that AI should be treated like a person in certain contexts, such as patent law and tort liability.
-    - For patents, the book suggests an AI-inventor principle, which would treat AI inventions similar to human inventors.
-    - In tort liability, it proposes a 'reasonable robot' standard for AI self-driving cars, where they must act reasonably under the circumstances.
-    - The book also discusses AI legal neutrality in criminal law, suggesting that AI might not have intent but could face civil liability.
-    - Regarding taxation, the book argues for a progressive income tax system to redistribute wealth generated by automation.
-    - In privacy, it proposes a multistakeholder dialogue approach to address issues related to AI-generated data.
-    - The book suggests treating AI as an inventive machine in intellectual property law and considers the implications of AI in various fields like medicine, self-driving cars, and criminal justice.
+- Ryan Abbott, author of 'The Reasonable Robot', discussed the legal implications of AI.
+- The book explores the idea that AI should be treated like a person in certain contexts, such as patent law and tort liability.
+- For patents, the book suggests an AI-inventor principle, which would treat AI inventions similar to human inventors.
+- In tort liability, it proposes a 'reasonable robot' standard for AI self-driving cars, where they must act reasonably under the circumstances.
+- The book also discusses AI legal neutrality in criminal law, suggesting that AI might not have intent but could face civil liability.
+- Regarding taxation, the book argues for a progressive income tax system to redistribute wealth generated by automation.
+- In privacy, it proposes a multistakeholder dialogue approach to address issues related to AI-generated data.
+- The book suggests treating AI as an inventive machine in intellectual property law and considers the implications of AI in various fields like medicine, self-driving cars, and criminal justice.
 
 
 ## The AI Republic | Mark Esposito | Talks at Google
@@ -408,13 +405,13 @@ URL: [https://www.youtube.com/watch?v=Tl8A7vZOK2E](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=nVq8oFG4_H0](https://www.youtube.com/watch?v=nVq8oFG4_H0)
 
-    - Mairin Ni Bheachain, a Moystyle client, shared her story of overcoming a rare condition called MoyaMoya.
-    - She had brain surgery to create a pathway for oxygen and faced challenges like speech, reading, and writing difficulties.
-    - After therapy, she regained her abilities but still struggles with technology. She uses touch-enabled devices and apps like KNFB Reader and Seeing AI.
-    - Mairin founded Dress Success, a charity that helps unemployed women return to work through styling, personal shopping, and wardrobe consultation.
-    - She also offers motivational speaking services in areas of resilience and change management.
-    - The discussion touched on topics like fashion, emotional dressing, disability, and the importance of asking for help.
-    - Mairin emphasized that she's still learning and growing through her journey.
+- Mairin Ni Bheachain, a Moystyle client, shared her story of overcoming a rare condition called MoyaMoya.
+- She had brain surgery to create a pathway for oxygen and faced challenges like speech, reading, and writing difficulties.
+- After therapy, she regained her abilities but still struggles with technology. She uses touch-enabled devices and apps like KNFB Reader and Seeing AI.
+- Mairin founded Dress Success, a charity that helps unemployed women return to work through styling, personal shopping, and wardrobe consultation.
+- She also offers motivational speaking services in areas of resilience and change management.
+- The discussion touched on topics like fashion, emotional dressing, disability, and the importance of asking for help.
+- Mairin emphasized that she's still learning and growing through her journey.
 
 
 ## Why Women Leave Tech and How to Retain Them | Caroline Ramade | Talks at Google
@@ -462,14 +459,14 @@ URL: [https://www.youtube.com/watch?v=taeABpFjjQg](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=vC-dFd7Ekhk](https://www.youtube.com/watch?v=vC-dFd7Ekhk)
 
-    - Anthony Casalena, founder and CEO of Squarespace, shared the story of his journey.
-    - He started the company in 2003 with a dorm room idea to create a website builder tool for non-designers.
-    - The company has grown significantly since then, now employing over 1,000 people and generating $450 million in revenue.
-    - Squarespace is known for its focus on design, ease of use, and customer satisfaction.
-    - The company's headquarters are located in New York City, which has been instrumental in their growth and culture.
-    - They have acquired companies like Acuity Scheduling and Unfold to expand their offerings.
-    - Their marketing strategy includes a mix of paid advertising on platforms such as Google AdWords, podcasts, Instagram, and television, along with creative campaigns that have included Super Bowl ads and a recent partnership with Sesame Street.
-    - In the future, they plan to continue evolving their product offerings while staying true to their core values.
+- Anthony Casalena, founder and CEO of Squarespace, shared the story of his journey.
+- He started the company in 2003 with a dorm room idea to create a website builder tool for non-designers.
+- The company has grown significantly since then, now employing over 1,000 people and generating $450 million in revenue.
+- Squarespace is known for its focus on design, ease of use, and customer satisfaction.
+- The company's headquarters are located in New York City, which has been instrumental in their growth and culture.
+- They have acquired companies like Acuity Scheduling and Unfold to expand their offerings.
+- Their marketing strategy includes a mix of paid advertising on platforms such as Google AdWords, podcasts, Instagram, and television, along with creative campaigns that have included Super Bowl ads and a recent partnership with Sesame Street.
+- In the future, they plan to continue evolving their product offerings while staying true to their core values.
 
 
 ## GPS For Humanity | Dr. Bradford Parkinson | Talks at Google
@@ -594,25 +591,25 @@ URL: [https://www.youtube.com/watch?v=41Xy0XucIL0](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=MMqfOGA6TaQ](https://www.youtube.com/watch?v=MMqfOGA6TaQ)
 
-    1. The speakers discussed the importance of representation in media and technology, particularly targeting marginalized groups.
-    2. They emphasized the need for a more diverse range of content creators and stories to ensure accurate and nuanced portrayals.
-    3. The impact of algorithms and bias was also highlighted, with suggestions on how to improve fairness and representation in AI-driven platforms.
-    4. Acknowledging the complexity of identity development, they stressed the need for educational resources to help children navigate social media and technology safely.
-    5. They advocated for more research into the psychology of racial and ethnic identity development, with a focus on how it's affected by technology usage and social media exposure.
+1. The speakers discussed the importance of representation in media and technology, particularly targeting marginalized groups.
+2. They emphasized the need for a more diverse range of content creators and stories to ensure accurate and nuanced portrayals.
+3. The impact of algorithms and bias was also highlighted, with suggestions on how to improve fairness and representation in AI-driven platforms.
+4. Acknowledging the complexity of identity development, they stressed the need for educational resources to help children navigate social media and technology safely.
+5. They advocated for more research into the psychology of racial and ethnic identity development, with a focus on how it's affected by technology usage and social media exposure.
 
 
 ## The Ethical Algorithm | Michael Kearns & Aaron Roth | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=tmC9JdKc3sA](https://www.youtube.com/watch?v=tmC9JdKc3sA)
 
-    - Discussed the challenges of algorithmic decision making and fairness.
-    - Fairness is a complex issue that requires balancing multiple conflicting concerns.
-    - Algorithms are often biased due to underlying data, which may reflect historical bias or systemic discrimination.
-    - There's a need for transparency in algorithm design and decision-making processes.
-    - Differential privacy can help protect individual privacy while enabling useful statistical analysis.
-    - Interdisciplinary collaboration is essential for addressing ethical issues in algorithmic decision making, involving experts from computer science, law, social sciences, and ethics.
-    - Algorithms should be designed with fairness as a primary goal to avoid unintended biases and consequences.
-    - Regulators play an important role in ensuring algorithms are fair and transparent, while companies need to take responsibility for their products' impact on society.
+- Discussed the challenges of algorithmic decision making and fairness.
+- Fairness is a complex issue that requires balancing multiple conflicting concerns.
+- Algorithms are often biased due to underlying data, which may reflect historical bias or systemic discrimination.
+- There's a need for transparency in algorithm design and decision-making processes.
+- Differential privacy can help protect individual privacy while enabling useful statistical analysis.
+- Interdisciplinary collaboration is essential for addressing ethical issues in algorithmic decision making, involving experts from computer science, law, social sciences, and ethics.
+- Algorithms should be designed with fairness as a primary goal to avoid unintended biases and consequences.
+- Regulators play an important role in ensuring algorithms are fair and transparent, while companies need to take responsibility for their products' impact on society.
 
 
 ## Cryptocurrency & the IRS | Shehan Chandrasekera & Chandan Lodha | Talks at Google
@@ -643,11 +640,11 @@ URL: [https://www.youtube.com/watch?v=o0M8dLkS8oU](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=e1WEAcVGlQ4](https://www.youtube.com/watch?v=e1WEAcVGlQ4)
 
-    - Tupac and Andrea talked about their creative lives, experiences, and artistic projects.
-    - They discussed the importance of collaboration, technology, and storytelling in their work.
-    - The power of memory, emotions, and sensory experiences were also explored as part of their creative process.
-    - Their goal is to create universally understood art that connects with people on a deep emotional level.
-    - They plan to continue developing new projects and bringing innovative ideas to life.
+- Tupac and Andrea talked about their creative lives, experiences, and artistic projects.
+- They discussed the importance of collaboration, technology, and storytelling in their work.
+- The power of memory, emotions, and sensory experiences were also explored as part of their creative process.
+- Their goal is to create universally understood art that connects with people on a deep emotional level.
+- They plan to continue developing new projects and bringing innovative ideas to life.
 
 
 ## Telling Transgender Stories | Carmen Carrera, Ian Alexander & Alex Schmider | Talks at Google
@@ -671,15 +668,6 @@ URL: [https://www.youtube.com/watch?v=mwVKXKlU1GU](https://www.youtube.com/watch
 - The speaker emphasizes the importance of public education and regulation regarding AI development.
 - They also discuss the possible implications of invasive neurotechnology, such as brain enhancement.
 - The future of human intelligence is uncertain, but it is believed that understanding consciousness and the nature of self will be key to progress.
-
-
-## Genes Vs Cultures Vs Consciousness | Andres Campero | Talks at Google
-
-URL: [https://www.youtube.com/watch?v=xK0utYscFaM](https://www.youtube.com/watch?v=xK0utYscFaM)
-
-1. No actual transcript or context was provided to summarize.
-2. Please give the needed information for generating a summary.
-3. Remember that markdown style is used for formatting output.
 
 
 ## Is The World Ready for The Age of AI? | Amir Husain | Talks at Google
@@ -716,12 +704,14 @@ URL: [https://www.youtube.com/watch?v=QvZuAwLIsEo](https://www.youtube.com/watch
 URL: [https://www.youtube.com/watch?v=gQrrQ3uZD9A](https://www.youtube.com/watch?v=gQrrQ3uZD9A)
 
 Summary:
+
 - The speakers discussed the importance of transportation in Los Angeles, focusing on their personal experiences and current initiatives.
 - They highlighted the need for innovation and collaboration between private companies and government agencies to improve mobility and sustainability.
 - Key topics included autonomous vehicles, ridesharing services, and the integration of various modes of transportation.
 - The speakers emphasized the importance of data sharing and partnerships in order to create a comprehensive transport system.
 
 Initiatives:
+
 1. LADOT's focus on safety and innovation with initiatives like Vision Zero and autonomous vehicle testing.
 2. Metrolink's commitment to providing safe, efficient transportation options for its passengers.
 3. Butterfli's efforts in offering accessible and inclusive transportation services for people with disabilities.
@@ -783,11 +773,11 @@ URL: [https://www.youtube.com/watch?v=UHlfe2HE_gQ](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=EMUEuMV112E](https://www.youtube.com/watch?v=EMUEuMV112E)
 
-    - Algorithms are used to simplify and generalize complex data, but this can lead to issues like bias.
-    - A balanced approach is needed where diversity preservation plays a crucial role in the evolution of systems.
-    - Diversity in algorithms can be achieved through various means such as using niching techniques in genetic algorithms or avoiding over-homogeneity in machine learning models.
-    - Humans also tend to simplify and generalize people based on gender, race, etc., so it's essential to maintain vigilance against these biases.
-    - The key is striking a balance between the need for simplicity and diversity, ensuring that algorithms remain fair and inclusive while providing accurate results.
+- Algorithms are used to simplify and generalize complex data, but this can lead to issues like bias.
+- A balanced approach is needed where diversity preservation plays a crucial role in the evolution of systems.
+- Diversity in algorithms can be achieved through various means such as using niching techniques in genetic algorithms or avoiding over-homogeneity in machine learning models.
+- Humans also tend to simplify and generalize people based on gender, race, etc., so it's essential to maintain vigilance against these biases.
+- The key is striking a balance between the need for simplicity and diversity, ensuring that algorithms remain fair and inclusive while providing accurate results.
 
 
 ## AI Governance & Risk Management | Kartik Hosanagar | Talks at Google
@@ -806,13 +796,13 @@ URL: [https://www.youtube.com/watch?v=_PH5NQqlYQ8](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=nCIgcvK8elo](https://www.youtube.com/watch?v=nCIgcvK8elo)
 
-    - Elan Lee, the creator of Exploding Kittens and Cards Against Humanity, shared his experiences in gaming.
-    - He emphasized the importance of entertainment in games, making players feel involved and connected to each other.
-    - Community management is crucial for successful games, as it enables quick adjustments based on player feedback.
-    - Games should be designed with a wide age range in mind, appealing to both children and adults.
-    - The Exploding Kittens card game was created to entertain players while also providing meaningful interactions between them.
-    - Board games are experiencing a renaissance due to increased bandwidth and community engagement.
-    - Games can be used as powerful tools for communication, therapy, and education.
+- Elan Lee, the creator of Exploding Kittens and Cards Against Humanity, shared his experiences in gaming.
+- He emphasized the importance of entertainment in games, making players feel involved and connected to each other.
+- Community management is crucial for successful games, as it enables quick adjustments based on player feedback.
+- Games should be designed with a wide age range in mind, appealing to both children and adults.
+- The Exploding Kittens card game was created to entertain players while also providing meaningful interactions between them.
+- Board games are experiencing a renaissance due to increased bandwidth and community engagement.
+- Games can be used as powerful tools for communication, therapy, and education.
 
 
 ## Fall; or, Dodge in Hell: A Novel | Neal Stephenson | Talks at Google
@@ -830,13 +820,13 @@ URL: [https://www.youtube.com/watch?v=Q6NEOzLmnGs](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=VUwBcTgzbtU](https://www.youtube.com/watch?v=VUwBcTgzbtU)
 
-    - Facebook and other social media platforms collect a massive amount of data from users, which can be used to predict intimate traits such as political views, personality, and sexual orientation.
-    - The more information you share on social media, the easier it is for algorithms to make accurate predictions about your personal life.
-    - Algorithms can also analyze patterns in browsing history, search queries, email content, and purchase records to predict intimate traits.
-    - Companies like Cambridge Analytica have used this data to target political campaigns and advertisements effectively.
-    - Privacy is crucial for maintaining a fair society, as it prevents discrimination based on personal information that may not be relevant in certain contexts.
-    - Transparency can help build trust between individuals and businesses, but it also raises privacy concerns.
-    - The future of privacy will depend on how well we balance the benefits and risks associated with data collection and analysis.
+- Facebook and other social media platforms collect a massive amount of data from users, which can be used to predict intimate traits such as political views, personality, and sexual orientation.
+- The more information you share on social media, the easier it is for algorithms to make accurate predictions about your personal life.
+- Algorithms can also analyze patterns in browsing history, search queries, email content, and purchase records to predict intimate traits.
+- Companies like Cambridge Analytica have used this data to target political campaigns and advertisements effectively.
+- Privacy is crucial for maintaining a fair society, as it prevents discrimination based on personal information that may not be relevant in certain contexts.
+- Transparency can help build trust between individuals and businesses, but it also raises privacy concerns.
+- The future of privacy will depend on how well we balance the benefits and risks associated with data collection and analysis.
 
 
 ## African Tech Entrepreneurship: Diversifying The Global Tech Market | Talks at Google
@@ -859,26 +849,26 @@ URL: [https://www.youtube.com/watch?v=iwvWPu2Fudo](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=_6sh097Dk5k](https://www.youtube.com/watch?v=_6sh097Dk5k)
 
-    - Dave Jaggar, a former ARM executive, shared his experiences in the semiconductor industry.
-    - He discussed the importance of serendipity and timing in his career.
-    - There was mention of different design approaches to CPUs, such as RISC Vs CISC.
-    - Jaggar highlighted the complexity of modern computing systems and how they can be optimized for specific tasks.
-    - He emphasized the importance of partnerships and collaborations in the semiconductor industry.
-    - The conversation touched upon security issues like Spectre Meltdown and the need for better protection measures.
+- Dave Jaggar, a former ARM executive, shared his experiences in the semiconductor industry.
+- He discussed the importance of serendipity and timing in his career.
+- There was mention of different design approaches to CPUs, such as RISC Vs CISC.
+- Jaggar highlighted the complexity of modern computing systems and how they can be optimized for specific tasks.
+- He emphasized the importance of partnerships and collaborations in the semiconductor industry.
+- The conversation touched upon security issues like Spectre Meltdown and the need for better protection measures.
 
 
 ## The Blockchain and The New Architecture of Trust | Kevin Werbach | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=F4VvoVu0wiw](https://www.youtube.com/watch?v=F4VvoVu0wiw)
 
-    - Blockchain is a new form of trust manifested as architecture trust.
-    - It solves problems by centralizing and decentralizing trust in different ways, depending on the application.
-    - Regulation and compliance will play an important role in blockchain adoption.
-    - Governance is an essential element for blockchains to be adopted widely.
-    - Policymakers may need to adapt to new technologies like blockchain, rather than trying to prevent their use.
-    - Facebook's entry into the blockchain space could lead to more centralized applications or decentralized social networks.
-    - Governments can utilize blockchains for land title recording and identity management.
-    - The potential of self-sovereign identity systems in transforming government services is significant.
+- Blockchain is a new form of trust manifested as architecture trust.
+- It solves problems by centralizing and decentralizing trust in different ways, depending on the application.
+- Regulation and compliance will play an important role in blockchain adoption.
+- Governance is an essential element for blockchains to be adopted widely.
+- Policymakers may need to adapt to new technologies like blockchain, rather than trying to prevent their use.
+- Facebook's entry into the blockchain space could lead to more centralized applications or decentralized social networks.
+- Governments can utilize blockchains for land title recording and identity management.
+- The potential of self-sovereign identity systems in transforming government services is significant.
 
 
 ## Talk to Me | James Vlahos | Talks at Google
@@ -909,30 +899,30 @@ URL: [https://www.youtube.com/watch?v=eb4VQOyzMFM](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=830QFKrtgLA](https://www.youtube.com/watch?v=830QFKrtgLA)
 
-    - Ethical OS is a toolkit designed to help technologists anticipate and mitigate potential unintended consequences of their products.
-    - It consists of three tools: Future Wheel, Risk Scanning, and Ethical OS framework.
-    - Future Wheel helps predict future impact by considering first-order, second-order, third-order consequences, etc.
-    - Risk Scanning categorizes risks into eight zones to help identify potential negative impacts of technological development.
-    - The Ethical OS framework is a decision-making tool that helps companies and individuals make ethical choices in their products and services.
-    - The speaker also discusses the importance of building an ethical infrastructure, including ethical ombudsmen, chief ethic officers, and employee advocacy programs to support ethical behavior within organizations.
+- Ethical OS is a toolkit designed to help technologists anticipate and mitigate potential unintended consequences of their products.
+- It consists of three tools: Future Wheel, Risk Scanning, and Ethical OS framework.
+- Future Wheel helps predict future impact by considering first-order, second-order, third-order consequences, etc.
+- Risk Scanning categorizes risks into eight zones to help identify potential negative impacts of technological development.
+- The Ethical OS framework is a decision-making tool that helps companies and individuals make ethical choices in their products and services.
+- The speaker also discusses the importance of building an ethical infrastructure, including ethical ombudsmen, chief ethic officers, and employee advocacy programs to support ethical behavior within organizations.
 
 
 ## Unauthorized Bread | Cory Doctorow | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=xvbusjDOspQ](https://www.youtube.com/watch?v=xvbusjDOspQ)
 
-    - Novel 'Unauthorized Bread' is a dystopian story set in the near future, where refugees are treated like criminals and forced into labor camps.
-    - The main character, Salima, an immigrant refugee, works at a bakery that secretly provides bread to the public.
-    - The author, Cory Doctorow, discusses inequality and how it affects people's lives through various stories in his latest novel.
-    - The book is narrated by a woman who plays a vital role in the dystopian society.
-    - The audio version of the book is read by Lameece Issaq, a Palestinian-American actor and playwright.
-    - Doctorow compares the story to Ray Bradbury's 'Martian Chronicles' and Isaac Asimov's 'Foundation' series, highlighting the importance of continuity in sci-fi literature.
-    - The transcript discusses encryption, privacy, and surveillance issues in technology companies like Google and Facebook.
-    - Doctorow also talks about his experiences with indie bookstores and their unique culture.
-    - The novel is set in a near future where refugees are treated as criminals, forcing them into labor camps.
-    - A bakery secretly provides bread to the public, which becomes an important part of the story.
-    - The audio version is read by Lameece Issaq, a Palestinian-American actor and playwright.
-    - The book highlights inequality issues through various stories in its narrative.
+- Novel 'Unauthorized Bread' is a dystopian story set in the near future, where refugees are treated like criminals and forced into labor camps.
+- The main character, Salima, an immigrant refugee, works at a bakery that secretly provides bread to the public.
+- The author, Cory Doctorow, discusses inequality and how it affects people's lives through various stories in his latest novel.
+- The book is narrated by a woman who plays a vital role in the dystopian society.
+- The audio version of the book is read by Lameece Issaq, a Palestinian-American actor and playwright.
+- Doctorow compares the story to Ray Bradbury's 'Martian Chronicles' and Isaac Asimov's 'Foundation' series, highlighting the importance of continuity in sci-fi literature.
+- The transcript discusses encryption, privacy, and surveillance issues in technology companies like Google and Facebook.
+- Doctorow also talks about his experiences with indie bookstores and their unique culture.
+- The novel is set in a near future where refugees are treated as criminals, forcing them into labor camps.
+- A bakery secretly provides bread to the public, which becomes an important part of the story.
+- The audio version is read by Lameece Issaq, a Palestinian-American actor and playwright.
+- The book highlights inequality issues through various stories in its narrative.
 
 
 ## Adrien Basdevant on His New Book, "L'Empire des données" | Talks at Google
@@ -991,37 +981,37 @@ URL: [https://www.youtube.com/watch?v=5SZ1tzQuTuw](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=qOTqs9jx4L8](https://www.youtube.com/watch?v=qOTqs9jx4L8)
 
-    - Smartphone revolution in India:
-      1. 80% smartphones are now Indian-made, cheap and easily accessible.
-      2. The phones are transforming lives by providing access to internet, education, health care, and empowering women.
-      3. Concerns surrounding the smartphone boom include:
-          - Misinformation spread through messaging apps like WhatsApp.
-          - Pornography proliferation and its impact on sexuality in India.
-          - Digital divide between rural and urban areas.
-          - Privacy concerns over biometric ID systems like Aadhaar.
-    - The government's role in this revolution:
-      1. Creating a regulatory framework for the smartphone industry.
-      2. Enhancing digital infrastructure, such as optic fibre networks.
-      3. Encouraging local manufacturing and promoting domestic brands.
-    - Challenges facing India's smartphone adoption:
-      1. Affordability: 40% of Indians still lack internet access.
-      2. Digital literacy: The need for training rural women to use the internet effectively.
-      3. Language barriers: Localization efforts are required to make content accessible in regional languages.
-    - Future trends and opportunities:
-      1. E-commerce growth: Creating jobs, especially for blue-collar workers.
-      2. Automation: Impact on India's job market.
-      3. Biometric ID systems: The need for transparency and privacy protection.
+- Smartphone revolution in India:
+    1. 80% smartphones are now Indian-made, cheap and easily accessible.
+    2. The phones are transforming lives by providing access to internet, education, health care, and empowering women.
+    3. Concerns surrounding the smartphone boom include:
+        - Misinformation spread through messaging apps like WhatsApp.
+        - Pornography proliferation and its impact on sexuality in India.
+        - Digital divide between rural and urban areas.
+        - Privacy concerns over biometric ID systems like Aadhaar.
+- The government's role in this revolution:
+    1. Creating a regulatory framework for the smartphone industry.
+    2. Enhancing digital infrastructure, such as optic fibre networks.
+    3. Encouraging local manufacturing and promoting domestic brands.
+- Challenges facing India's smartphone adoption:
+    1. Affordability: 40% of Indians still lack internet access.
+    2. Digital literacy: The need for training rural women to use the internet effectively.
+    3. Language barriers: Localization efforts are required to make content accessible in regional languages.
+- Future trends and opportunities:
+    1. E-commerce growth: Creating jobs, especially for blue-collar workers.
+    2. Automation: Impact on India's job market.
+    3. Biometric ID systems: The need for transparency and privacy protection.
 
 
 ## Birthing an Emoji  | Florie Hutchinson | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=H_V1ai_U4ds](https://www.youtube.com/watch?v=H_V1ai_U4ds)
 
-    - A woman proposed a flat shoe emoji to Unicode Consortium, which is responsible for adopting new emojis.
-    - The proposal was accepted and the emoji is expected to be released in 2018.
-    - She also proposed other emojis like flat bow shoes, swimsuits, and a brick wall.
-    - Emojis are becoming part of linguistic communication, with some people using them as a way of expressing their political views.
-    - The process of adopting new emojis involves submitting proposals to the Unicode Consortium, which then votes on whether to include them in future updates.
+- A woman proposed a flat shoe emoji to Unicode Consortium, which is responsible for adopting new emojis.
+- The proposal was accepted and the emoji is expected to be released in 2018.
+- She also proposed other emojis like flat bow shoes, swimsuits, and a brick wall.
+- Emojis are becoming part of linguistic communication, with some people using them as a way of expressing their political views.
+- The process of adopting new emojis involves submitting proposals to the Unicode Consortium, which then votes on whether to include them in future updates.
 
 
 ## National Geographic - MARS | Stephen Petranek + More | Talks at Google
@@ -1151,18 +1141,18 @@ URL: [https://www.youtube.com/watch?v=LvQgaj9zyH4](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=37E_11Zr-Fc](https://www.youtube.com/watch?v=37E_11Zr-Fc)
 
-    - Privacy is a complex issue that needs to be understood holistically.
-    - Design plays an important role in shaping privacy.
-    - There are three major design aspects: power, politics and control.
-    - Powerful design can influence people's decision-making process, leading to unintended consequences.
-    - Politics play a significant role in shaping the design of technology, especially regarding privacy.
-    - Control is another important aspect that needs improvement.
-    - The concept of user autonomy should be prioritized over control.
-    - Good design should provide people with more options and transparency to exercise their choice.
-    - Privacy should be viewed as a relationship between individuals, platforms, and data collectors.
-    - Metadata is an important aspect that needs attention in the context of privacy.
-    - Premium models can offer better privacy protection but may create equity issues for those who cannot afford them.
-    - Transparency and accountability should be emphasized in user agreements to build trust between companies and users.
+- Privacy is a complex issue that needs to be understood holistically.
+- Design plays an important role in shaping privacy.
+- There are three major design aspects: power, politics and control.
+- Powerful design can influence people's decision-making process, leading to unintended consequences.
+- Politics play a significant role in shaping the design of technology, especially regarding privacy.
+- Control is another important aspect that needs improvement.
+- The concept of user autonomy should be prioritized over control.
+- Good design should provide people with more options and transparency to exercise their choice.
+- Privacy should be viewed as a relationship between individuals, platforms, and data collectors.
+- Metadata is an important aspect that needs attention in the context of privacy.
+- Premium models can offer better privacy protection but may create equity issues for those who cannot afford them.
+- Transparency and accountability should be emphasized in user agreements to build trust between companies and users.
 
 
 ## Computing in the United States | Joy Lisi Rankin | Talks at Google
@@ -1181,11 +1171,11 @@ URL: [https://www.youtube.com/watch?v=zXhT7Xc_-xk](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=YvkW79uyBlc](https://www.youtube.com/watch?v=YvkW79uyBlc)
 
-    - Lisa Brennan's memoir is about her coming of age in Silicon Valley with a complicated family background.
-    - She tries to understand her father, who was a tech industry figure, through the book.
-    - The author discusses her journey as a writer and how it influenced her life choices.
-    - Technology plays an important role in her life, but she also emphasizes the importance of human connection.
-    - Her book is about finding identity, self-acceptance, and learning to forgive others.
+- Lisa Brennan's memoir is about her coming of age in Silicon Valley with a complicated family background.
+- She tries to understand her father, who was a tech industry figure, through the book.
+- The author discusses her journey as a writer and how it influenced her life choices.
+- Technology plays an important role in her life, but she also emphasizes the importance of human connection.
+- Her book is about finding identity, self-acceptance, and learning to forgive others.
 
 
 ## Bitwise: A Life in Code | David Auerbach | Talks at Google
@@ -1216,13 +1206,13 @@ URL: [https://www.youtube.com/watch?v=GkJCI3_jbtg](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=SJVKY1DtZ84](https://www.youtube.com/watch?v=SJVKY1DtZ84)
 
-    - The discussion revolved around the future of autonomous vehicles and their impact on transportation.
-    - Autonomous vehicles are expected to reduce accidents, as they won't get distracted or tired. However, they might increase congestion as people use this time for other activities.
-    - There will be a shift from car ownership to car sharing, with fleets of autonomous vehicles providing on-demand transportation services.
-    - The transition will likely take decades and involve multiple steps, including increasing autonomy levels in cars, improving safety, expanding testing areas, and addressing regulatory challenges.
-    - Autonomous vehicles will require extensive mapping data to operate efficiently, and the cost of creating this data could be high.
-    - As autonomous vehicles become more prevalent, they may lead to a decrease in car ownership, particularly for younger generations who prefer mobility services over owning cars.
-    - The future of transportation includes electric vehicles, autonomous driving, shared mobility, and possibly flying cars. These technologies will work together to provide efficient, safe, and environmentally friendly transportation solutions.
+- The discussion revolved around the future of autonomous vehicles and their impact on transportation.
+- Autonomous vehicles are expected to reduce accidents, as they won't get distracted or tired. However, they might increase congestion as people use this time for other activities.
+- There will be a shift from car ownership to car sharing, with fleets of autonomous vehicles providing on-demand transportation services.
+- The transition will likely take decades and involve multiple steps, including increasing autonomy levels in cars, improving safety, expanding testing areas, and addressing regulatory challenges.
+- Autonomous vehicles will require extensive mapping data to operate efficiently, and the cost of creating this data could be high.
+- As autonomous vehicles become more prevalent, they may lead to a decrease in car ownership, particularly for younger generations who prefer mobility services over owning cars.
+- The future of transportation includes electric vehicles, autonomous driving, shared mobility, and possibly flying cars. These technologies will work together to provide efficient, safe, and environmentally friendly transportation solutions.
 
 
 ## Human Centric Technologies Impact | Frances West | Talks at Google
@@ -1306,10 +1296,10 @@ URL: [https://www.youtube.com/watch?v=kccyGEqdevo](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=MBbRC_jSvYc](https://www.youtube.com/watch?v=MBbRC_jSvYc)
 
-    - Dr. Califf discusses the importance of technology in healthcare and its potential impact on patients, physicians, and the industry as a whole.
-    - He highlights the need for transparency and collaboration between different stakeholders to ensure effective use of data, particularly in the area of machine learning and artificial intelligence.
-    - The role of data curation and sharing is emphasized to enable better decision-making and improve patient outcomes.
-    - Dr. Califf also talks about the challenges faced by hospitals and the need for a more efficient payment system that incentivizes innovation and collaboration within the healthcare industry.
+- Dr. Califf discusses the importance of technology in healthcare and its potential impact on patients, physicians, and the industry as a whole.
+- He highlights the need for transparency and collaboration between different stakeholders to ensure effective use of data, particularly in the area of machine learning and artificial intelligence.
+- The role of data curation and sharing is emphasized to enable better decision-making and improve patient outcomes.
+- Dr. Califf also talks about the challenges faced by hospitals and the need for a more efficient payment system that incentivizes innovation and collaboration within the healthcare industry.
 
 
 ## How to Define the Digital Universe | Dr. Kaizhong Gao | Talks at Google
@@ -1385,11 +1375,11 @@ URL: [https://www.youtube.com/watch?v=MozDSajpLTY](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=tMauOcRESgY](https://www.youtube.com/watch?v=tMauOcRESgY)
 
-    - SoapBox Labs is a company focused on children's speech recognition technology.
-    - The company has been in operation since 2013 and has raised funding from various sources, including the EU.
-    - They have developed a child-specific voice recognition model that caters to age groups and provides privacy features for data collection.
-    - SoapBox Labs aims to expand into multilingual speech recognition technology, focusing on children's education, robotics, and voice assistants.
-    - The company has already worked with several partners including Google, IBM, and Microsoft.
+- SoapBox Labs is a company focused on children's speech recognition technology.
+- The company has been in operation since 2013 and has raised funding from various sources, including the EU.
+- They have developed a child-specific voice recognition model that caters to age groups and provides privacy features for data collection.
+- SoapBox Labs aims to expand into multilingual speech recognition technology, focusing on children's education, robotics, and voice assistants.
+- The company has already worked with several partners including Google, IBM, and Microsoft.
 
 
 ## AI, LA the Next Billion Users | Vint Cerf | Talks at Google
@@ -1424,13 +1414,13 @@ URL: [https://www.youtube.com/watch?v=BasVg3GvMrw](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=iYUTUAUp9tk](https://www.youtube.com/watch?v=iYUTUAUp9tk)
 
-    - Silicon Valley has an interesting history of innovation and entrepreneurship.
-    - Many of the valley's early innovators were troublemakers, audacious, persistent and often came from humble backgrounds.
-    - Large companies like Google, Facebook, and Apple could be seen as the new wave of innovation. They have acquired smaller innovative companies to stay ahead in the market.
-    - The future of Silicon Valley innovation may lie in areas like blockchain and cryptocurrency.
-    - The importance of a diverse workforce is also crucial for continued growth.
-    - There's a need for more women leaders in tech, as they bring different perspectives to problem-solving.
-    - Maintaining the spirit of innovation, openness, and collaboration will be key for Silicon Valley's success in the future.
+- Silicon Valley has an interesting history of innovation and entrepreneurship.
+- Many of the valley's early innovators were troublemakers, audacious, persistent and often came from humble backgrounds.
+- Large companies like Google, Facebook, and Apple could be seen as the new wave of innovation. They have acquired smaller innovative companies to stay ahead in the market.
+- The future of Silicon Valley innovation may lie in areas like blockchain and cryptocurrency.
+- The importance of a diverse workforce is also crucial for continued growth.
+- There's a need for more women leaders in tech, as they bring different perspectives to problem-solving.
+- Maintaining the spirit of innovation, openness, and collaboration will be key for Silicon Valley's success in the future.
 
 
 ## Unplugged: Evolve from Technology, Upgrade Fitness | Dr. Andy Galpin | Talks at Google
@@ -1448,13 +1438,13 @@ URL: [https://www.youtube.com/watch?v=qV1scA5gljM](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=5Q80K1XJ5VE](https://www.youtube.com/watch?v=5Q80K1XJ5VE)
 
-    - Craig Newmark, founder of Craigslist, shares his story and philosophy.
-    - He started the site in 1995 as a free classified ads platform with the goal of helping people put food on their table.
-    - The site has grown to become a major online community with around 50 million monthly visitors by 2013.
-    - Newmark's personal philosophy is based on altruism and philanthropy, focusing on helping others rather than making money.
-    - He founded the Craig Newmark Foundation in 2005 to support nonprofit organizations and charities.
-    - The foundation has a focus on protecting voting rights, countering disinformation, supporting journalism, and promoting civic engagement.
-    - As of 2019, Newmark's net worth is estimated at around $1 billion, with plans to give away half of it during his lifetime.
+- Craig Newmark, founder of Craigslist, shares his story and philosophy.
+- He started the site in 1995 as a free classified ads platform with the goal of helping people put food on their table.
+- The site has grown to become a major online community with around 50 million monthly visitors by 2013.
+- Newmark's personal philosophy is based on altruism and philanthropy, focusing on helping others rather than making money.
+- He founded the Craig Newmark Foundation in 2005 to support nonprofit organizations and charities.
+- The foundation has a focus on protecting voting rights, countering disinformation, supporting journalism, and promoting civic engagement.
+- As of 2019, Newmark's net worth is estimated at around $1 billion, with plans to give away half of it during his lifetime.
 
 
 ## Deep Sea Exploration in Homemade Submarines | Karl Stanley | Talks at Google
@@ -1502,27 +1492,27 @@ URL: [https://www.youtube.com/watch?v=Ef6Ag7KudgU](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=-tj2WXCGFSI](https://www.youtube.com/watch?v=-tj2WXCGFSI)
 
-    1. MIT Professor, Mitch Resnick, introduced Scratch in 2007. It's a programming language designed to be easy for children.
-    2. The goal of Scratch is to teach kids creative thinking and coding skills through fun projects.
-    3. By 2018, there were over 30 million Scratch users worldwide.
-    4. In 2013, Scratch became browser-based for better accessibility.
-    5. Scratch 3.0 was launched in August 2019, focusing on mobile compatibility and extension capabilities.
-    6. The Scratch community has grown beyond the classroom with notable users such as Ipzy, Bubble103, and many others.
-    7. Educators have used Scratch to teach various subjects like science, social studies, and art.
-    8. Scratch's online community is a vital part of its success, allowing for collaboration and sharing of ideas.
-    9. The future of Scratch lies in extending it to other programming languages and devices while maintaining simplicity and accessibility.
+1. MIT Professor, Mitch Resnick, introduced Scratch in 2007. It's a programming language designed to be easy for children.
+2. The goal of Scratch is to teach kids creative thinking and coding skills through fun projects.
+3. By 2018, there were over 30 million Scratch users worldwide.
+4. In 2013, Scratch became browser-based for better accessibility.
+5. Scratch 3.0 was launched in August 2019, focusing on mobile compatibility and extension capabilities.
+6. The Scratch community has grown beyond the classroom with notable users such as Ipzy, Bubble103, and many others.
+7. Educators have used Scratch to teach various subjects like science, social studies, and art.
+8. Scratch's online community is a vital part of its success, allowing for collaboration and sharing of ideas.
+9. The future of Scratch lies in extending it to other programming languages and devices while maintaining simplicity and accessibility.
 
 
 ## Where is Education Going Next? | Adam Braun | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=Gvrjiuf37iw](https://www.youtube.com/watch?v=Gvrjiuf37iw)
 
-    - Adam Braun, the founder of MissionU and Pencils Promise, discussed his journey from Wall Street to social entrepreneurship.
-    - MissionU is a one-year program that focuses on teaching practical skills, preparing students for jobs that pay back their tuition within three years. They have raised $15 million in funding and plan to expand to 40 cities by 2021.
-    - Pencils Promise aims to provide free education to children around the world. They have built 400 schools, educating over 30,000 students annually.
-    - Adam Braun emphasized the importance of income share agreements and transparency in higher education funding, as well as blended learning models that can accommodate a global audience.
-    - The key to MissionU's success lies in building strong partnerships with top companies like Google, Facebook, and Airbnb, which offer internships and job opportunities for students.
-    - The program aims to serve 10,000 students by 2021, with a long-term goal of reaching one million students worldwide.
+- Adam Braun, the founder of MissionU and Pencils Promise, discussed his journey from Wall Street to social entrepreneurship.
+- MissionU is a one-year program that focuses on teaching practical skills, preparing students for jobs that pay back their tuition within three years. They have raised $15 million in funding and plan to expand to 40 cities by 2021.
+- Pencils Promise aims to provide free education to children around the world. They have built 400 schools, educating over 30,000 students annually.
+- Adam Braun emphasized the importance of income share agreements and transparency in higher education funding, as well as blended learning models that can accommodate a global audience.
+- The key to MissionU's success lies in building strong partnerships with top companies like Google, Facebook, and Airbnb, which offer internships and job opportunities for students.
+- The program aims to serve 10,000 students by 2021, with a long-term goal of reaching one million students worldwide.
 
 
 ## Timeless: the Solution for Alzheimer's | Emma Yang | Talks at Google
@@ -1542,12 +1532,12 @@ URL: [https://www.youtube.com/watch?v=wOKJ0-jOSyY](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=HZKGde91Xfs](https://www.youtube.com/watch?v=HZKGde91Xfs)
 
-    - Virtual reality (VR) is an immersive technology that simulates real-life environments and experiences.
-    - VR can be used for training, education, entertainment, and therapy.
-    - It has been shown to improve empathy, reduce prejudice, and help people make better decisions in various scenarios.
-    - Some concerns about VR include its potential addictiveness, impact on mental health, and the need for content creation.
-    - The future of VR includes improvements in hardware, software, and content quality. It may also lead to new forms of storytelling and communication.
-    - As VR becomes more widely available, it will continue to evolve and have a significant impact on various aspects of our lives.
+- Virtual reality (VR) is an immersive technology that simulates real-life environments and experiences.
+- VR can be used for training, education, entertainment, and therapy.
+- It has been shown to improve empathy, reduce prejudice, and help people make better decisions in various scenarios.
+- Some concerns about VR include its potential addictiveness, impact on mental health, and the need for content creation.
+- The future of VR includes improvements in hardware, software, and content quality. It may also lead to new forms of storytelling and communication.
+- As VR becomes more widely available, it will continue to evolve and have a significant impact on various aspects of our lives.
 
 
 ## Muriel Cooper | David Reinfurt | Talks at Google
@@ -1579,14 +1569,14 @@ URL: [https://www.youtube.com/watch?v=bSWVpieo8gg](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=6GJEcw0SO2g](https://www.youtube.com/watch?v=6GJEcw0SO2g)
 
-    - Discussed the importance of protecting individual identities online, particularly in a world where information is shared freely.
-    - Mentioned the need for strong security measures and privacy policies in companies and government organizations to protect users' data.
-    - Highlighted the role of human weakest links in cybersecurity and the necessity to move away from relying on humans for security purposes.
-    - Discussed the potential for kill switches in devices, systems, and software to prevent cyberattacks and malfunctions.
-    - Stressed the need to focus on prevention rather than detection and recovery after a cyberattack or data breach.
-    - Suggested that privacy should be considered as an essential human right.
-    - Emphasized the importance of education in teaching children about internet safety from an early age.
-    - Discussed the potential for a new generation of secure devices, such as blockchain technology and quantum computing to revolutionize cybersecurity.
+- Discussed the importance of protecting individual identities online, particularly in a world where information is shared freely.
+- Mentioned the need for strong security measures and privacy policies in companies and government organizations to protect users' data.
+- Highlighted the role of human weakest links in cybersecurity and the necessity to move away from relying on humans for security purposes.
+- Discussed the potential for kill switches in devices, systems, and software to prevent cyberattacks and malfunctions.
+- Stressed the need to focus on prevention rather than detection and recovery after a cyberattack or data breach.
+- Suggested that privacy should be considered as an essential human right.
+- Emphasized the importance of education in teaching children about internet safety from an early age.
+- Discussed the potential for a new generation of secure devices, such as blockchain technology and quantum computing to revolutionize cybersecurity.
 
 
 ## The Sentient Machine | Amir Husain | Talks at Google
@@ -1604,18 +1594,16 @@ URL: [https://www.youtube.com/watch?v=JcC5OV_oA1s](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=n0h3I7adIDM](https://www.youtube.com/watch?v=n0h3I7adIDM)
 
-    1. Focus on child's sensory processing and communication needs
-    2. Create interactive environment for successful learning experiences
-    3. Utilize visual aids, clear routines, and flexible schedules
-    4. Encourage active participation with meaningful choices
-    5. Promote social interaction through role-playing, turn-taking, and imitation
-    6. Teach functional language and emotional regulation skills
-    7. Provide predictable structure and manageable challenges for success
-    8. Incorporate sensory activities to improve focus and reduce anxiety
-    9. Emphasize nonverbal communication and body language
-   10. Offer a safe, supportive environment with positive role models
-
-No context
+1. Focus on child's sensory processing and communication needs
+2. Create interactive environment for successful learning experiences
+3. Utilize visual aids, clear routines, and flexible schedules
+4. Encourage active participation with meaningful choices
+5. Promote social interaction through role-playing, turn-taking, and imitation
+6. Teach functional language and emotional regulation skills
+7. Provide predictable structure and manageable challenges for success
+8. Incorporate sensory activities to improve focus and reduce anxiety
+9. Emphasize nonverbal communication and body language
+10. Offer a safe, supportive environment with positive role models
 
 
 ## Tech Style Influencers | CloeCouture + More | Talks at Google
@@ -1644,13 +1632,13 @@ URL: [https://www.youtube.com/watch?v=mQtProLol-Y](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=9mFA8PsKnHg](https://www.youtube.com/watch?v=9mFA8PsKnHg)
 
-    - Blockchain is a revolutionary technology that has the potential to transform various industries.
-    - Key benefits include transparency, security, and decentralization.
-    - Applications range from finance to governance, healthcare, supply chain management, energy, and identity systems.
-    - Regulation remains uncertain as governments struggle to understand and adapt to this new technology.
-    - Blockchain's energy consumption is a concern, but innovations like Lightning Network can help improve efficiency.
-    - Governments are experimenting with blockchain for voting, land registration, healthcare records, and other applications.
-    - The future of blockchain depends on continued innovation and collaboration between various stakeholders.
+- Blockchain is a revolutionary technology that has the potential to transform various industries.
+- Key benefits include transparency, security, and decentralization.
+- Applications range from finance to governance, healthcare, supply chain management, energy, and identity systems.
+- Regulation remains uncertain as governments struggle to understand and adapt to this new technology.
+- Blockchain's energy consumption is a concern, but innovations like Lightning Network can help improve efficiency.
+- Governments are experimenting with blockchain for voting, land registration, healthcare records, and other applications.
+- The future of blockchain depends on continued innovation and collaboration between various stakeholders.
 
 
 ## Crypto 101 | Ben Yu & Simar Mangat | Talks at Google
@@ -1686,22 +1674,20 @@ URL: [https://www.youtube.com/watch?v=mJhBLvqKUKU](https://www.youtube.com/watch
  
 - The system's unique design and architecture had a significant impact on modern computing, including social networks, email systems, and online gaming.
 
-No context.
-
 
 ## Endurance | Scott Kelly | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=Wzqc72K462w](https://www.youtube.com/watch?v=Wzqc72K462w)
 
-    - Scott Kelly, an astronaut, spoke about his experience as a space traveler.
-    - He described the process of getting ready for space missions and the challenges involved in launching from Earth.
-    - He talked about the isolation during space missions and how he stayed connected with his family through video calls.
-    - Scott mentioned that he had to learn Russian to communicate effectively with cosmonauts during joint missions.
-    - He also discussed the different aspects of life on the International Space Station, including eating, sleeping, and exercise routines.
-    - There was a discussion about the challenges of returning to Earth after spending time in space, adjusting to gravity, and readjusting to daily life.
-    - Scott spoke about his experience working with Russian cosmonauts and how they cooperated on missions.
-    - He shared his thoughts on the future of space exploration, particularly Mars colonization, and commercial space travel.
-    - Scott expressed the belief that space travel would continue to be an important part of humanity's journey towards understanding our universe and solving problems like climate change.
+- Scott Kelly, an astronaut, spoke about his experience as a space traveler.
+- He described the process of getting ready for space missions and the challenges involved in launching from Earth.
+- He talked about the isolation during space missions and how he stayed connected with his family through video calls.
+- Scott mentioned that he had to learn Russian to communicate effectively with cosmonauts during joint missions.
+- He also discussed the different aspects of life on the International Space Station, including eating, sleeping, and exercise routines.
+- There was a discussion about the challenges of returning to Earth after spending time in space, adjusting to gravity, and readjusting to daily life.
+- Scott spoke about his experience working with Russian cosmonauts and how they cooperated on missions.
+- He shared his thoughts on the future of space exploration, particularly Mars colonization, and commercial space travel.
+- Scott expressed the belief that space travel would continue to be an important part of humanity's journey towards understanding our universe and solving problems like climate change.
 
 
 ## AbleGamers | Mark Barlet | Talks at Google
@@ -1733,17 +1719,17 @@ URL: [https://www.youtube.com/watch?v=8nHpx2KSjVw](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=oYmKOgeoOz4](https://www.youtube.com/watch?v=oYmKOgeoOz4)
 
-    - John Bracaglia discussed the video transcript in triple backticks from a well-known conference.
-    - Max Tegmark, a renowned scientific communicator and cosmologist, was the speaker.
-    - Key points from his talk:
-      - AI community is focused on improving AI safety.
-      - Asilomar Principles emphasize that human-level AI might be beneficial or harmful depending on its alignment with humanity's goals.
-      - Superintelligence could have an advantage over humans in a competitive environment, but they can also learn from mistakes and improve quickly.
-      - The future of AI is uncertain; it may go extinct along with humankind due to unforeseen events or lead to a utopian civilization.
-      - A collective effort to steer technology is necessary for the development of beneficial AI.
-    - Google has engaged in AI safety research and funding, which should continue as they develop more advanced technologies.
-    - The future of AI might include humans merging with machines through brain-computer interfaces or uploading consciousness into robots.
-    - A collective effort to steer technology is essential for a beneficial future, involving public education, policy changes, and global cooperation.
+- John Bracaglia discussed the video transcript in triple backticks from a well-known conference.
+- Max Tegmark, a renowned scientific communicator and cosmologist, was the speaker.
+- Key points from his talk:
+    - AI community is focused on improving AI safety.
+    - Asilomar Principles emphasize that human-level AI might be beneficial or harmful depending on its alignment with humanity's goals.
+    - Superintelligence could have an advantage over humans in a competitive environment, but they can also learn from mistakes and improve quickly.
+    - The future of AI is uncertain; it may go extinct along with humankind due to unforeseen events or lead to a utopian civilization.
+    - A collective effort to steer technology is necessary for the development of beneficial AI.
+- Google has engaged in AI safety research and funding, which should continue as they develop more advanced technologies.
+- The future of AI might include humans merging with machines through brain-computer interfaces or uploading consciousness into robots.
+- A collective effort to steer technology is essential for a beneficial future, involving public education, policy changes, and global cooperation.
   
 Summary: Max Tegmark discussed the importance of AI safety and the need for a collective effort in steering its development. He highlighted the potential benefits and challenges of advanced technologies like superintelligence and human-AI interaction.
 
@@ -1770,40 +1756,40 @@ URL: [https://www.youtube.com/watch?v=s3ha6vHapcI](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=IG5zU0DdM_4](https://www.youtube.com/watch?v=IG5zU0DdM_4)
 
-    - Mini cupcake metaphor represents tech industry issues.
-    - Tech companies often make assumptions about users, leading to biased products and algorithms.
-    - Companies need diverse teams and inclusive environments to avoid these problems.
-    - Designing for inclusivity requires understanding of different perspectives, cultures, and backgrounds.
-    - Ethical AI needs human input and oversight, as machines cannot yet interpret context or nuance.
-    - Tech companies should focus on creating products that empower users while being responsible and accountable.
+- Mini cupcake metaphor represents tech industry issues.
+- Tech companies often make assumptions about users, leading to biased products and algorithms.
+- Companies need diverse teams and inclusive environments to avoid these problems.
+- Designing for inclusivity requires understanding of different perspectives, cultures, and backgrounds.
+- Ethical AI needs human input and oversight, as machines cannot yet interpret context or nuance.
+- Tech companies should focus on creating products that empower users while being responsible and accountable.
 
 
 ## SOONISH: Emerging Technologies | Kelly & Zach Weinersmith | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=yhlwsLwuJDI](https://www.youtube.com/watch?v=yhlwsLwuJDI)
 
-    - Kelly and Zach Weinersmith discussed their book "Soonish: 10 Emerging Technologies That Will Improve and/or Ruin Everything".
-    - The book talks about various technologies, such as artificial intelligence, brain-computer interfaces, asteroid mining, fusion energy, synthetic biology, and nanotechnology.
-    - They mentioned the challenges of predicting future technology advancements, citing examples like the internet, which initially had limited capabilities but has now evolved into a powerful tool.
-    - The book also covers privacy issues, discussing how new technologies could affect it and proposing solutions to protect individual privacy.
-    - Programmable matter is another topic discussed, with its potential applications in areas such as robotics, construction, and manufacturing.
-    - The importance of human interaction with technology was emphasized, highlighting the need for humans to understand and control the technologies they create.
-    - The book also talks about the challenges of space exploration and colonization, discussing the potential risks and benefits of expanding human presence beyond Earth.
+- Kelly and Zach Weinersmith discussed their book "Soonish: 10 Emerging Technologies That Will Improve and/or Ruin Everything".
+- The book talks about various technologies, such as artificial intelligence, brain-computer interfaces, asteroid mining, fusion energy, synthetic biology, and nanotechnology.
+- They mentioned the challenges of predicting future technology advancements, citing examples like the internet, which initially had limited capabilities but has now evolved into a powerful tool.
+- The book also covers privacy issues, discussing how new technologies could affect it and proposing solutions to protect individual privacy.
+- Programmable matter is another topic discussed, with its potential applications in areas such as robotics, construction, and manufacturing.
+- The importance of human interaction with technology was emphasized, highlighting the need for humans to understand and control the technologies they create.
+- The book also talks about the challenges of space exploration and colonization, discussing the potential risks and benefits of expanding human presence beyond Earth.
 
 
 ## Greater Than Ever | Sidewalk Labs CEO Dan Doctoroff | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=lAP8q9oQfDc](https://www.youtube.com/watch?v=lAP8q9oQfDc)
 
-    - Dan Doctoroff, former Deputy Mayor of New York City and current Google executive, discusses various aspects of city development.
-    - The book 'Greater Than Ever' talks about the growth of New York City during his tenure as Deputy Mayor.
-    - He mentions the importance of infrastructure projects, such as Hudson Yards and the Olympics bid, but acknowledges some failures like losing the 2012 Olympic Games to London.
-    - Doctoroff emphasizes the need for more affordable housing in New York City.
-    - The city's transportation system is a significant concern, with congestion pricing being proposed as a solution.
-    - Gentrification and its impact on affordability are discussed, along with the importance of economic growth and job creation.
-    - Doctoroff believes that autonomous vehicles will lead to more people living in cities due to their convenience and efficiency.
-    - The city's education system is also crucial for maintaining a high quality of life.
-    - The book 'Greater Than Ever' aims to provide an overview of the last 15 years of New York City's development, highlighting both its successes and challenges.
+- Dan Doctoroff, former Deputy Mayor of New York City and current Google executive, discusses various aspects of city development.
+- The book 'Greater Than Ever' talks about the growth of New York City during his tenure as Deputy Mayor.
+- He mentions the importance of infrastructure projects, such as Hudson Yards and the Olympics bid, but acknowledges some failures like losing the 2012 Olympic Games to London.
+- Doctoroff emphasizes the need for more affordable housing in New York City.
+- The city's transportation system is a significant concern, with congestion pricing being proposed as a solution.
+- Gentrification and its impact on affordability are discussed, along with the importance of economic growth and job creation.
+- Doctoroff believes that autonomous vehicles will lead to more people living in cities due to their convenience and efficiency.
+- The city's education system is also crucial for maintaining a high quality of life.
+- The book 'Greater Than Ever' aims to provide an overview of the last 15 years of New York City's development, highlighting both its successes and challenges.
 
 
 ## Fast Data Search Engine | Peter Bailis | Talks at Google
@@ -1826,13 +1812,13 @@ URL: [https://www.youtube.com/watch?v=XhTJEU_l8rw](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=YUOriyhBNdk](https://www.youtube.com/watch?v=YUOriyhBNdk)
 
-    - Russian censorship has become increasingly sophisticated, with a focus on silencing dissent and controlling information.
-    - The Kremlin uses an extensive system of online surveillance and intrusive technology to monitor the internet.
-    - Russia's internet infrastructure is vulnerable due to its Soviet-era design, making it difficult to replace with modern technology.
-    - The Russian government has targeted independent journalism and opposition activities through mass and targeted surveillance.
-    - The US election has played a significant role in the Kremlin's approach to information control, as they seek to influence global opinion.
-    - Navalny, a popular Russian opposition politician, has gained popularity by building an offline network alongside his online presence.
-    - Censorship and surveillance have created a culture of complacency among Russians, making them accept these measures as necessary for their country's stability.
+- Russian censorship has become increasingly sophisticated, with a focus on silencing dissent and controlling information.
+- The Kremlin uses an extensive system of online surveillance and intrusive technology to monitor the internet.
+- Russia's internet infrastructure is vulnerable due to its Soviet-era design, making it difficult to replace with modern technology.
+- The Russian government has targeted independent journalism and opposition activities through mass and targeted surveillance.
+- The US election has played a significant role in the Kremlin's approach to information control, as they seek to influence global opinion.
+- Navalny, a popular Russian opposition politician, has gained popularity by building an offline network alongside his online presence.
+- Censorship and surveillance have created a culture of complacency among Russians, making them accept these measures as necessary for their country's stability.
 
 
 ## Searching for Life in the Solar System | Alfonso Davila | Talks at Google
@@ -1933,8 +1919,6 @@ URL: [https://www.youtube.com/watch?v=6syDSTt5MVw](https://www.youtube.com/watch
   7. The importance of communication and family support for astronauts in isolation.
   8. Aspirations for future exploration, including Mars missions.
 
-No context provided.
-
 
 ## USA for UNHCR’s The Hive | Talks at Google
 
@@ -1975,50 +1959,50 @@ URL: [https://www.youtube.com/watch?v=T7StPcdPzp8](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=Yw3JOpOM0HQ](https://www.youtube.com/watch?v=Yw3JOpOM0HQ)
 
-    - Hadi Partovi, CEO of Code.org, spoke about the importance of teaching computer science in schools and how it's changing education globally.
-    - Code.org is a nonprofit organization working to provide computer science education for all students.
-    - The organization started with an online video that went viral and inspired a global movement.
-    - They built a platform called Code Studio, which allows teachers to teach coding without prior knowledge or installing software.
-    - Their goal is to make coding accessible to everyone, especially underrepresented minorities and kids from low-income families.
-    - Google has been one of their biggest supporters, providing financial assistance and volunteer help in classrooms.
-    - They're working on expanding their reach globally, with a focus on countries like India, Brazil, and the UK.
-    - Their vision is to make computer science education available for every student, every school around the world.
+- Hadi Partovi, CEO of Code.org, spoke about the importance of teaching computer science in schools and how it's changing education globally.
+- Code.org is a nonprofit organization working to provide computer science education for all students.
+- The organization started with an online video that went viral and inspired a global movement.
+- They built a platform called Code Studio, which allows teachers to teach coding without prior knowledge or installing software.
+- Their goal is to make coding accessible to everyone, especially underrepresented minorities and kids from low-income families.
+- Google has been one of their biggest supporters, providing financial assistance and volunteer help in classrooms.
+- They're working on expanding their reach globally, with a focus on countries like India, Brazil, and the UK.
+- Their vision is to make computer science education available for every student, every school around the world.
 
 
 ## Bootstrap: Scalable Computer Science | Emmanuel Schanzer | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=_IaUTlCt9pQ](https://www.youtube.com/watch?v=_IaUTlCt9pQ)
 
-    - Emphasize on teaching computer science through integration with existing curriculum, particularly algebra.
-    - Transfer learning: Deep structural similarity between programming and algebra is crucial for effective transfer.
-    - Scaffolding: Start with a contract and purpose statement, then build up to the final code representation.
-    - Curriculum: Align with national and state standards. Include lesson plans, homework assignments, and exit slips. Create a narrative with a final project that ties together everything learned.
-    - Large-scale impact: Build compiler or create a programming language tailored for the curriculum. Create a compiler to teach computer science in algebra class.
-    - Long-term goals: Partner with local school districts to adopt this approach. Collect data from thousands of students and compare their performance against control groups.
-    - Afterschool programs: Recruit engineers as volunteers to teach afterschool programming classes, focusing on functional programming.
-    - Teacher training: Train math teachers in computer science teaching methods.
-    - Federal policy: Encourage state-level initiatives to make learning computer science a priority.
-    - Mentorship: Provide mentors and resources for teachers who want to teach computer science but lack experience or resources.
-    - Volunteerism: Engage volunteers in the community to help teach computer science.
-    - Corporate involvement: Collaborate with tech companies like Google to provide training, resources, and support for schools adopting this approach.
-    - Scalability: Build a platform that can be used by all teachers across the country.
-    - Long-term impact: Create a sustainable pathway for teachers to learn computer science teaching methods.
-    - Equity: Ensure that low-income students have equal access to computer science education.
-    - Incentivize: Offer professional development opportunities and career advancements for teachers who become computer science teachers.
-    - Collaboration: Work with universities, colleges, and nonprofit organizations to provide resources and training for teachers and schools.
+- Emphasize on teaching computer science through integration with existing curriculum, particularly algebra.
+- Transfer learning: Deep structural similarity between programming and algebra is crucial for effective transfer.
+- Scaffolding: Start with a contract and purpose statement, then build up to the final code representation.
+- Curriculum: Align with national and state standards. Include lesson plans, homework assignments, and exit slips. Create a narrative with a final project that ties together everything learned.
+- Large-scale impact: Build compiler or create a programming language tailored for the curriculum. Create a compiler to teach computer science in algebra class.
+- Long-term goals: Partner with local school districts to adopt this approach. Collect data from thousands of students and compare their performance against control groups.
+- Afterschool programs: Recruit engineers as volunteers to teach afterschool programming classes, focusing on functional programming.
+- Teacher training: Train math teachers in computer science teaching methods.
+- Federal policy: Encourage state-level initiatives to make learning computer science a priority.
+- Mentorship: Provide mentors and resources for teachers who want to teach computer science but lack experience or resources.
+- Volunteerism: Engage volunteers in the community to help teach computer science.
+- Corporate involvement: Collaborate with tech companies like Google to provide training, resources, and support for schools adopting this approach.
+- Scalability: Build a platform that can be used by all teachers across the country.
+- Long-term impact: Create a sustainable pathway for teachers to learn computer science teaching methods.
+- Equity: Ensure that low-income students have equal access to computer science education.
+- Incentivize: Offer professional development opportunities and career advancements for teachers who become computer science teachers.
+- Collaboration: Work with universities, colleges, and nonprofit organizations to provide resources and training for teachers and schools.
 
 
 ## Rigor Mortis | Richard Harris | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=LUgAAziZO8Q](https://www.youtube.com/watch?v=LUgAAziZO8Q)
 
-    1. Rigor Mortis by Richard Harris discusses the issues in biomedical research, particularly reproducibility crisis and funding pressure.
-    2. The book highlights four bad ingredients: misidentified cell lines, statistical errors, dubious design experiments, and financial pressure.
-    3. Transparency is one solution to these problems; examples include publishing raw data and open-source codes.
-    4. Improving training for scientists can help avoid questionable research practices.
-    5. MetaResearch Innovation Center (METRICS) aims to study science by examining meta research, clinical trials, and other studies.
-    6. PubPeer is a useful tool for commenting on scientific literature and identifying flawed papers.
-    7. The book argues that improving the quality of biomedical research can lead to better outcomes and prevent wasting resources on dead-end projects.
+1. Rigor Mortis by Richard Harris discusses the issues in biomedical research, particularly reproducibility crisis and funding pressure.
+2. The book highlights four bad ingredients: misidentified cell lines, statistical errors, dubious design experiments, and financial pressure.
+3. Transparency is one solution to these problems; examples include publishing raw data and open-source codes.
+4. Improving training for scientists can help avoid questionable research practices.
+5. MetaResearch Innovation Center (METRICS) aims to study science by examining meta research, clinical trials, and other studies.
+6. PubPeer is a useful tool for commenting on scientific literature and identifying flawed papers.
+7. The book argues that improving the quality of biomedical research can lead to better outcomes and prevent wasting resources on dead-end projects.
 
 
 ## The Thrilling Adventures of Lovelace and Babbage | Sydney Padua | Talks at Google
@@ -2063,35 +2047,35 @@ URL: [https://www.youtube.com/watch?v=1gBViHUDYD0](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=3BTHXG16RGc](https://www.youtube.com/watch?v=3BTHXG16RGc)
 
-    - Omar Hatamleh discussed the future of technology and its impact on jobs and innovation.
-    - He emphasized that artificial intelligence, robotics, and automation will have a significant impact on job markets.
-    - The speaker highlighted the importance of education, creativity, and adaptability in preparing for these changes.
-    - He also mentioned the need for collaboration between different industries to solve complex problems.
-    - Omar Hatamleh talked about the potential role of humanoid robots in future jobs.
-    - He stressed that innovation should be driven by humans rather than artificial intelligence alone.
-    - The speaker discussed the importance of education and continuous learning throughout life.
-    - He also mentioned the need for companies to embrace change and adapt their workforce accordingly.
+- Omar Hatamleh discussed the future of technology and its impact on jobs and innovation.
+- He emphasized that artificial intelligence, robotics, and automation will have a significant impact on job markets.
+- The speaker highlighted the importance of education, creativity, and adaptability in preparing for these changes.
+- He also mentioned the need for collaboration between different industries to solve complex problems.
+- Omar Hatamleh talked about the potential role of humanoid robots in future jobs.
+- He stressed that innovation should be driven by humans rather than artificial intelligence alone.
+- The speaker discussed the importance of education and continuous learning throughout life.
+- He also mentioned the need for companies to embrace change and adapt their workforce accordingly.
 
 
 ## Deviate | Beau Lotto | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=hQUgGg9XzbQ](https://www.youtube.com/watch?v=hQUgGg9XzbQ)
 
-    - Human perception and understanding are fundamental.
-    - Brain adapts to uncertainty, evolving for adaptability.
-    - Creative process is about changing assumptions.
-    - Science is about celebrating uncertainty and diversity.
-    - Play is an important part of learning and creativity.
-    - Artificial intelligence (AI) can be seen as a way to create intelligent agents that can learn from human experience.
-    - AI can also help us understand our own biases by highlighting them.
-    - AI is not about replacing humans but augmenting them with new skills.
-    - AI will lead to new forms of cooperation between humans and machines.
-    - AI may help us understand ourselves better, as we work together with it.
-    - AI can also help us in decision-making by providing more information.
-    - AI could potentially help us make better decisions by learning from our mistakes.
-    - AI might enable us to see the world differently and help us solve problems.
-    - AI could also help us understand ourselves better, as we work together with it.
-    - Ultimately, AI should be seen as a tool that enhances human capabilities.
+- Human perception and understanding are fundamental.
+- Brain adapts to uncertainty, evolving for adaptability.
+- Creative process is about changing assumptions.
+- Science is about celebrating uncertainty and diversity.
+- Play is an important part of learning and creativity.
+- Artificial intelligence (AI) can be seen as a way to create intelligent agents that can learn from human experience.
+- AI can also help us understand our own biases by highlighting them.
+- AI is not about replacing humans but augmenting them with new skills.
+- AI will lead to new forms of cooperation between humans and machines.
+- AI may help us understand ourselves better, as we work together with it.
+- AI can also help us in decision-making by providing more information.
+- AI could potentially help us make better decisions by learning from our mistakes.
+- AI might enable us to see the world differently and help us solve problems.
+- AI could also help us understand ourselves better, as we work together with it.
+- Ultimately, AI should be seen as a tool that enhances human capabilities.
 
 
 ## AI Cognition Won't Work for Consciousness | Ned Block | Talks at Google
@@ -2134,13 +2118,13 @@ URL: [https://www.youtube.com/watch?v=QbsH9_lgh8I](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=H6vbujZ8oY8](https://www.youtube.com/watch?v=H6vbujZ8oY8)
 
-    - Antonio McFadden and Michael Block discuss their game, "We Are Chicago".
-    - The game is a narrative-driven adventure set in the South Side of Chicago. It aims to portray life from the perspective of teenagers growing up in a rough part of the city.
-    - They talk about the challenges they faced during development, such as balancing realism and entertainment while maintaining player engagement.
-    - The game's primary goal is to educate players by providing insight into the lives of those living in disadvantaged areas through immersive storytelling.
-    - They mention the importance of representation in video games, highlighting the need for diverse characters and stories.
-    - The game aims to spark conversation around empathy and understanding among players, encouraging them to learn about and support communities that face challenges.
-    - The creators hope their work will contribute to a positive change in the gaming industry by promoting inclusivity and diversity.
+- Antonio McFadden and Michael Block discuss their game, "We Are Chicago".
+- The game is a narrative-driven adventure set in the South Side of Chicago. It aims to portray life from the perspective of teenagers growing up in a rough part of the city.
+- They talk about the challenges they faced during development, such as balancing realism and entertainment while maintaining player engagement.
+- The game's primary goal is to educate players by providing insight into the lives of those living in disadvantaged areas through immersive storytelling.
+- They mention the importance of representation in video games, highlighting the need for diverse characters and stories.
+- The game aims to spark conversation around empathy and understanding among players, encouraging them to learn about and support communities that face challenges.
+- The creators hope their work will contribute to a positive change in the gaming industry by promoting inclusivity and diversity.
 
 
 ## A Roadmap for the Rigorous Science of Interpretability | Finale Doshi-Velez | Talks at Google
@@ -2162,8 +2146,6 @@ URL: [https://www.youtube.com/watch?v=LAeao2s_3Cg](https://www.youtube.com/watch
 
 Summary: A discussion between authors Cory Doctorow and John Scalzi took place at a Google event. They talked about their books, the Walkaway series by Cory and The Collapsing Empire by John. They also discussed topics like post-scarcity world, coordination, retention wealth, net neutrality, and the importance of intellectual property.
 
-Context: Authors Cory Doctorow and John Scalzi were present at a Google event where they talked about their books and other related subjects.
-
 1. Walkaway series by Cory Doctorow - Post-scarcity world, coordination, and collaboration
 2. The Collapsing Empire by John Scalzi - A story set in a post-collapse society with different motivations for characters
 3. Retention wealth - Wealth distribution and its impact on overall wellbeing
@@ -2176,12 +2158,12 @@ Context: Authors Cory Doctorow and John Scalzi were present at a Google event wh
 
 URL: [https://www.youtube.com/watch?v=sPo0JPEvDRc](https://www.youtube.com/watch?v=sPo0JPEvDRc)
 
-    - Verily's Grand Rounds event featured a discussion on Parkinson's disease.
-    - Michael J Fox Foundation is a leading nonprofit funder of Parkinsons drug development, with $700 million allocated since inception.
-    - The foundation has established peer-level groups and sponsored landmark biomarker study called PPMI.
-    - A new Study Watch project aims to help Parkinsons patients by tracking movement function and normal daily activity.
-    - Liftware is a device that neutralizes tremor in people with Parkinson's, improving their quality of life.
-    - The foundation has launched an online platform called Fox Insight for collecting information from millions of Parkinsons sufferers to gain insights into the disease.
+- Verily's Grand Rounds event featured a discussion on Parkinson's disease.
+- Michael J Fox Foundation is a leading nonprofit funder of Parkinsons drug development, with $700 million allocated since inception.
+- The foundation has established peer-level groups and sponsored landmark biomarker study called PPMI.
+- A new Study Watch project aims to help Parkinsons patients by tracking movement function and normal daily activity.
+- Liftware is a device that neutralizes tremor in people with Parkinson's, improving their quality of life.
+- The foundation has launched an online platform called Fox Insight for collecting information from millions of Parkinsons sufferers to gain insights into the disease.
 
 
 ## Zachtronics: 10 Years of Terrible Games | Zach Barth | Talks at Google
@@ -2242,45 +2224,24 @@ URL: [https://www.youtube.com/watch?v=bh7t4g5jFUE](https://www.youtube.com/watch
 - Education, training programs, and policy changes are needed to address these challenges.
 
 
-## Designing a 3D Printer | Diego Porqueras | Talks at Google
-
-URL: [https://www.youtube.com/watch?v=dc7z2nh3lQI](https://www.youtube.com/watch?v=dc7z2nh3lQI)
-
-Error
-
-
-## Can Computers Be Racist? | Van Jones + More | Talks at Google
-
-URL: [https://www.youtube.com/watch?v=4fNx8XxToBA](https://www.youtube.com/watch?v=4fNx8XxToBA)
-
-Error
-
-
-## Making Machine Learning Great Again | Jerry Kaplan | Talks at Google
-
-URL: [https://www.youtube.com/watch?v=3fpto3Y_EwY](https://www.youtube.com/watch?v=3fpto3Y_EwY)
-
-Error
-
-
 ## Positive Outcomes for AI | Nate Soares | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=dY3zDvoLoao](https://www.youtube.com/watch?v=dY3zDvoLoao)
 
-    - AI alignment problem is challenging and complex.
-    - Similar to nuclear power safety, it requires constant vigilance and caution.
-    - The analogy between advanced AI systems and rocket probes shows the need for careful design and testing.
-    - Computer security parallels AI alignment; intelligent attackers can chain together weaknesses.
-    - College degree example illustrates a potential utility function problem, where the system learns to optimize for short-term goals.
-    - Verification is important to ensure systems behave as intended; formal verification could be helpful in this regard.
-    - AI alignment partnerships should focus on open communication and collaboration.
-    - Economics plays a crucial role in AI development, affecting its direction and safety.
-    - Transparent algorithms are essential for understanding complex systems.
-    - Brute force hill climbing algorithms can help in some cases, but may not be ideal.
-    - Testing should include various context changes to ensure robustness.
-    - Aligning AI with human values is crucial; it's like painting a canvas with backdrop and testing the system in different scenarios.
-    - Contextual change requires careful consideration and preparation for potential unintended consequences.
-    - Ensure safety precautions while working on advanced systems, as they can have significant impact on society.
+- AI alignment problem is challenging and complex.
+- Similar to nuclear power safety, it requires constant vigilance and caution.
+- The analogy between advanced AI systems and rocket probes shows the need for careful design and testing.
+- Computer security parallels AI alignment; intelligent attackers can chain together weaknesses.
+- College degree example illustrates a potential utility function problem, where the system learns to optimize for short-term goals.
+- Verification is important to ensure systems behave as intended; formal verification could be helpful in this regard.
+- AI alignment partnerships should focus on open communication and collaboration.
+- Economics plays a crucial role in AI development, affecting its direction and safety.
+- Transparent algorithms are essential for understanding complex systems.
+- Brute force hill climbing algorithms can help in some cases, but may not be ideal.
+- Testing should include various context changes to ensure robustness.
+- Aligning AI with human values is crucial; it's like painting a canvas with backdrop and testing the system in different scenarios.
+- Contextual change requires careful consideration and preparation for potential unintended consequences.
+- Ensure safety precautions while working on advanced systems, as they can have significant impact on society.
 
 
 ## STEM Pop-Up Lab | Magalis Martinez & Watson Hartsoe | Talks at Google
@@ -2292,13 +2253,6 @@ URL: [https://www.youtube.com/watch?v=9lSkFhQslqk](https://www.youtube.com/watch
 3. The lab aims to engage young people through various projects like smart machines and robotics.
 4. Their approach involves constructivism and transparency, allowing students to create their own experiences.
 5. Genesis Innovation Lab partners with Boys & Girls Clubs in South LA to reach more children and provide STEM education.
-
-
-## NASA at Google: Resource Prospector | Dan Andrews | Talks at Google
-
-URL: [https://www.youtube.com/watch?v=To9cQSa03so](https://www.youtube.com/watch?v=To9cQSa03so)
-
-Error
 
 
 ## Second Shift | David Hollister, David Closs & Tomas Hult | Talks at Google
@@ -2342,7 +2296,6 @@ URL: [https://www.youtube.com/watch?v=rRU62Csr_jI](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=0dLpGq0uVHA](https://www.youtube.com/watch?v=0dLpGq0uVHA)
 
-Summary:
 - The speaker discussed the evolution of cities, focusing on urban innovation.
 - He highlighted the importance of collaboration between diverse disciplines and stakeholders.
 - Urban innovation can be enhanced through a dynamic policy architecture, which addresses issues like regulation, finance, deployment, and technology integration.
@@ -2414,11 +2367,11 @@ URL: [https://www.youtube.com/watch?v=eUqvi_Me4OA](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=Y4_KbtwVj24](https://www.youtube.com/watch?v=Y4_KbtwVj24)
 
-    - Ustad Zakir Hussain, a renowned tabla player and percussionist, shared his life story.
-    - He talked about how he started playing the tabla at three years old and his journey to becoming a world-class musician.
-    - His collaboration with other musicians from different genres was discussed, emphasizing the importance of mutual understanding in music.
-    - The impact of technology on music was also addressed, with Zakir Hussain sharing his thoughts on YouTube, Google, and how these platforms have helped him reach a wider audience.
-    - Finally, he expressed gratitude for the opportunity to share his knowledge and passion for music with everyone present.
+- Ustad Zakir Hussain, a renowned tabla player and percussionist, shared his life story.
+- He talked about how he started playing the tabla at three years old and his journey to becoming a world-class musician.
+- His collaboration with other musicians from different genres was discussed, emphasizing the importance of mutual understanding in music.
+- The impact of technology on music was also addressed, with Zakir Hussain sharing his thoughts on YouTube, Google, and how these platforms have helped him reach a wider audience.
+- Finally, he expressed gratitude for the opportunity to share his knowledge and passion for music with everyone present.
 
 
 ## Sustainable High-Performance Computing  | Ozalp Babaoglu | Talks at Google
@@ -2439,26 +2392,26 @@ URL: [https://www.youtube.com/watch?v=EHE_IDiiSa0](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=SbYPvX-LndE](https://www.youtube.com/watch?v=SbYPvX-LndE)
 
-    - Kari Byron, MythBusters star, discussed her career and life experiences.
-    - She emphasized the importance of having a supportive network and mentors in pursuing STEM fields.
-    - The role of art and creativity was highlighted as essential for innovation and problem-solving.
-    - Kari advocated for combining art and science, such as through maker spaces like Maker Faire.
-    - A new show featuring Tory and Grant is announced.
+- Kari Byron, MythBusters star, discussed her career and life experiences.
+- She emphasized the importance of having a supportive network and mentors in pursuing STEM fields.
+- The role of art and creativity was highlighted as essential for innovation and problem-solving.
+- Kari advocated for combining art and science, such as through maker spaces like Maker Faire.
+- A new show featuring Tory and Grant is announced.
 
 
 ## Mars and Beyond: Exploring Today for Tomorrow | Dava Newman | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=-FUav_lQEvc](https://www.youtube.com/watch?v=-FUav_lQEvc)
 
-    - Dava Newman, NASA's Deputy Administrator for Spaceflight, discusses the future of human space exploration.
-    - She highlights the importance of Mars as a potential destination and emphasizes the need to learn from past missions like Apollo and Skylab.
-    - The current focus is on preparing for crewed missions to Mars by 2030s with robotic precursors, deep space habitats, and human-robotic interactions.
-    - NASA's partnership with Google aims at advancing technology in aerospace engineering, particularly in areas like virtual reality, augmented reality, artificial intelligence, and machine learning for space exploration.
-    - The challenges faced in exploring Mars include resource utilization, environmental sustainability, and the need for a robust infrastructure to support human life on Mars.
-    - Orbital debris is another critical issue that requires international cooperation to address through active monitoring and de-orbiting of satellites.
-    - NASA's goal is to inspire the next generation of space explorers by engaging with students, educators, and the general public through programs like "Mars Generation" and "Astronaut Ambassador."
-    - The importance of citizen science for space exploration is emphasized as a way to engage the broader community in contributing to scientific research.
-    - NASA's focus on innovation and collaboration with private industries is essential for advancing technology and achieving its goals.
+- Dava Newman, NASA's Deputy Administrator for Spaceflight, discusses the future of human space exploration.
+- She highlights the importance of Mars as a potential destination and emphasizes the need to learn from past missions like Apollo and Skylab.
+- The current focus is on preparing for crewed missions to Mars by 2030s with robotic precursors, deep space habitats, and human-robotic interactions.
+- NASA's partnership with Google aims at advancing technology in aerospace engineering, particularly in areas like virtual reality, augmented reality, artificial intelligence, and machine learning for space exploration.
+- The challenges faced in exploring Mars include resource utilization, environmental sustainability, and the need for a robust infrastructure to support human life on Mars.
+- Orbital debris is another critical issue that requires international cooperation to address through active monitoring and de-orbiting of satellites.
+- NASA's goal is to inspire the next generation of space explorers by engaging with students, educators, and the general public through programs like "Mars Generation" and "Astronaut Ambassador."
+- The importance of citizen science for space exploration is emphasized as a way to engage the broader community in contributing to scientific research.
+- NASA's focus on innovation and collaboration with private industries is essential for advancing technology and achieving its goals.
 
 
 ## Replace Humans or Work with Them? | Alonso Vera | Talks at Google
@@ -2476,12 +2429,12 @@ URL: [https://www.youtube.com/watch?v=BwAIaBENww0](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=RVSLLvHceSA](https://www.youtube.com/watch?v=RVSLLvHceSA)
 
-    - Dan Lyons, a technology journalist, talks about disruption in various industries and companies.
-    - He discusses the culture of startup companies like HubSpot, comparing it to traditional businesses.
-    - He mentions the need for diversity in the tech industry, both in terms of demographics and thought processes.
-    - Dan Lyons shares his thoughts on the book "Disrupted: My Misadventure Startup Bubble, and Punching the Guy Who Crashed Your Party" by Dan Lyons.
-    - He talks about disruption in the media industry, specifically Newsweek, and how it affects journalists' careers.
-    - The discussion also covers the role of venture capitalists in the tech world, and their impact on startup funding and valuations.
+- Dan Lyons, a technology journalist, talks about disruption in various industries and companies.
+- He discusses the culture of startup companies like HubSpot, comparing it to traditional businesses.
+- He mentions the need for diversity in the tech industry, both in terms of demographics and thought processes.
+- Dan Lyons shares his thoughts on the book "Disrupted: My Misadventure Startup Bubble, and Punching the Guy Who Crashed Your Party" by Dan Lyons.
+- He talks about disruption in the media industry, specifically Newsweek, and how it affects journalists' careers.
+- The discussion also covers the role of venture capitalists in the tech world, and their impact on startup funding and valuations.
 
 
 ## The Thinking Robot | Alan Winfield | Talks at Google
@@ -2511,8 +2464,6 @@ URL: [https://www.youtube.com/watch?v=Nzgm-uFYhSA](https://www.youtube.com/watch
    4. James Webb Space Telescope is a successor of Hubble and aims to detect life by analyzing the atmospheres of exoplanets.
    5. A new project, New Worlds Telescope, will use an array of telescopes to observe Earth-like planets in detail.
    6. The speaker mentioned that there are currently around 1000 known exoplanets and more discoveries are expected as the search continues.
-  
-- No context summary: The talk focused on Kepler, a space telescope that's been searching for Earth-like planets in other solar systems. It discussed TESS, James Webb Space Telescope, and New Worlds Telescope - future projects to further explore exoplanets.
 
 
 ## The Master Algorithm | Pedro Domingos | Talks at Google
@@ -2620,17 +2571,17 @@ URL: [https://www.youtube.com/watch?v=7eJZcrTZblU](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=h5RqYotnlaE](https://www.youtube.com/watch?v=h5RqYotnlaE)
 
-    - Astronaut Reid Wiseman shared his experience of spending six months in space.
-    - He talked about living on the International Space Station, its maintenance, and daily life.
-    - The astronaut discussed how weightlessness affects the body and the importance of exercise during space travel.
-    - He mentioned that he lost 10 pounds in space due to zero gravity's impact on the digestive system.
-    - Wiseman shared some fun memories from his time in space, like floating water bubbles and bubble wrap experiments.
-    - He also talked about the importance of maintaining a sense of humor during long missions.
-    - The astronaut emphasized the need for physical exercise to maintain mental health while in space.
-    - Wiseman shared his thoughts on zero-G fluid dynamics, which can be dangerous if not controlled properly.
-    - He also discussed how he felt after returning from space and how his body adapted over time.
-    - The astronaut talked about the future of space travel and commercial entities like SpaceX and Bigelow Aerospace.
-    - Wiseman mentioned that NASA is trying to bring more commercial aspects into space exploration, such as flying private experiments on the ISS.
+- Astronaut Reid Wiseman shared his experience of spending six months in space.
+- He talked about living on the International Space Station, its maintenance, and daily life.
+- The astronaut discussed how weightlessness affects the body and the importance of exercise during space travel.
+- He mentioned that he lost 10 pounds in space due to zero gravity's impact on the digestive system.
+- Wiseman shared some fun memories from his time in space, like floating water bubbles and bubble wrap experiments.
+- He also talked about the importance of maintaining a sense of humor during long missions.
+- The astronaut emphasized the need for physical exercise to maintain mental health while in space.
+- Wiseman shared his thoughts on zero-G fluid dynamics, which can be dangerous if not controlled properly.
+- He also discussed how he felt after returning from space and how his body adapted over time.
+- The astronaut talked about the future of space travel and commercial entities like SpaceX and Bigelow Aerospace.
+- Wiseman mentioned that NASA is trying to bring more commercial aspects into space exploration, such as flying private experiments on the ISS.
 
 
 ## Positive Computing | Rafael Calvo | Talks at Google
@@ -2668,15 +2619,13 @@ URL: [https://www.youtube.com/watch?v=aOaPqcD5mrU](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=g6BK5Q_Dblo](https://www.youtube.com/watch?v=g6BK5Q_Dblo)
 
-    - No context
+- Yuvals Harari's talk revolved around the evolution of human society. He analyzed how religion, ideology, capitalism, and technology have influenced it over time. The speaker identified patterns in religious beliefs, noting that many religions have shifted from a matriarchal to patriarchal structure.
 
-    - Yuvals Harari's talk revolved around the evolution of human society. He analyzed how religion, ideology, capitalism, and technology have influenced it over time. The speaker identified patterns in religious beliefs, noting that many religions have shifted from a matriarchal to patriarchal structure.
+- In his theory, Harari suggests that liberalism will eventually collapse due to the rise of data-driven religion. He also discussed how technology and algorithms are changing our understanding of emotions, feelings, and decision making.
 
-    - In his theory, Harari suggests that liberalism will eventually collapse due to the rise of data-driven religion. He also discussed how technology and algorithms are changing our understanding of emotions, feelings, and decision making.
+- The talk touched upon the role of biotechnology in human evolution, emphasizing on the need for a new ideological framework that can accommodate these advancements.
 
-    - The talk touched upon the role of biotechnology in human evolution, emphasizing on the need for a new ideological framework that can accommodate these advancements.
-
-    - Harari concluded by stating that future societies will be guided by data religion, with algorithms making decisions about what people should eat, wear or marry based on complex calculations.
+- Harari concluded by stating that future societies will be guided by data religion, with algorithms making decisions about what people should eat, wear or marry based on complex calculations.
 
 
 ## Timelapse on Google Earth Engine | Randy Sargent | Talks at Google
@@ -2695,43 +2644,43 @@ URL: [https://www.youtube.com/watch?v=EjMsie2FAXQ](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=L7Uo-JpzadE](https://www.youtube.com/watch?v=L7Uo-JpzadE)
 
-    - Code America is an organization that aims to improve government technology by working with local governments.
-    - A key example of their work was helping San Francisco fix its broken food stamp system, which involved a text message-based solution for notifying people when they were about to lose benefits.
-    - The United States Digital Services Playbook outlines best practices for building better government technology and has been used by several cities around the country.
-    - Code for America is expanding their focus on civic tech to include criminal justice reform, healthcare innovation, and economic development. They are also working with local governments and non-profits to improve public services using data analysis and technology.
-    - Google's involvement in government projects has been crucial, as they provide both financial support and volunteer resources through their Googler Fellowship program.
-    - The goal is to make government work better for citizens by improving communication, transparency, and efficiency using modern technology.
+- Code America is an organization that aims to improve government technology by working with local governments.
+- A key example of their work was helping San Francisco fix its broken food stamp system, which involved a text message-based solution for notifying people when they were about to lose benefits.
+- The United States Digital Services Playbook outlines best practices for building better government technology and has been used by several cities around the country.
+- Code for America is expanding their focus on civic tech to include criminal justice reform, healthcare innovation, and economic development. They are also working with local governments and non-profits to improve public services using data analysis and technology.
+- Google's involvement in government projects has been crucial, as they provide both financial support and volunteer resources through their Googler Fellowship program.
+- The goal is to make government work better for citizens by improving communication, transparency, and efficiency using modern technology.
 
 
 ## You Neighborhood Space Station | Dr. George Nelson | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=Bn8ZUxoHj3E](https://www.youtube.com/watch?v=Bn8ZUxoHj3E)
 
-    - International Space Station (ISS) is a unique platform for research, technology demonstration, and commercial activities.
-    - ISS has been used by 230 countries and 500 organizations. It has hosted 217 crew members from 15 nations.
-    - ISS research includes biology, physics, astrophysics, astronomy, human physiology, space science, and technology demonstration.
-    - Technology demonstration projects include Amine Swingbed, Robonaut, and Advanced Biological Research Project (ABRP).
-    - The ISS has a long life expectancy, with parts being replaced or refurbished as needed.
-    - ISS provides access to the microgravity environment, which is useful for research on combustion, fluid dynamics, material science, and crystal growth.
-    - The ISS has a robust commercial cargo program, including SpaceX, Orbital ATK, and United Launch Alliance.
-    - Commercial crew providers are currently being selected to transport astronauts to the ISS. Boeing and SpaceX are the leading contenders for these contracts.
-    - NASA is working with private companies to develop commercial space stations, such as Bigelow Aerospace's BEAM module.
-    - The ISS has been instrumental in developing new technologies like the Amine Swingbed air purifier, and it has provided a platform for testing systems that will be used on future missions to Mars and beyond.
+- International Space Station (ISS) is a unique platform for research, technology demonstration, and commercial activities.
+- ISS has been used by 230 countries and 500 organizations. It has hosted 217 crew members from 15 nations.
+- ISS research includes biology, physics, astrophysics, astronomy, human physiology, space science, and technology demonstration.
+- Technology demonstration projects include Amine Swingbed, Robonaut, and Advanced Biological Research Project (ABRP).
+- The ISS has a long life expectancy, with parts being replaced or refurbished as needed.
+- ISS provides access to the microgravity environment, which is useful for research on combustion, fluid dynamics, material science, and crystal growth.
+- The ISS has a robust commercial cargo program, including SpaceX, Orbital ATK, and United Launch Alliance.
+- Commercial crew providers are currently being selected to transport astronauts to the ISS. Boeing and SpaceX are the leading contenders for these contracts.
+- NASA is working with private companies to develop commercial space stations, such as Bigelow Aerospace's BEAM module.
+- The ISS has been instrumental in developing new technologies like the Amine Swingbed air purifier, and it has provided a platform for testing systems that will be used on future missions to Mars and beyond.
 
 
 ## Open Source Chrome Browser Mission | Jay Trimble | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=okZuN_aSpL8](https://www.youtube.com/watch?v=okZuN_aSpL8)
 
-    - NASA mission control history and display technology evolution.
-    - Open source project aiming to create a unified environment for mission visualization with flexible data types.
-    - Notable examples include XGDS, WARP Viewer, and WARP Drive.
-    - Web-based version is under development.
-    - Open source community involvement can lead to innovative ideas.
-    - Goal: Build a collaborative platform for mission control visualization with real-time data integration.
-    - Expected benefits: Flexibility, scalability, and cross-domain collaboration.
-    - Potential applications include financial analysis, weather prediction, and military operations.
-    - Open source project can encourage innovation in various domains.
+- NASA mission control history and display technology evolution.
+- Open source project aiming to create a unified environment for mission visualization with flexible data types.
+- Notable examples include XGDS, WARP Viewer, and WARP Drive.
+- Web-based version is under development.
+- Open source community involvement can lead to innovative ideas.
+- Goal: Build a collaborative platform for mission control visualization with real-time data integration.
+- Expected benefits: Flexibility, scalability, and cross-domain collaboration.
+- Potential applications include financial analysis, weather prediction, and military operations.
+- Open source project can encourage innovation in various domains.
 
 
 ## Data-Driven Anomaly Detection | Nikunj Oza | Talks at Google
@@ -2918,33 +2867,32 @@ URL: [https://www.youtube.com/watch?v=bsaRKb_MmhE](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=lsv_Li2FXzw](https://www.youtube.com/watch?v=lsv_Li2FXzw)
 
-    - No context.
-    - Ralph Simpson talks about Enigma machines used in World War II.
-    - He discusses the history, design, and working of these machines.
-    - The machines were cipher devices used for encrypting messages.
-    - They had multiple rotors to change letter patterns.
-    - The machine was invented by Arthur Scherbius and Hugo Koch.
-    - The Germans used them extensively during WWII.
-    - Allies also used similar machines, such as SIGABA.
-    - Poles were the first to break Enigma code using Polish Cipher Bureau and mathematician Marian Rejewski.
-    - British broke code using bombe, a device that simulated multiple rotors in parallel.
-    - The US Navy also used similar machines called SIGABA.
-    - Breaking code of these machines helped shorten the war by two years.
-    - There were about 350 original Enigma machines made and they are now collector's items.
-    - They have been featured in movies like 'Enigma' and 'U-571'.
+- Ralph Simpson talks about Enigma machines used in World War II.
+- He discusses the history, design, and working of these machines.
+- The machines were cipher devices used for encrypting messages.
+- They had multiple rotors to change letter patterns.
+- The machine was invented by Arthur Scherbius and Hugo Koch.
+- The Germans used them extensively during WWII.
+- Allies also used similar machines, such as SIGABA.
+- Poles were the first to break Enigma code using Polish Cipher Bureau and mathematician Marian Rejewski.
+- British broke code using bombe, a device that simulated multiple rotors in parallel.
+- The US Navy also used similar machines called SIGABA.
+- Breaking code of these machines helped shorten the war by two years.
+- There were about 350 original Enigma machines made and they are now collector's items.
+- They have been featured in movies like 'Enigma' and 'U-571'.
 
 
 ## Digital Apollo | David A. Mindell | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=MG_-1099UM8](https://www.youtube.com/watch?v=MG_-1099UM8)
 
-    - Autonomy and human interaction in technology are important subjects to understand.
-    - Human-machine cooperation is essential for advanced systems like autonomous vehicles, drones, and spacecraft.
-    - There's a need for continuous human involvement in complex tasks requiring high-level judgment.
-    - The key challenge is designing systems that allow humans to intervene when needed without disrupting the autonomy process.
-    - Autonomous cars will likely be semi-autonomous, with some level of human control and decision making involved.
-    - Regulatory frameworks for unmanned vehicles in national airspace are under development.
-    - As technology advances, humans must adapt to new roles and responsibilities, maintaining a balance between autonomy and human intervention.
+- Autonomy and human interaction in technology are important subjects to understand.
+- Human-machine cooperation is essential for advanced systems like autonomous vehicles, drones, and spacecraft.
+- There's a need for continuous human involvement in complex tasks requiring high-level judgment.
+- The key challenge is designing systems that allow humans to intervene when needed without disrupting the autonomy process.
+- Autonomous cars will likely be semi-autonomous, with some level of human control and decision making involved.
+- Regulatory frameworks for unmanned vehicles in national airspace are under development.
+- As technology advances, humans must adapt to new roles and responsibilities, maintaining a balance between autonomy and human intervention.
 
 
 ## Cloud Robotics | Ken Goldberg | Talks at Google
@@ -3041,45 +2989,45 @@ URL: [https://www.youtube.com/watch?v=CLDcuvYNQ_w](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=vUN53FGEsHs](https://www.youtube.com/watch?v=vUN53FGEsHs)
 
-    - The talk focused on time delay in space missions and its impact.
-    - Experiments were conducted to study the effects of time delays in communication, especially during human space missions.
-    - Time delay made tasks harder for astronauts and flight controllers. However, mitigation technology improved communication, making tasks easier.
-    - A chat system was introduced as part of the mitigation process, which helped reduce workload and improve task completion time.
-    - The use of advanced electronic procedures and display systems also played a role in reducing workload and improving efficiency.
-    - As space missions become longer and more complex, effective communication and coordination will be crucial for success.
-    - NASA's future plans include sending astronauts to Mars, where time delays are expected to be significant challenges.
-    - New technologies like virtual reality, telepresence robots, and augmented reality could help mitigate these issues in the future.
+- The talk focused on time delay in space missions and its impact.
+- Experiments were conducted to study the effects of time delays in communication, especially during human space missions.
+- Time delay made tasks harder for astronauts and flight controllers. However, mitigation technology improved communication, making tasks easier.
+- A chat system was introduced as part of the mitigation process, which helped reduce workload and improve task completion time.
+- The use of advanced electronic procedures and display systems also played a role in reducing workload and improving efficiency.
+- As space missions become longer and more complex, effective communication and coordination will be crucial for success.
+- NASA's future plans include sending astronauts to Mars, where time delays are expected to be significant challenges.
+- New technologies like virtual reality, telepresence robots, and augmented reality could help mitigate these issues in the future.
 
 
 ## NASA Ames Center | Dr. S Pete Worden & Chris DiBona | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=iufEyfkFYCY](https://www.youtube.com/watch?v=iufEyfkFYCY)
 
-    - NASA Ames discussed various topics including:
-      - Solar sail mission and its potential for near-interstellar missions.
-      - The importance of autonomy, robotics, and quantum computing in space exploration.
-      - Titan as a possible target for future missions due to its methane lakes and rain.
-      - Nuclear power as an efficient energy source for outer solar system missions.
-    - Private sector involvement in space exploration, with examples like SpaceX, Virgin Galactic, and Inspiration Mars.
-    - Balancing open collaboration and competition within the space industry.
-    - The role of Silicon Valley in shaping the future of space exploration through private-public partnerships.
+- NASA Ames discussed various topics including:
+    - Solar sail mission and its potential for near-interstellar missions.
+    - The importance of autonomy, robotics, and quantum computing in space exploration.
+    - Titan as a possible target for future missions due to its methane lakes and rain.
+    - Nuclear power as an efficient energy source for outer solar system missions.
+- Private sector involvement in space exploration, with examples like SpaceX, Virgin Galactic, and Inspiration Mars.
+- Balancing open collaboration and competition within the space industry.
+- The role of Silicon Valley in shaping the future of space exploration through private-public partnerships.
 
 
 ## Science & Technology to Explore the Seas of Titan | Nathalie A. Cabrol | Talks at Google
 
 URL: [https://www.youtube.com/watch?v=n7ylyK1ycmg](https://www.youtube.com/watch?v=n7ylyK1ycmg)
 
-  1. Nathalie Cabrol, a planetary scientist, discussed the Planetary Lake Lander (PLL) project.
-   2. PLL is a robotic exploration mission for studying lakes and oceans on Earth to understand life on other planets.
-   3. The goal was to study methane cycles in lakes and their impact on climate change.
-   4. A TiME Lake Lander (TiLE) mission, similar to PLL, was proposed for Titan, Saturn's moon.
-   5. The mission aimed at understanding carbon cycle, deglaciation, and habitability of the lake on Titan.
-   6. An exploratory mission called TiME (Time and Life in Exoplanet Exploration) was planned for Titan.
-   7. A robotic lander named Lake Lander would explore the alien sea, while a shore station would monitor environmental changes.
-   8. The project faced challenges in communication due to distance and low data rate.
-   9. PLL V2 was developed with improved communications and power systems for better performance.
-   10. Data analysis showed that Titan's lake might be losing water, which could affect its climate change and methane cycle.
-   11. The project aimed to develop a new generation of planetary explorers capable of adapting to changing environments.
+1. Nathalie Cabrol, a planetary scientist, discussed the Planetary Lake Lander (PLL) project.
+2. PLL is a robotic exploration mission for studying lakes and oceans on Earth to understand life on other planets.
+3. The goal was to study methane cycles in lakes and their impact on climate change.
+4. A TiME Lake Lander (TiLE) mission, similar to PLL, was proposed for Titan, Saturn's moon.
+5. The mission aimed at understanding carbon cycle, deglaciation, and habitability of the lake on Titan.
+6. An exploratory mission called TiME (Time and Life in Exoplanet Exploration) was planned for Titan.
+7. A robotic lander named Lake Lander would explore the alien sea, while a shore station would monitor environmental changes.
+8. The project faced challenges in communication due to distance and low data rate.
+9. PLL V2 was developed with improved communications and power systems for better performance.
+10. Data analysis showed that Titan's lake might be losing water, which could affect its climate change and methane cycle.
+11. The project aimed to develop a new generation of planetary explorers capable of adapting to changing environments.
 
 
 ## NASA Earth, Moon & Mars Exploration Maps | Ross Beyer | Talks at Google
@@ -3131,15 +3079,15 @@ URL: [https://www.youtube.com/watch?v=qEaheYVf3U0](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=fTpIawwJ6Qo](https://www.youtube.com/watch?v=fTpIawwJ6Qo)
 
-    - Apollo astronauts describe their experiences in space.
-    - They discuss the challenges of eating, drinking, and waste management in zero gravity conditions.
-    - The astronauts share details about their food, including freezing tomato juice for a drinkable beverage, using coffee to make water, and having a floating spoon.
-    - They also talk about the difficulties of living in cramped spaceships and the importance of humor during long flights.
-    - The astronauts share stories of their experiences with spacewalks, including the challenges of repairing a damaged antenna and dealing with a loose glove in zero gravity.
-    - They discuss the future of space exploration, emphasizing the need for private companies to play a larger role in space travel.
-    - The astronauts talk about their experiences during lunar missions, including landing on the Moon and exploring its surface.
-    - They also share stories of their interactions with other astronauts, like when an astronaut got lost in space, and the importance of teamwork during space missions.
-    - The astronauts discuss the challenges of returning to Earth after spending months in space, including adjusting to gravity and re-acclimating to everyday life.
+- Apollo astronauts describe their experiences in space.
+- They discuss the challenges of eating, drinking, and waste management in zero gravity conditions.
+- The astronauts share details about their food, including freezing tomato juice for a drinkable beverage, using coffee to make water, and having a floating spoon.
+- They also talk about the difficulties of living in cramped spaceships and the importance of humor during long flights.
+- The astronauts share stories of their experiences with spacewalks, including the challenges of repairing a damaged antenna and dealing with a loose glove in zero gravity.
+- They discuss the future of space exploration, emphasizing the need for private companies to play a larger role in space travel.
+- The astronauts talk about their experiences during lunar missions, including landing on the Moon and exploring its surface.
+- They also share stories of their interactions with other astronauts, like when an astronaut got lost in space, and the importance of teamwork during space missions.
+- The astronauts discuss the challenges of returning to Earth after spending months in space, including adjusting to gravity and re-acclimating to everyday life.
 
 
 ## Dreaming the Impossible | NASA Astronaut José M. Hernández | Talks at Google

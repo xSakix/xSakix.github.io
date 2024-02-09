@@ -204,14 +204,12 @@ URL: [https://www.youtube.com/watch?v=LDbD3ioDkYA](https://www.youtube.com/watch
 
 - Google Meet now supports the integration of third-party smart chips into its apps like Docs and Sheets
     - This enables users to access external data sources like project thumbnails, customer records, and dashboard widgets directly within their documents and spreadsheets, without having to switch between different applications or tabs
-```
 
 
 ## What's new in Google Home
 
 URL: [https://www.youtube.com/watch?v=CXaxMXZwaaw](https://www.youtube.com/watch?v=CXaxMXZwaaw)
 
-## Summary of Google IO 2022 Smart Home Announcement
 - Matter, the latest smart home standard, accelerates industry growth and brings ease of use, openness, and choice.
 - New tools for Android developers enhance app smart home control, reducing costs and enabling focus on innovation.
 - The introduction of Matter and Thread standards simplifies setup processes and allows a single hub to manage multiple devices.
@@ -342,34 +340,33 @@ The speaker discussed various features of the web platform, including new HTML e
 
 URL: [https://www.youtube.com/watch?v=vuv_r3iGM14](https://www.youtube.com/watch?v=vuv_r3iGM14)
 
-    - Auriel Wright, Skin tone plays a significant role in how users are treated and interact with technology.
-      - Numerous examples exist where industries have failed to create products that work well for various skin tones.
-    - Google's Skin Tone Team aims to help build products that function effectively for everyone, regardless of their skin tone.
-      - The team consists of UXRs, a colorism expert, research scientists, and engineers who leverage their expertise to minimize skin-tone inequity in ML products.
-    - Google uses ML Fairness Evaluation to understand common human biases manifested in ML algorithms ultimately affecting the product.
-      - Over the past year, they've been working with Dr. Monk to validate the MST scale and apply it in their work.
-    - Teams within Google use the MST scale for ML labeling tasks, ethnographic research, fairness testing, and as a guiding principle for computer vision fairness workflow.
-      - They've broken down four key principles to practice inclusive product development: Testing, Annotating Data Responsibly, Including Skin Tone in Image Processing, and Following Google's AI Principles.
-    - When developing an inclusive product, it is essential to ensure that the training and evaluation data sets include representation across the entire MST scale.
-      - This means accounting for a diverse range of people and tone categories within the dataset.
-    - Inclusive evaluations involve testing algorithms and products with various skin tones to ensure they perform similarly.
-      - In practice, this looks like using metrics that measure performance consistently across different skin-tone groups.
-    - Intersectional slicing allows for a more nuanced understanding of how different attributes interact within the product development process.
-      - This involves testing whether models perform well in specific subgroups based on multiple factors such as gender, age, and perceived expression.
-    - To annotate data responsibly, practitioners should use the MST scale to capture nuances in skin tone accurately.
-      - They should avoid grouping points into categories like light, medium, or dark, which can hide important nuances.
-      - It's also helpful to enlist geographically diverse sets of annotators within one region and get at least two raters per region to reduce variation and achieve a global consensus.
-    - Lighting plays an essential role in rating data and annotating skin tone, as it impacts perception significantly.
-      - Practitioners should consider this factor when working with data sets and ensure they account for variations in lighting conditions.
-    - Finally, practitioners should avoid equating race with skin tone when developing ML fairness efforts.
-      - It's crucial to remember that skin tone and race are two distinct concepts, and models must account for differences within ethnic groups.
+- Auriel Wright, Skin tone plays a significant role in how users are treated and interact with technology.
+    - Numerous examples exist where industries have failed to create products that work well for various skin tones.
+- Google's Skin Tone Team aims to help build products that function effectively for everyone, regardless of their skin tone.
+    - The team consists of UXRs, a colorism expert, research scientists, and engineers who leverage their expertise to minimize skin-tone inequity in ML products.
+- Google uses ML Fairness Evaluation to understand common human biases manifested in ML algorithms ultimately affecting the product.
+    - Over the past year, they've been working with Dr. Monk to validate the MST scale and apply it in their work.
+- Teams within Google use the MST scale for ML labeling tasks, ethnographic research, fairness testing, and as a guiding principle for computer vision fairness workflow.
+    - They've broken down four key principles to practice inclusive product development: Testing, Annotating Data Responsibly, Including Skin Tone in Image Processing, and Following Google's AI Principles.
+- When developing an inclusive product, it is essential to ensure that the training and evaluation data sets include representation across the entire MST scale.
+    - This means accounting for a diverse range of people and tone categories within the dataset.
+- Inclusive evaluations involve testing algorithms and products with various skin tones to ensure they perform similarly.
+    - In practice, this looks like using metrics that measure performance consistently across different skin-tone groups.
+- Intersectional slicing allows for a more nuanced understanding of how different attributes interact within the product development process.
+    - This involves testing whether models perform well in specific subgroups based on multiple factors such as gender, age, and perceived expression.
+- To annotate data responsibly, practitioners should use the MST scale to capture nuances in skin tone accurately.
+    - They should avoid grouping points into categories like light, medium, or dark, which can hide important nuances.
+    - It's also helpful to enlist geographically diverse sets of annotators within one region and get at least two raters per region to reduce variation and achieve a global consensus.
+- Lighting plays an essential role in rating data and annotating skin tone, as it impacts perception significantly.
+    - Practitioners should consider this factor when working with data sets and ensure they account for variations in lighting conditions.
+- Finally, practitioners should avoid equating race with skin tone when developing ML fairness efforts.
+    - It's crucial to remember that skin tone and race are two distinct concepts, and models must account for differences within ethnic groups.
 
 
 ## Optimize your app performance using the new deep linking management tools in Play Developer Console
 
 URL: [https://www.youtube.com/watch?v=GeyvIbBS7s8](https://www.youtube.com/watch?v=GeyvIbBS7s8)
 
-## Deep Links in Apps: Benefits and Implementation
 
 - **What are deep links?** Deep links are URLs that open an app and send the user to a specific piece of content or action within the app. They can improve user experience, drive traffic to apps, create personalized experiences, and boost long-term engagement.
 
@@ -563,19 +560,19 @@ URL: [https://www.youtube.com/watch?v=I5ubmoSgaXE](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=_X4tswgV67Y](https://www.youtube.com/watch?v=_X4tswgV67Y)
 
-    - Shobana Radhakrishnan, Senior Director of Engineering at TV Google, discussed Android TV OS's growth and the introduction of new features for a more personalized experience.
-    
-    - The latest update to the home screen introduced four new content pages: US movie show, family, entertainment, and Español. These updates aim to help users find content they are interested in while also giving partners new ways to surface their content.
-    
-    - The company announced a major update to Google TV, which includes redesigned TV Guide and the addition of a free channel tab featuring live TV channels like Tubi, Plex Haystack News, and more. This feature will make it easier for users to find what they want to watch without needing a subscription.
-    
-    - Paul Lammertsma, Director of Developer Relations at Google, introduced Compose TV, a new tool that allows developers to build world-class TV apps efficiently using code. The new framework is designed to make it easier for developers to create engaging and visually appealing TV experiences by providing prebuilt components and an easy-to-use interface.
-    
-    - Sidd Gudipati, Staff Designer at Google, demonstrated how to use Compose TV to build a TV app using various prebuilt components like TabRow, Carousel, and ImmersiveList, as well as customizing the focus system and creating unique animations.
-    
-    - The presentation also provided an overview of the focus system in TV apps, which is crucial for visually indicating the active element and providing a clear starting point for navigation.
-    
-    - Finally, Lammertsma emphasized that Compose TV is built on Jetpack Compose, making it easy for developers to build TV apps using familiar tools and techniques. The team encourages developers to start adopting Compose Android TV app development today by checking out the release notes and submitting feedback or feature requests.
+- Shobana Radhakrishnan, Senior Director of Engineering at TV Google, discussed Android TV OS's growth and the introduction of new features for a more personalized experience.
+
+- The latest update to the home screen introduced four new content pages: US movie show, family, entertainment, and Español. These updates aim to help users find content they are interested in while also giving partners new ways to surface their content.
+
+- The company announced a major update to Google TV, which includes redesigned TV Guide and the addition of a free channel tab featuring live TV channels like Tubi, Plex Haystack News, and more. This feature will make it easier for users to find what they want to watch without needing a subscription.
+
+- Paul Lammertsma, Director of Developer Relations at Google, introduced Compose TV, a new tool that allows developers to build world-class TV apps efficiently using code. The new framework is designed to make it easier for developers to create engaging and visually appealing TV experiences by providing prebuilt components and an easy-to-use interface.
+
+- Sidd Gudipati, Staff Designer at Google, demonstrated how to use Compose TV to build a TV app using various prebuilt components like TabRow, Carousel, and ImmersiveList, as well as customizing the focus system and creating unique animations.
+
+- The presentation also provided an overview of the focus system in TV apps, which is crucial for visually indicating the active element and providing a clear starting point for navigation.
+
+- Finally, Lammertsma emphasized that Compose TV is built on Jetpack Compose, making it easy for developers to build TV apps using familiar tools and techniques. The team encourages developers to start adopting Compose Android TV app development today by checking out the release notes and submitting feedback or feature requests.
 
 
 ## What’s new with Android for Cars
@@ -691,52 +688,52 @@ URL: [https://www.youtube.com/watch?v=sv9ICtooWBc](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=rNe2xGKjtvc](https://www.youtube.com/watch?v=rNe2xGKjtvc)
 
-    - Importance of Camera Experience
-        * 34 million people use Android camera
-        * High quality experience is key for user satisfaction and purchase
-    
-    - Polished Camera Preview
-        * Maintain aspect ratio across different devices and orientations
-        * Jetpack preview classes: `PreviewView` (CameraX) and `CameraViewfinder` (Camera2)
-        * Configure preview display properly on every screen size
-        * Use fit scale type to ensure proper display of preview
-    
-    - Premium Visual Quality
-        * HDR Video Capture introduced in Android 13
-        * 10-bit color capture for higher contrast and color fidelity
-        * Check device support for 10-bit output using `CameraManager`
-        * Use key REQUESTAVAILABLECAPABILITIES DYNAMIC RANGE TEN BIT to check if camera supports HDR video
-    
-    - Stream Use Cases
-        * Optimize performance and usability based on stream use case (e.g., preview, still capture, video record)
-        * Query supported stream use cases using `CameraManager`
-        * Configure output configuration for selected stream use case
-    
-    - Camera Extensions
-        * Device manufacturers expose special capabilities like night mode and bokeh effect as extensions
-        * Check if camera supports specific extension based on camera ID
-        * Implement `CameraExtensionSessionStateCallback` to handle session states
-    
-    - What's Coming in Android 14
-        * Ultra HDR still capture with 10-bit color and P3 color space support
-        * Zoom optimization for faster, crisper zoom experience
+- Importance of Camera Experience
+    * 34 million people use Android camera
+    * High quality experience is key for user satisfaction and purchase
+
+- Polished Camera Preview
+    * Maintain aspect ratio across different devices and orientations
+    * Jetpack preview classes: `PreviewView` (CameraX) and `CameraViewfinder` (Camera2)
+    * Configure preview display properly on every screen size
+    * Use fit scale type to ensure proper display of preview
+
+- Premium Visual Quality
+    * HDR Video Capture introduced in Android 13
+    * 10-bit color capture for higher contrast and color fidelity
+    * Check device support for 10-bit output using `CameraManager`
+    * Use key REQUESTAVAILABLECAPABILITIES DYNAMIC RANGE TEN BIT to check if camera supports HDR video
+
+- Stream Use Cases
+    * Optimize performance and usability based on stream use case (e.g., preview, still capture, video record)
+    * Query supported stream use cases using `CameraManager`
+    * Configure output configuration for selected stream use case
+
+- Camera Extensions
+    * Device manufacturers expose special capabilities like night mode and bokeh effect as extensions
+    * Check if camera supports specific extension based on camera ID
+    * Implement `CameraExtensionSessionStateCallback` to handle session states
+
+- What's Coming in Android 14
+    * Ultra HDR still capture with 10-bit color and P3 color space support
+    * Zoom optimization for faster, crisper zoom experience
 
 
 ## How to reduce reliance on passwords in Android apps with passkey support
 
 URL: [https://www.youtube.com/watch?v=36peNZUlgzU](https://www.youtube.com/watch?v=36peNZUlgzU)
 
-    - Introduction: Niharika and Diego introduce the topic of reducing reliance on passwords by adding passkey support to Android apps.
-    - Passkeys: New form of passwordless authentication, based on public cryptography, simpler and safer than phishable authentication methods.
-    - How it works: When creating a passkey, user's device generates private-public key pair. Public key sent to server; user keeps the private key. User then uses their device's screen lock (like fingerprint or face unlock) to sign in. Passkeys are synchronized across user's Android devices and can be used wherever needed.
-    - Benefits: Simpler, more secure authentication process with multifactor authentication, single tap for quicker sign-in, and less chance of phishing attacks.
-    - Credential Manager API: New unified API that consolidates support for passkeys, traditional authentication methods, and federated sign-in. It brings together multiple sign-in methods into a single interface, making the login experience simpler and more user-friendly.
-    - Password Managers: Several leading password managers like 1Password, Dashlane, Keeper, and Okta are available on Android 14 launch, with many expected to be available shortly after.
-    - Developer Benefits: Credential Manager supports multiple sign-in mechanisms within a single API, making it easier for developers to integrate different authentication methods and maintain ongoing maintenance. It also helps in transitioning towards a passwordless future.
-    - Real-world example: Kayak implemented passkey support using Credential Manager Android, making account creation lightning fast and removing the need for traditional password creation processes.
-    - Integration process: To register a passkey, users must first sign into an app using traditional authentication methods (like passwords or federated identity). Once signed in, they are prompted to create a passkey by authenticating biometrics. The generated passkey is then saved in the user's preferred password manager and public key credential information returned to the app.
-    - Sign-in process: Similar to registration, users must first sign into an app using traditional authentication methods. Once signed in, they are prompted to authenticate their passkey (including signature) using biometrics or another secure method.
-    - Future plans: Firebase Authentication and Google Cloud Identity Platform plan to bring passkey support for developers soon, providing them with a modern, secure out-of-the-box authentication solution for apps built on major mobile web platforms.
+- Introduction: Niharika and Diego introduce the topic of reducing reliance on passwords by adding passkey support to Android apps.
+- Passkeys: New form of passwordless authentication, based on public cryptography, simpler and safer than phishable authentication methods.
+- How it works: When creating a passkey, user's device generates private-public key pair. Public key sent to server; user keeps the private key. User then uses their device's screen lock (like fingerprint or face unlock) to sign in. Passkeys are synchronized across user's Android devices and can be used wherever needed.
+- Benefits: Simpler, more secure authentication process with multifactor authentication, single tap for quicker sign-in, and less chance of phishing attacks.
+- Credential Manager API: New unified API that consolidates support for passkeys, traditional authentication methods, and federated sign-in. It brings together multiple sign-in methods into a single interface, making the login experience simpler and more user-friendly.
+- Password Managers: Several leading password managers like 1Password, Dashlane, Keeper, and Okta are available on Android 14 launch, with many expected to be available shortly after.
+- Developer Benefits: Credential Manager supports multiple sign-in mechanisms within a single API, making it easier for developers to integrate different authentication methods and maintain ongoing maintenance. It also helps in transitioning towards a passwordless future.
+- Real-world example: Kayak implemented passkey support using Credential Manager Android, making account creation lightning fast and removing the need for traditional password creation processes.
+- Integration process: To register a passkey, users must first sign into an app using traditional authentication methods (like passwords or federated identity). Once signed in, they are prompted to create a passkey by authenticating biometrics. The generated passkey is then saved in the user's preferred password manager and public key credential information returned to the app.
+- Sign-in process: Similar to registration, users must first sign into an app using traditional authentication methods. Once signed in, they are prompted to authenticate their passkey (including signature) using biometrics or another secure method.
+- Future plans: Firebase Authentication and Google Cloud Identity Platform plan to bring passkey support for developers soon, providing them with a modern, secure out-of-the-box authentication solution for apps built on major mobile web platforms.
 
 
 ## Building for the future of Android
@@ -813,27 +810,27 @@ URL: [https://www.youtube.com/watch?v=WMMPXayjP8g](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=rOtYqxaSnco](https://www.youtube.com/watch?v=rOtYqxaSnco)
 
-    - Intro by Rob Clifford:
-        - Explanation of Privacy Sandbox Android initiative
-        - Four proposal topics (Protected Audience, SDK Runtime, Attribution Reporting, and Topics)
-        - Progress updates on milestones reached so far
-        - Importance of industry partnerships in shaping approach and adoption
-    - Presentation by Erin Walsh:
-        - Overview of beta version release for Privacy Sandbox Android
-        - Usage of Jetpack library for easy integration with APIs
-        - Introduction to SDK Extensions for accessing APIs
-        - Detailed walkthrough of SDK Runtime and its shim library
-        - New feature: Attribution Reporting API for cross-app web measurement
-        - Simulation Library tool for testing and refining Privacy Sandbox features
-        - Topics Classifier Jupyter Notebook for understanding topic categorization
-    - Presentation by Chris Schmerling:
-        - Steps for app developers to get involved with Privacy Sandbox Android beta
-        - Importance of real-world testing and parallel use of existing solutions
-        - Engaging ad tech partners in the ecosystem
-        - Encouragement to stay updated on latest developments and provide feedback
-    - Closing remarks:
-        - Invitation for developers to build solutions using Privacy Sandbox Android
-        - Reference to sample app repository on GitHub
+- Intro by Rob Clifford:
+    - Explanation of Privacy Sandbox Android initiative
+    - Four proposal topics (Protected Audience, SDK Runtime, Attribution Reporting, and Topics)
+    - Progress updates on milestones reached so far
+    - Importance of industry partnerships in shaping approach and adoption
+- Presentation by Erin Walsh:
+    - Overview of beta version release for Privacy Sandbox Android
+    - Usage of Jetpack library for easy integration with APIs
+    - Introduction to SDK Extensions for accessing APIs
+    - Detailed walkthrough of SDK Runtime and its shim library
+    - New feature: Attribution Reporting API for cross-app web measurement
+    - Simulation Library tool for testing and refining Privacy Sandbox features
+    - Topics Classifier Jupyter Notebook for understanding topic categorization
+- Presentation by Chris Schmerling:
+    - Steps for app developers to get involved with Privacy Sandbox Android beta
+    - Importance of real-world testing and parallel use of existing solutions
+    - Engaging ad tech partners in the ecosystem
+    - Encouragement to stay updated on latest developments and provide feedback
+- Closing remarks:
+    - Invitation for developers to build solutions using Privacy Sandbox Android
+    - Reference to sample app repository on GitHub
 
 
 ## What's new in Android development tools
@@ -990,7 +987,7 @@ URL: [https://www.youtube.com/watch?v=BpthRGc3bM0](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=kjo40RHSQ4k](https://www.youtube.com/watch?v=kjo40RHSQ4k)
 
-    - Stevan Silva, Product Manager at Adobe, announces the launch of Geospatial Creator, a new tool that simplifies creating augmented reality (AR) geospatial experiences.
+- Stevan Silva, Product Manager at Adobe, announces the launch of Geospatial Creator, a new tool that simplifies creating augmented reality (AR) geospatial experiences.
 - Geospatial API allows developers to create world-anchored AR experiences in 87 countries using Visual Positioning Service technology.
 - Google Maps' decade-plus ground-level imagery helps build immersive, richer, and useful AR experiences.
 - The new tool includes a client-side Geospatial API, terrain anchor, and scene semantics capabilities to help developers build world-anchored cross-platform experiences on Android and iOS devices using ARCore.
@@ -1113,14 +1110,12 @@ URL: [https://www.youtube.com/watch?v=feAahFti-BA](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=oNSRCJLG3Ps](https://www.youtube.com/watch?v=oNSRCJLG3Ps)
 
-## Overview of Google Workspace Platform
 - Addressing challenges faced by users and businesses, such as hybrid work and cloud collaboration.
 - Building a platform that brings apps, data, and business processes together in one place.
 - Making Google Workspace the primary hub for connecting and getting work done.
 - Providing an open platform for developers to integrate their solutions with Workspace.
 - Supporting a growing ecosystem of apps and addons.
 
-## What's New on Google Workspace Platform
 ### Workspace Add-ons:
 - A new integration framework that allows developers to build deep app integrations in Gmail, Docs, Sheets, Slides.
 - Developer can create productive and collaborative experiences by engaging users with two applications simultaneously.
@@ -1207,14 +1202,14 @@ URL: [https://www.youtube.com/watch?v=oQMgqMRR-io](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=7ss6J_lnucM](https://www.youtube.com/watch?v=7ss6J_lnucM)
 
-## Introduction
+### Introduction7
 - Google's comprehensive solution to prevent application fraud and abuse: Cloud Armor, Apigee, and reCAPTCHA Enterprise
 - Layer 3/4 DDoS protection, WAF protection, geofencing, and bot management using Cloud Armor
 - API security, governance, data security, and analytics with Apigee
 - Advanced API security add-on with machine learning capabilities and real-time incident detection
 - reCAPTCHA Enterprise provides comprehensive fraud prevention solution for web and mobile applications
 
-## Cloud Armor
+### Cloud Armor
 - Global scale defense against DDoS attacks and WAF protection
 - L3/4 DDoS protection: SYN flood, UDP amplification attack
 - Preconfigured WAF rule using ModSecurity
@@ -1222,14 +1217,14 @@ URL: [https://www.youtube.com/watch?v=7ss6J_lnucM](https://www.youtube.com/watch
 - Geofencing capabilities to define allowed/denied regions or countries by IP address
 - Layer 7 adaptive protection with machine learning functionality for detecting volumetric DDoS attacks
 
-## Apigee
+### Apigee
 - API security, governance, data security, and analytics platform
 - Manages APIs as a product, offering visibility, control, and security configuration
 - Integrates with GCP's IAM, logging, and monitoring services
 - Developer-focused service with an API catalog, API product marketplace, and transformation capabilities for serving multiple runtime environments (multicloud SaaS on-prem)
 - Advanced API security add-on provides real-time incident detection, abuse detection, access control, and data encryption functionality
 
-## reCAPTCHA Enterprise
+### reCAPTCHA Enterprise
 - Comprehensive fraud prevention solution for web and mobile applications
 - Analyzes user behavior to detect anomalies and prevent fraudulent activity
 - Supports device signal integration, account defender workflow, and real-time payment instrument data analysis
@@ -1274,7 +1269,6 @@ URL: [https://www.youtube.com/watch?v=50EJft0ILUI](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=1oNKCEAqdvY](https://www.youtube.com/watch?v=1oNKCEAqdvY)
 
-## Summary
 - Google Cloud's database services like Cloud SQL, AlloyDB, and Spanner offer different benefits for various use cases.
 - The three representative examples discussed were fraud detection in credit card transactions, reporting on DVD sales, and pricing analysis for coupons.
 - Federated query allows developers to run queries across databases and data warehouses without moving data.
@@ -1360,7 +1354,6 @@ URL: [https://www.youtube.com/watch?v=wP-xAPIyqLY](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=vBNmeiHlDHE](https://www.youtube.com/watch?v=vBNmeiHlDHE)
 
-**Summary of transcript:**
 - Justin and Travis will guide you through building a complete app using Relay Compose
 - They will create an app called Reflect, which is a daily habit tracker meant to promote mindfulness and good habits.
 - Justin has designed the app in Figma, using UI packages and importing them directly into Jetpack Compose projects.
@@ -1416,23 +1409,23 @@ URL: [https://www.youtube.com/watch?v=tu0UtDGC31A](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=iYA0QYP9ocw](https://www.youtube.com/watch?v=iYA0QYP9ocw)
 
-    - Introduces Firebase App Check, a new feature to enhance app security
-      - Prevents unauthorized client access and API resource abuse
-      - Works in conjunction with strong authentication key part of the Firebase Security suite
-      
-    - Firebase App Check token lasts for short time to avoid expensive attestation process
+- Introduces Firebase App Check, a new feature to enhance app security
+    - Prevents unauthorized client access and API resource abuse
+    - Works in conjunction with strong authentication key part of the Firebase Security suite
     
-    - New replay protection feature provides a single-use token for specific endpoints without sacrificing performance
-      - Ensures tokens cannot be stolen or reused, future requests are denied
-      - Can be used in conjunction with Firebase Cloud Functions and other Firebase services
-      
-    - App Check is now integrated with Firebase Auth Identity Platform
-      - Upgrade to the latest Firebase SDK for automatic forwarding of context
-      - Provides stronger security when protecting user authentication flow
-      
-    - Custom attestation provider support allows federating attestation providers, ensuring endpoint authentication across platforms
-      - Works using API and supports multiple platforms including Android, iOS, web, C#, and Unity
-```
+- Firebase App Check token lasts for short time to avoid expensive attestation process
+
+- New replay protection feature provides a single-use token for specific endpoints without sacrificing performance
+    - Ensures tokens cannot be stolen or reused, future requests are denied
+    - Can be used in conjunction with Firebase Cloud Functions and other Firebase services
+    
+- App Check is now integrated with Firebase Auth Identity Platform
+    - Upgrade to the latest Firebase SDK for automatic forwarding of context
+    - Provides stronger security when protecting user authentication flow
+    
+- Custom attestation provider support allows federating attestation providers, ensuring endpoint authentication across platforms
+    - Works using API and supports multiple platforms including Android, iOS, web, C#, and Unity
+
 
 
 ## What's new in Firebase Crashlytics
@@ -1566,7 +1559,6 @@ URL: [https://www.youtube.com/watch?v=MhkDpZA_Ciw](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=nYGg_8Ro5VE](https://www.youtube.com/watch?v=nYGg_8Ro5VE)
 
-## Summary of Firebase Talk by Miguel Ramos
 * Last year improvements:
   + Crashlytics - crash reporting and analysis service
   + Performance Monitoring - real-time quality insights for app performance metrics like start time, user device network latency
@@ -1584,7 +1576,7 @@ URL: [https://www.youtube.com/watch?v=nYGg_8Ro5VE](https://www.youtube.com/watch
 * Upcoming improvements:
   + Faster Android app startup times (3 seconds faster on average) due to optimized thread pool, background workers, and delayed product initialization
     * Java APIs will still be available for those who prefer them.
-```
+
 
 
 ## What’s new in Cloud Firestore at Google I/O 2023
@@ -1624,23 +1616,22 @@ URL: [https://www.youtube.com/watch?v=PY42FysQTgw](https://www.youtube.com/watch
 - Upcoming features in future releases:
     - WebAssembly compilation of Dart code
         - The goal is to shrink load time, improve frame rate, and enhance runtime consistency of Flutter web apps.
-```
 
 
 ## Deep dive into Flutter deep linking
 
 URL: [https://www.youtube.com/watch?v=6RxuDcs6jVw](https://www.youtube.com/watch?v=6RxuDcs6jVw)
 
-    - Zoey, a Flutter product manager, and ChunHeng, a software engineer on the Flutter team, discuss the importance of deep linking in mobile apps.
-    - Deep links point to specific resources within an app.
-    - Universal links and App Links are types of deep links that work best for implementing deep linking.
-    - Benefits of adding app deep links include driving traffic from other channels (like marketing emails or SMS), creating personalized experiences, and improving long-term engagement.
-    - Implementing deep linking involves setting up both the web and the app sides.
-        + Web setup: Host a specific web file (assetlinks.json for Android, apple-app-site-association for iOS) that contains metadata about the app, including its package name or ID and allowed paths.
-        + App setup: Modify your project parameters and write Dart code to handle redirects from the web.
-    - For Android, update the manifest file with intent filters and associate it with the hosted assetlinks.json file.
-    - For iOS, add an associated domain in the Info.plist file and host the apple-app-site-association file on your website, allowing specific paths.
-    - After setting up deep linking, monitor its effectiveness by tracking conversion rates and engagement metrics.
+- Zoey, a Flutter product manager, and ChunHeng, a software engineer on the Flutter team, discuss the importance of deep linking in mobile apps.
+- Deep links point to specific resources within an app.
+- Universal links and App Links are types of deep links that work best for implementing deep linking.
+- Benefits of adding app deep links include driving traffic from other channels (like marketing emails or SMS), creating personalized experiences, and improving long-term engagement.
+- Implementing deep linking involves setting up both the web and the app sides.
+    + Web setup: Host a specific web file (assetlinks.json for Android, apple-app-site-association for iOS) that contains metadata about the app, including its package name or ID and allowed paths.
+    + App setup: Modify your project parameters and write Dart code to handle redirects from the web.
+- For Android, update the manifest file with intent filters and associate it with the hosted assetlinks.json file.
+- For iOS, add an associated domain in the Info.plist file and host the apple-app-site-association file on your website, allowing specific paths.
+- After setting up deep linking, monitor its effectiveness by tracking conversion rates and engagement metrics.
 
 
 ## Introducing Impeller - Flutter's new rendering engine
@@ -1660,7 +1651,6 @@ URL: [https://www.youtube.com/watch?v=vd5NqS01rlA](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=PsV-wSZ2BCo](https://www.youtube.com/watch?v=PsV-wSZ2BCo)
 
-## Key Points:
 - Flutter SDK Firebase update: Improved documentation, 100 code samples, new onboarding flow, easier integration with Crashlytics, improved crash reporting and faster issue resolution.
 - Feature parity with native Android & iOS SDKs for Firebase in Dart language.
 - Windows development support for Flutter apps using Firebase: Faster iterative cycles, stateful hot reload, and hot restart features.
@@ -1713,70 +1703,70 @@ URL: [https://www.youtube.com/watch?v=8V_TLiWszK0](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=0CCVB31feO0](https://www.youtube.com/watch?v=0CCVB31feO0)
 
-    - Introduction to the project: Flutter Dart Raspberry Pi game console project
-        + Camille and Khanh introduce themselves as software engineers working on the Flutter team.
-        + They talk about the Raspberry Pi, a single-board computer, and its popularity for various use cases.
-    - Project requirements:
-        + A gamepad is required for a proper gaming experience.
-        + The gamepad should be connected via USB to access GPIO pins.
-        + The code should be reusable and extensible so that the community can contribute.
-    - Setting up the Raspberry Pi:
-        + They installed Debian-based operating system, Raspberry Pi OS 64 bit, using an SD card.
-        + Flutter was installed on the Pi via Canonical's app store called Snap.
-    - Assembling the game hat:
-        + The game hat is a module that attaches to the Pi and includes a preinstalled screen, joystick, and GPIO pins.
-        + They connected the game hat to the Pi using an HDMI cable and screw support pieces.
-    - Reading GPIO signals in Dart:
-        + They used the rpi_gpio package to read input values from GPIO pins.
-        + Each button on the gamepad was mapped to a specific GPIO pin, which they represented with an enum.
-    - Implementing the Gamepad class:
-        + The Gamepad class listens for changes in GPIO pin states and triggers events when a button is pressed or released.
-    - Integrating the gamepad input into Flame:
-        + They extended the Flame work game hat by creating a mixin called GamepadInput.
-        - This mixin listens to gamepad broadcast streams and triggers callbacks when new events are detected.
-    - Implementing game console menu navigation using Flame widgets:
-        + They used a GamepadHandler class with five callback methods (left, right, confirm) for navigating through the menu.
-    - Adapting the UI for smaller screens and testing the final product:
-        + The UI was adapted to fit smaller screens, and the game console was tested on the Raspberry Pi.
-    - Future plans for the project:
-        + They plan to share the source code with the community and continue building upon it.
-        + The Flutter Samples repository will be updated soon with this project.
+- Introduction to the project: Flutter Dart Raspberry Pi game console project
+    + Camille and Khanh introduce themselves as software engineers working on the Flutter team.
+    + They talk about the Raspberry Pi, a single-board computer, and its popularity for various use cases.
+- Project requirements:
+    + A gamepad is required for a proper gaming experience.
+    + The gamepad should be connected via USB to access GPIO pins.
+    + The code should be reusable and extensible so that the community can contribute.
+- Setting up the Raspberry Pi:
+    + They installed Debian-based operating system, Raspberry Pi OS 64 bit, using an SD card.
+    + Flutter was installed on the Pi via Canonical's app store called Snap.
+- Assembling the game hat:
+    + The game hat is a module that attaches to the Pi and includes a preinstalled screen, joystick, and GPIO pins.
+    + They connected the game hat to the Pi using an HDMI cable and screw support pieces.
+- Reading GPIO signals in Dart:
+    + They used the rpi_gpio package to read input values from GPIO pins.
+    + Each button on the gamepad was mapped to a specific GPIO pin, which they represented with an enum.
+- Implementing the Gamepad class:
+    + The Gamepad class listens for changes in GPIO pin states and triggers events when a button is pressed or released.
+- Integrating the gamepad input into Flame:
+    + They extended the Flame work game hat by creating a mixin called GamepadInput.
+    - This mixin listens to gamepad broadcast streams and triggers callbacks when new events are detected.
+- Implementing game console menu navigation using Flame widgets:
+    + They used a GamepadHandler class with five callback methods (left, right, confirm) for navigating through the menu.
+- Adapting the UI for smaller screens and testing the final product:
+    + The UI was adapted to fit smaller screens, and the game console was tested on the Raspberry Pi.
+- Future plans for the project:
+    + They plan to share the source code with the community and continue building upon it.
+    + The Flutter Samples repository will be updated soon with this project.
 
 
 ## Design for every device with Flutter and Material 3
 
 URL: [https://www.youtube.com/watch?v=CfOlY36GWYU](https://www.youtube.com/watch?v=CfOlY36GWYU)
 
-    - Intro:
-        Liam Spradlin and Rody Davis introduce the topic of building a new app, Pesto, using Flutter Material 3. They emphasize that the conference will provide insights into designing adaptive layouts, customizing brand parameters, and creating responsive user interfaces across different platforms.
-    
-    - Designing Adaptive Layouts:
-        - The importance of adaptive structure is highlighted since apps need to be usable and recognizable across various devices and contexts.
-        - Flutter supports six platform variations, which may result in significant white space differences.
-        - Testing is essential for ensuring that the app functions correctly on different platforms and screens.
-    
-    - Customizing Brand Parameters:
-        - Understanding how to adapt a brand's parameters within an interface is crucial for maintaining consistency while still catering to each platform's specific needs.
-        - The Material design system helps map relationships between color components, ensuring that the app remains consistent and respects priority when translating the brand system.
-    
-    - Creating Responsive User Interfaces:
-        - Grid-based layouts are an effective way to conceptualize interface designs, as they provide a convenient structure for aligning elements and organizing content.
-        - The 12-column grid is introduced as a common method of creating responsive layouts in Flutter, with the help of packages like Flutter Layout Grid.
-    
-    - Personalizing the App's Aesthetic:
-        - Pesto's brand color palette is showcased and integrated into the app's design using Material 3's dynamic color capability.
-        - The use of M3's color utility method to create a new color scheme based on an image provider is demonstrated, allowing for personalized content-based dynamic colors that respect the brand aesthetic.
-    
-    - Typography and Text Design:
-        - The importance of consistent typography across all platforms is emphasized, with Montserrat and Lekton being used as the primary fonts in Pesto.
-        - Type scale is introduced as a way to represent different types of information through varying typefaces and sizes.
-    
-    - Customizing Material App Components:
-        - The concept of preserving base usability while customizing components to emphasize or de-emphasize certain visual elements is discussed.
-        - The use of Material tokens for referencing colors, surfaces, and other design elements is highlighted as a way to maintain consistency across the app's various components.
-    
-    - Conclusion:
-        - Liam Spradlin and Rody Davis conclude by emphasizing the importance of considering context when designing apps that will operate on multiple platforms and input modalities. They encourage attendees to explore further resources, such as GitHub repositories and tool guides, to help them build great experiences across devices.
+- Intro:
+    Liam Spradlin and Rody Davis introduce the topic of building a new app, Pesto, using Flutter Material 3. They emphasize that the conference will provide insights into designing adaptive layouts, customizing brand parameters, and creating responsive user interfaces across different platforms.
+
+- Designing Adaptive Layouts:
+    - The importance of adaptive structure is highlighted since apps need to be usable and recognizable across various devices and contexts.
+    - Flutter supports six platform variations, which may result in significant white space differences.
+    - Testing is essential for ensuring that the app functions correctly on different platforms and screens.
+
+- Customizing Brand Parameters:
+    - Understanding how to adapt a brand's parameters within an interface is crucial for maintaining consistency while still catering to each platform's specific needs.
+    - The Material design system helps map relationships between color components, ensuring that the app remains consistent and respects priority when translating the brand system.
+
+- Creating Responsive User Interfaces:
+    - Grid-based layouts are an effective way to conceptualize interface designs, as they provide a convenient structure for aligning elements and organizing content.
+    - The 12-column grid is introduced as a common method of creating responsive layouts in Flutter, with the help of packages like Flutter Layout Grid.
+
+- Personalizing the App's Aesthetic:
+    - Pesto's brand color palette is showcased and integrated into the app's design using Material 3's dynamic color capability.
+    - The use of M3's color utility method to create a new color scheme based on an image provider is demonstrated, allowing for personalized content-based dynamic colors that respect the brand aesthetic.
+
+- Typography and Text Design:
+    - The importance of consistent typography across all platforms is emphasized, with Montserrat and Lekton being used as the primary fonts in Pesto.
+    - Type scale is introduced as a way to represent different types of information through varying typefaces and sizes.
+
+- Customizing Material App Components:
+    - The concept of preserving base usability while customizing components to emphasize or de-emphasize certain visual elements is discussed.
+    - The use of Material tokens for referencing colors, surfaces, and other design elements is highlighted as a way to maintain consistency across the app's various components.
+
+- Conclusion:
+    - Liam Spradlin and Rody Davis conclude by emphasizing the importance of considering context when designing apps that will operate on multiple platforms and input modalities. They encourage attendees to explore further resources, such as GitHub repositories and tool guides, to help them build great experiences across devices.
 
 
 ## Announcing Photorealistic 3D Tiles and the Aerial View API to create immersive map experiences
@@ -1820,25 +1810,25 @@ URL: [https://www.youtube.com/watch?v=EPBBUT4Q2Fg](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=yOP_FY2KTm8](https://www.youtube.com/watch?v=yOP_FY2KTm8)
 
-    - Introduction to MediaPipe
-        - On-device machine learning allows running machine learning models on user devices without sending user data to servers.
-        - Google Pixel's Magic Eraser and Live Caption features are examples of on-device machine learning.
-        - Developing on-device machine learning solutions can be complex, so MediaPipe abstracts the complexity with low-code/no-code tools for easy integration into mobile, web, and IoT apps.
-    - MediaPipe's 14 On-Device Machine Learning Solutions
-        - Each solution contains a TensorFlow Lite model and is designed to chain together in a pipeline.
-        - The user only needs to interact with simple APIs to fit input images into the system and get predictions.
-    - Integrating MediaPipe Solutions into Apps
-        - To integrate hand gesture recognition, developers need to use the MediaPipe Tasks library and call specific functions.
-        - Support for iOS is coming soon.
-    - Platforms Supported by MediaPipe
-        - Currently supported platforms include Android, web, and Python.
-    - Demonstration of MediaPipe's Solutions in Action
-        - MediaPipe Studio allows users to try on-device machine learning solutions directly within their web browsers.
-    - Customizing MediaPipe Solutions with Data Sets
-        - Developers can use the MediaPipe Model Maker Python library to customize existing MediaPipe solutions or create new ones by training custom models using their own data sets.
-    - Future Directions for On-Device Machine Learning with MediaPine
-        - MediaPipe is exploring techniques like model distillation and diffusion-based image generation to enable on-device generative AI applications.
-        - They are also working on deploying larger language models on devices for tasks such as natural language summarization and email writing.
+- Introduction to MediaPipe
+    - On-device machine learning allows running machine learning models on user devices without sending user data to servers.
+    - Google Pixel's Magic Eraser and Live Caption features are examples of on-device machine learning.
+    - Developing on-device machine learning solutions can be complex, so MediaPipe abstracts the complexity with low-code/no-code tools for easy integration into mobile, web, and IoT apps.
+- MediaPipe's 14 On-Device Machine Learning Solutions
+    - Each solution contains a TensorFlow Lite model and is designed to chain together in a pipeline.
+    - The user only needs to interact with simple APIs to fit input images into the system and get predictions.
+- Integrating MediaPipe Solutions into Apps
+    - To integrate hand gesture recognition, developers need to use the MediaPipe Tasks library and call specific functions.
+    - Support for iOS is coming soon.
+- Platforms Supported by MediaPipe
+    - Currently supported platforms include Android, web, and Python.
+- Demonstration of MediaPipe's Solutions in Action
+    - MediaPipe Studio allows users to try on-device machine learning solutions directly within their web browsers.
+- Customizing MediaPipe Solutions with Data Sets
+    - Developers can use the MediaPipe Model Maker Python library to customize existing MediaPipe solutions or create new ones by training custom models using their own data sets.
+- Future Directions for On-Device Machine Learning with MediaPine
+    - MediaPipe is exploring techniques like model distillation and diffusion-based image generation to enable on-device generative AI applications.
+    - They are also working on deploying larger language models on devices for tasks such as natural language summarization and email writing.
 
 
 ## Applied ML with KerasCV and KerasNLP
@@ -2206,8 +2196,6 @@ URL: [https://www.youtube.com/watch?v=mYVi3yL-GNI](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=-d3grIUVwCU](https://www.youtube.com/watch?v=-d3grIUVwCU)
 
-## Summary of the transcript
-
 - Cocos Creator leverages WebAssembly and WebGPU to enable game developers build online games with improved cross-platform rendering and advanced graphics features.
 - Notion, a productivity tool, uses Project Fugu APIs like Async Clipboard and Persistent Storage to deliver an engaging and easy-to-use web experience that has led to increased user growth and engagement.
 - Tencent Docs, an online documentation tool, utilizes the Async Clipboard API to provide near instantaneous pasting capabilities, leading to higher user engagement and session duration.
@@ -2490,11 +2478,11 @@ URL: [https://www.youtube.com/watch?v=N53QMkCuwGY](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=HSt6FhsPT8c](https://www.youtube.com/watch?v=HSt6FhsPT8c)
 
-    - Cameron Balahan introduced the problem of software supply chain security and how it can be addressed using Go programming language.
-    - The talk highlighted the complexity of dependency graphs and the need for robust tools to detect vulnerabilities early in the development process.
-    - Julie Qiu discussed Go's dependency management system, Go module, and its integration with vulnerability management tools like Govulncheck and pkggodev.
-    - Nicky Ringland emphasized the importance of understanding dependencies across multiple languages and introduced depsdev, a tool that helps manage and monitor open source software security.
-    - The speakers also mentioned other Google tools such as OSSF Scorecard and OSV Scanner which aid in evaluating dependency health and identifying known vulnerabilities.
+- Cameron Balahan introduced the problem of software supply chain security and how it can be addressed using Go programming language.
+- The talk highlighted the complexity of dependency graphs and the need for robust tools to detect vulnerabilities early in the development process.
+- Julie Qiu discussed Go's dependency management system, Go module, and its integration with vulnerability management tools like Govulncheck and pkggodev.
+- Nicky Ringland emphasized the importance of understanding dependencies across multiple languages and introduced depsdev, a tool that helps manage and monitor open source software security.
+- The speakers also mentioned other Google tools such as OSSF Scorecard and OSV Scanner which aid in evaluating dependency health and identifying known vulnerabilities.
 
 
 ## Scalable UI testing solutions
