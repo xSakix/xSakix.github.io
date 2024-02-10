@@ -64,6 +64,19 @@ This website is my personal endeavor, focusing on software architecture resource
 
 * [jakartaone 2023](summaries/jakartaee/jakartaone_2023.md)
 
+### kubeconf
+
+* [kubeconf utrecht 2023](summaries/kubeconf/kubeconf_utrecht_2023.md)
+
+### strange loop
+
+* [strange loop 2023](summaries/strangeloop/strange_loop_2023.md)
+
+### Stanford
+
+* [seminar enterpreneurial thought leader](summaries/stanford/stanford_seminar_enterpreneurial_though_leader.md)
+* [technology](summaries/stanford/stanfort_technology.md)
+
 
 ## Blogs
 
