@@ -37,6 +37,7 @@ This website is my personal endeavor, focusing on software architecture resource
 
 * [Google I/O 2023](summaries/google/google_io_2023.md)
 * [Google tech talks](summaries/google/google_talks_tech.md)
+* [Deepmind learning](summaries/google/deep_mind_learning.md)
 
 
 ### ycombinator
@@ -77,6 +78,13 @@ This website is my personal endeavor, focusing on software architecture resource
 * [seminar enterpreneurial thought leader](summaries/stanford/stanford_seminar_enterpreneurial_though_leader.md)
 * [technology](summaries/stanford/stanfort_technology.md)
 
+### devoxx
+
+* [devoxx cern 2023](summaries/devoxx/devoxx_cern_2023.md)
+
+### Lex Fridman
+
+* [Lex Fridman podcast](summaries/lex%20fridman/lex_friedman_v2.md)
 
 ## Blogs
 
