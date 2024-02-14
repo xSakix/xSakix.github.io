@@ -10,6 +10,7 @@ This website is my personal endeavor, focusing on software architecture resource
 * [GOTO Conferences - Design thinking and UI/UX playlist](summaries/goto/goto_dt_ui_ux.md)
 * [GOTO Conferences - Programming languages playlist](summaries/goto/goto_programming_lang.md)
 * [GOTO Conferences - Frontend playlist](summaries/goto/goto_FE_v4.md)
+* [GOTO Conferences - Event-driven architecture 2023](summaries/goto/goto_eda_2023.md)
 
 
 ### Davos
