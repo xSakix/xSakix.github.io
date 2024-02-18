@@ -13,6 +13,7 @@ nav:
     - computer scientists:
       - Allan Kay: summaries/computer_scientists/allan_kay_mistral.md
       - Donald Knuth: summaries/computer_scientists/donald_knuth_mistral.md
+      - Grady Booch: summaries/computer_scientists/grady_booch_mistral.md
     - gdc:
       - gdc 2023: summaries/gdc/gdc_2023.md
     - google:      
