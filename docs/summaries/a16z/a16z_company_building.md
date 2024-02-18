@@ -45,32 +45,32 @@ URL: [https://www.youtube.com/watch?v=21-q1JILYK0](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=gU_-g00lhm0](https://www.youtube.com/watch?v=gU_-g00lhm0)
 
-    - Start with a definition of sell process
-        - Sell process is a series of steps that a salesperson follows to close a deal. It involves understanding the customer's needs, presenting a solution that meets those needs, and negotiating a price that both parties agree on. The process typically includes several stages, such as prospecting, qualifying, presenting, and closing.
-    
-    - Identify key components of successful sell processes
-        - Understanding the customer's needs: A salesperson must first understand what the customer wants or needs before they can present a solution that meets those requirements. This involves asking questions, listening to the customer's responses, and gathering information about their business or industry.
-    
-    - Presenting a solution: Once the salesperson has a clear understanding of the customer's needs, they must present a solution that meets those requirements. This could involve demonstrating how a product or service works, providing case studies or testimonials from other customers who have used the product or service successfully, and explaining how the product or service can help the customer achieve their goals.
-    
-    - Negotiating a price: After presenting a solution, the salesperson must negotiate a price that both parties agree on. This involves discussing the customer's budget, understanding their willingness to pay, and finding a price point that is fair for both parties.
-    
-    - Closing the deal: Finally, the salesperson must close the deal by getting the customer to commit to purchasing the product or service. This involves overcoming any objections the customer may have, providing additional information or reassurances if needed, and ensuring that the customer is comfortable with their decision.
-    
-    - Discuss the importance of a well-defined sell process
-        - A well-defined sell process is important because it helps salespeople stay organized, focused, and efficient when trying to close deals. It provides a clear roadmap for what needs to be done at each stage of the sales process, from prospecting to closing, and ensures that all necessary steps are taken in order to successfully close a deal.
-    
-    - Explain how a well-defined sell process can help salespeople better understand their customers' needs
-        - A well-defined sell process helps salespeople better understand their customers' needs by requiring them to ask questions, listen to the customer's responses, and gather information about their business or industry. This allows salespeople to tailor their presentations and solutions to meet the specific needs of each individual customer, which can help increase the likelihood of closing a deal.
-    
-    - Describe how a well-defined sell process can help salespeople present more effective solutions to their customers
-        - A well-defined sell process helps salespeople present more effective solutions to their customers by requiring them to understand the customer's needs before presenting a solution. This allows salespeople to focus on presenting solutions that are most likely to meet the customer's requirements, which can help increase the likelihood of closing a deal.
-    
-    - Explain how a well-defined sell process can help salespeople negotiate better prices for their products or services
-        - A well-defined sell process helps salespeople negotiate better prices for their products or services by requiring them to discuss the customer's budget and understand their willingness to pay. This allows salespeople to find a price point that is fair for both parties, which can help increase the likelihood of closing a deal.
-    
-    - Discuss how a well-defined sell process can help salespeople close more deals
-        - A well-defined sell process helps salespeople close more deals by providing a clear roadmap for what needs to be done at each stage of the sales process, from prospecting to closing. This ensures that all necessary steps are taken in order to successfully close a deal and helps salespeople stay organized, focused, and efficient when trying to close deals.
+- Start with a definition of sell process
+    - Sell process is a series of steps that a salesperson follows to close a deal. It involves understanding the customer's needs, presenting a solution that meets those needs, and negotiating a price that both parties agree on. The process typically includes several stages, such as prospecting, qualifying, presenting, and closing.
+
+- Identify key components of successful sell processes
+    - Understanding the customer's needs: A salesperson must first understand what the customer wants or needs before they can present a solution that meets those requirements. This involves asking questions, listening to the customer's responses, and gathering information about their business or industry.
+
+- Presenting a solution: Once the salesperson has a clear understanding of the customer's needs, they must present a solution that meets those requirements. This could involve demonstrating how a product or service works, providing case studies or testimonials from other customers who have used the product or service successfully, and explaining how the product or service can help the customer achieve their goals.
+
+- Negotiating a price: After presenting a solution, the salesperson must negotiate a price that both parties agree on. This involves discussing the customer's budget, understanding their willingness to pay, and finding a price point that is fair for both parties.
+
+- Closing the deal: Finally, the salesperson must close the deal by getting the customer to commit to purchasing the product or service. This involves overcoming any objections the customer may have, providing additional information or reassurances if needed, and ensuring that the customer is comfortable with their decision.
+
+- Discuss the importance of a well-defined sell process
+    - A well-defined sell process is important because it helps salespeople stay organized, focused, and efficient when trying to close deals. It provides a clear roadmap for what needs to be done at each stage of the sales process, from prospecting to closing, and ensures that all necessary steps are taken in order to successfully close a deal.
+
+- Explain how a well-defined sell process can help salespeople better understand their customers' needs
+    - A well-defined sell process helps salespeople better understand their customers' needs by requiring them to ask questions, listen to the customer's responses, and gather information about their business or industry. This allows salespeople to tailor their presentations and solutions to meet the specific needs of each individual customer, which can help increase the likelihood of closing a deal.
+
+- Describe how a well-defined sell process can help salespeople present more effective solutions to their customers
+    - A well-defined sell process helps salespeople present more effective solutions to their customers by requiring them to understand the customer's needs before presenting a solution. This allows salespeople to focus on presenting solutions that are most likely to meet the customer's requirements, which can help increase the likelihood of closing a deal.
+
+- Explain how a well-defined sell process can help salespeople negotiate better prices for their products or services
+    - A well-defined sell process helps salespeople negotiate better prices for their products or services by requiring them to discuss the customer's budget and understand their willingness to pay. This allows salespeople to find a price point that is fair for both parties, which can help increase the likelihood of closing a deal.
+
+- Discuss how a well-defined sell process can help salespeople close more deals
+    - A well-defined sell process helps salespeople close more deals by providing a clear roadmap for what needs to be done at each stage of the sales process, from prospecting to closing. This ensures that all necessary steps are taken in order to successfully close a deal and helps salespeople stay organized, focused, and efficient when trying to close deals.
 
 
 ## Finance as Strategy: When and How Startups Should Build a Finance Function
@@ -125,7 +125,6 @@ URL: [https://www.youtube.com/watch?v=i8nljUVzOiw](https://www.youtube.com/watch
     - Use cloud-based regulatory compliance tools
     - Maintain clear communication with employees about immigration policies and procedures
     - Encourage managers and HR staff to familiarize themselves with immigration laws and regulations
-```
 
 
 ## The a16z Pitch Room: Sandbox VR
@@ -200,7 +199,6 @@ URL: [https://www.youtube.com/watch?v=c9SJAPxU5bs](https://www.youtube.com/watch
 
 URL: [https://www.youtube.com/watch?v=RHENpEHNB1U](https://www.youtube.com/watch?v=RHENpEHNB1U)
 
-## Summary of Transcript
 
 - Growing digital health market with large number of startups
 - Focus on building tech stacks and improving user experience
