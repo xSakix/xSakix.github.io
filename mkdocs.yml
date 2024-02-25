@@ -1,6 +1,8 @@
 site_name: "Prompt engineering & Architecture & SW development"
 nav:
   - Home: index.md
+  - Gemma:
+    - Install: gemma/install.md
 theme:
   name: 'material'
 plugins:
